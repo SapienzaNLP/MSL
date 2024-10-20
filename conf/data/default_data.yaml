@@ -1,15 +1,16 @@
 batch_size: 8
 num_workers: 1
 
-dataset_name: './dataset/amr3.py'
+dataset_name: './dataset/msl.py'
 
-train_file: './data/split/training/*.txt'
-test_file: './data/split/test/*.txt'
-validation_file: './data/split/dev/*.txt'
+train_file: './data/training/*.txt'
+test_file: './data/split/gold/*.txt'
+validation_file: './data/split/gold/*.txt'
+
 cache_dir: './data/cache/'
 
-gold_path: './data/pred/gold.txt'
-prediction_path: './data/pred/t5-small.txt'
+gold_path: './data/tmp/gold.txt'
+prediction_path: './data/tmp/pred.txt'
 
 input_column: 'snt'
 target_column: 'amr'
@@ -20,7 +21,7 @@ pad_to_max_length: False
 max_val_samples: 
 max_test_samples: 
 samples_per_group: 512
-max_token_batch: 10_000
+max_token_batch: 800
 
 preprocessing_num_workers: 
 overwrite_cache: True

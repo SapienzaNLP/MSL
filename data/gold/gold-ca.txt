@@ -1,0 +1,1623 @@
+# ::id 223323
+# ::snt Hi ha microbis, sabeu, que tornen al llevat.
+(z1 / saber
+    :experiencer (z2 / vosaltres)
+    :theme (z3 / hi_ha
+               :theme (z4 / microbi
+                          :quantity +
+                          :agent_of (z5 / tornar
+                                        :tense past
+                                        :aspect imperfect
+                                        :target (z6 / llevat)))))
+
+# ::id 248638
+# ::snt Anem enrere en el temps dos anys.
+(z1 / anar_enrere_en_el_temps
+    :agent (z2 / nosaltres)
+    :extent (z3 / any
+                :quantity (z4 / dos)))
+
+# ::id 284943
+# ::snt Però tornem a Sudan.
+(z1 / però
+    :op2 (z2 / tornar
+             :mode imperative
+             :agent (z3 / nosaltres)
+             :target (z4 / Sudan)))
+
+# ::id 276444
+# ::snt M'encanta la paraula 'desencantar'
+(z1 / encantar
+    :experiencer (z2 / jo)
+    :stimulus (z3 / paraula
+                  :identity (z5 / desencantar)))
+
+# ::id 138561
+# ::snt Els estudiants eren 270 joves, que es preveu que siguin els futurs líders de la dictadura més aïllada i brutal d'avui.
+(z1 / ser
+    :tense past
+    :theme (z2 / estudiant
+               :quantity +)
+    :identity (z3 / jove
+                  :quantity (z4 / 270))
+    :theme_of (z5 / preveure
+                  :co_theme (z6 / ser
+                                :mood subjunctive
+                                :theme z2
+                                :identity (z7 / líder
+                                              :quantity +
+                                              :quality (z8 / futur)
+                                              :membership (z9 / dictadura
+                                                              :quality (z10 / and
+                                                                            :op1 (z11 / aïllada)
+                                                                            :op2 (z12 / brutal)
+                                                                            :degree (z13 / més))
+                                                              :time (z14 / avui))))))
+
+# ::id 68081
+# ::snt I en aquesta, ella diu que clàssicament, el treball és associat amb els homes.
+(z1 / i
+    :op2 (z2 / dir
+             :agent (z3 / ella)
+             :theme (z4 / associarse
+                        :theme (z5 / treball)
+                        :co-theme (z6 / home
+                                      :quantity +)
+                        :manner (z7 / clàssicament))
+             :location (z8 / aquesta)))
+
+# ::id 39410
+# ::snt Anàvem a dinar amb l'alcalde i sopar amb la gent més important de Màlaga.
+(z1 / anar
+    :tense past
+    :aspect imperfect
+    :agent (z3 / nosaltres)
+    :target (z4 / and
+                :op1 (z5 / dinar
+                         :agent z3
+                         :accompanier (z6 / alcalde))
+                :op2 (z7 / sopar
+                        :agent z3
+                        :accompanier (z8 / gent
+                                        :quantity (z9 / important
+                                                        :degree (z10 / més))
+                                        :location (z11 / Màlaga)))))
+
+# ::id 39404
+# ::snt Un cop vaig fer un viatge a Màlaga amb un equip, perquè tot estava segellat amb segells oficials de la ciutat, i ells volien que anés a construir un edifici al seu port.
+(z1 / fer
+    :tense past
+    :agent (z2 / jo)
+    :theme (z3 / viatge
+               :location (z4 / Malaga))
+    :accompanier (z5 / equip)
+    :time (z6 / un_cop)
+    :cause (z7 / and
+               :op1 (z8 / segellar
+                        :tense past
+                        :theme (z9 / tot)
+                        :instrument (z10 / segell
+                                         :quantity +
+                                         :quality (z11 / oficial)
+                                         :context (z12 / ciutat
+                                                       :coref z4)))
+               :op2 (z13 / voler
+                         :tense past
+                         :aspect imperfect
+                         :agent (z14 / ells)
+                         :theme (z15 / anar
+                                     :tense past
+                                     :mode subjunctive
+                                     :agent z2
+                                     :purpose (z16 / construir
+                                                   :theme (z17 / edifici)
+                                                   :location (z18 / port
+                                                                  :possession_of z14))))))
+
+# ::id 250177
+# ::snt Li vaig dir: 'Hi ha una forma particular d'al·lucinacions visuals que pot desenvolupar-se amb la pèrdua de visió o la ceguesa'.
+(z1 / dir
+    :tense past
+    :agent (z2 / jo)
+    :target (z3 / ell)
+    :theme (z4 / hi_ha
+               :theme (z5 / forma
+                          :quality (z6 / particular)
+                          :context (z7 / al·lucinació_visual
+                                       :quantity +)
+                          :agent_of (z8 / desenvolupar
+                                        :mode possibility
+                                        :theme z5
+                                        :accompanier (z9 / or
+                                                         :op1 (z10 / pèrdua
+                                                                   :context (z11 / visió))
+                                                         :op2 (z12 / ceguesa))))))
+
+# ::id 57214
+# ::snt Un, dos, tres, quatre, cinc, sis i set.
+(z1 / and
+    :op1 (z2 / un)
+    :op2 (z3 / dos)
+    :op3 (z4 / tres)
+    :op4 (z5 / quatre)
+    :op5 (z6 / cinc)
+    :op6 (z7 / sis)
+    :op7 (z8 / set))
+
+# ::id 113575
+# ::snt Tramoyista: Molta merda.
+(z1 / dir
+    :agent (z2 / tramoyista)
+    :theme (z3 / molta_merda))
+
+# ::id 113575_b
+# ::snt Lladre: Molta sort.
+(z1 / dir
+    :agent (z2 / lladre)
+    :theme (z3 / molta_sort))
+
+# ::id 169020
+# ::snt I, tanmateix, el 40% dels pares d'avui treuen els seus fills de l'escola pública i els porten a l'escola privada, pagant-la ells mateixos.
+(z1 / and
+    :op2 (z2 / tanmateix
+             :theme (z3 / and
+                        :op1 (z4 / treure
+                                 :agent (z5 / pare
+                                            :quantity (z6 / 40%))
+                                 :context (z7 / avui)
+                                 :theme (z8 / fill
+                                            :quantity +
+                                            :related z4)
+                                 :source (z9 / escola_publica))
+                        :op2 (z10 / portar
+                                  :agent z5
+                                  :theme z8
+                                  :target (z11 / escola_privada)
+                                  :manner (z12 / pagar
+                                               :agent z5
+                                               :manner (z13 / ells_mateixos
+                                                            :possession_of z5)
+                                               :theme z11)))))
+
+# ::id 213712
+# ::snt Moltes vegades als Estats Units escolto aquesta frase: 'Hauríem de resoldre els problemes evidents, però si no veus el que tens davant, ets tonto o ignorant'.
+(z1 / escoltar
+    :experiencer (z2 / jo)
+    :frequency (z3 / vegades
+                   :quantity (z4 / moltes))
+    :location (z5 / Estats_Units)
+    :content (z6 / resoldre
+                 :mode recomend
+                 :agent (z7 / nosaltres)
+                 :target (z8 / problema
+                             :quantity +
+                             :quality (z9 / evident))
+                 :concession (z10 / veure
+                                  :polarity -
+                                  :experiencer (z11 / tu)
+                                  :theme (z12 / alguna_cosa
+                                              :possession_of (z13 / tenir
+                                                                  :theme z11
+                                                                  :location (z14 / davant)))
+                                  :condition_of (z15 / ser
+                                                     :theme z11
+                                                     :attribute (z16 / or
+                                                                     :op1 (z17 / tonto)
+                                                                     :op2 (z18 / ignorant))))))
+
+# ::id 28948
+# ::snt Així, el 'model d'Àsia Oriental' té aquesta tendència a la selecció massiva de variables dependents, cosa que sempre diem als nostres estudiants que evitin.
+(z1 / així
+    :op2 (z2 / tenir
+             :theme (z3 / model
+                        :context (z4 / Àsia_Oriental))
+             :attribute (z5 / tendència
+                            :context (z6 / selecció
+                                         :quality (z7 / massiva)
+                                         :context (z8 / variable_dependent
+                                                      :quantity +))
+                            :quality (z10 / aquesta)
+                            :identity (z11 / cosa
+                                           :theme_of (z12 / dir
+                                                          :content (z13 / evitar)
+                                                          :target (z14 / estudiant
+                                                                       :quantity +
+                                                                       :related (z15 / nostre))
+                                                          :time (z16 / sempre))))))
+
+# ::id 31996
+# ::snt I en els estudis que hem fet al meu laboratori, hem demostrat que els nens de quatre anys són millors que els adults a fer una tasca similar en la qual han de fer una inferència improbable.
+(z1 / and
+    :op2 (z2 / demostrar
+             :aspect perfect
+             :agent (z3 / nosaltres)
+             :theme (z4 / ser
+                        :theme (z5 / nen
+                                   :quantity +
+                                   :context (z6 / any
+                                                :quantity (z7 / quatre)))
+                        :attribute (z8 / millor
+                                       :compared (z9 / adult
+                                                     :quantity +)
+                                       :context (z10 / fer
+                                                     :theme (z11 / tasca
+                                                                 :quality (z12 / similar))
+                                                     :context (z13 / fer
+                                                                   :agent z9
+                                                                   :theme (z14 / inferència
+                                                                               :quality (z15 / improbable)))))))
+    :location (z16 / estudi
+                   :quantity +
+                   :theme_of (z17 / fer
+                                  :aspect perfect
+                                  :agent z3
+                                  :location (z18 / laboratori
+                                                 :related (z19 / jo)))))
+
+# ::id 257951
+# ::snt El sabater s'anava a dormir, es llevava al matí i totes les sabates eren fetes màgicament pels follets.
+(z1 / and
+    :op1 (z2 / anar_a_dormir
+             :tense past
+             :aspect imperfect
+             :agent (z3 / sabater))
+    :op2 (z4 / llevar
+             :tense past
+             :aspect imperfect
+             :experiencer z3
+             :time (z5 / matí))
+    :op3 (z6 / fer
+             :tense past
+             :aspect imperfect
+             :product (z7 / sabata
+                          :quantity (z8 / totes))
+             :agent (z9 / follet
+                        :quantity +)
+             :manner (z10 / màgicament)))
+
+# ::id 89005
+# ::snt El meu color preferit és el blau, però segueixo sent gai. Això demostra tant la influència de la meva mare com els seus límits.
+(z1 / multi-sentence
+    :snt1 (z2 / ser
+              :theme (z3 / color
+                         :quality (z4 / preferit
+                                      :related (z5 / jo)))
+              :identity (z6 / blau)
+              :concession (z7 / seguir
+                              :agent z5
+                              :theme (z8 / ser
+                                         :aspect continuous
+                                         :theme z5
+                                         :attribute (z9 / gai))))
+    :snt2 (z10 / demostrar
+               :agent z2
+               :theme (z11 / and
+                           :op1 (z12 / influència
+                                     :related (z13 / mare
+                                                   :related z5))
+                           :op2 (z14 / límit
+                                     :related z13
+                                     :quantity +))))
+
+# ::id 294047
+# ::snt Després, el 2002, quan tot anava de meravella, els coralls de l'arxipèlag de les illes Phoenix van patir un blanqueig massiu.
+(z1 / Després
+    :op2 (z2 / patir
+             :tense past
+             :aspect perfect
+             :theme (z3 / blanqueig_masiu
+                        :agent (z4 / coralls
+                                   :location (z5 / arxipèlag
+                                                 :name (z6 / illes_Phoenix))))
+             :time (z7 / 2002
+                       :time (z8 / anar
+                                 :tense past
+                                 :aspect imperfect
+                                 :theme (z9 / tot)
+                                 :manner (z10 / meravella)))))
+
+# ::id 97764
+# ::snt Donis la volta i, veiem. Si us dono alguna cosa que és meva, és només alguna cosa que tinc, una fitxa de pòquer.
+(z1 / multi-sentence
+    :snt1 (z2 / and
+              :op1 (z3 / donar_la_volta
+                       :mode imperative
+                       :agent (z4 / tu))
+              :op2 (z5 / veure
+                       :mode imperative
+                       :experiencer (z6 / nosaltres)))
+    :snt2 (z7 / donar
+              :agent (z8 / jo)
+              :theme (z9 / alguna_cosa
+                         :possession_of (z10 / ser
+                                             :theme z8))
+              :target z4
+              :condition_of (z11 / ser
+                                 :theme z9
+                                 :quality (z12 / només)
+                                 :identity (z13 / alguna_cosa
+                                                :possession_of (z14 / tenir
+                                                                    :theme z8))
+                                 :identity (z15 / fitxa_de_pòquer))))
+
+# ::id 99153
+# ::snt No entenc per què em passa això.
+(z1 / entendre
+    :polarity -
+    :experiencer (z2 / jo)
+    :theme (z3 / passar
+               :theme (z4 / això)
+               :target z2)
+    :cause (z5 / ?))
+
+# ::id 99133
+# ::snt La seva història és la història de tots.
+(z1 / ser
+    :theme (z2 / història
+               :possession_of (z3 / el))
+    :identity (z4 / història
+                  :possession_of (z5 / tots)))
+
+# ::id 98945
+# ::snt És així perquè és justament el contrari.
+(z1 / ser
+    :theme (z2 / així)
+    :cause (z3 / ser
+               :theme (z4 / quelcom)
+               :identiy (z5 / contrari
+                            :quality (z6 / justament))))
+
+# ::id 21327
+# ::snt Això és veritat, parlin del que parlin.
+(z1 / ser
+    :theme (z2 / això)
+    :attribute (z3 / veritat)
+    :regardless (z4 / parlar
+                    :mood imperative
+                    :agent (z5 / ells)
+                    :content (z6 / quelcom
+                                 :theme_of (z7 / parlar
+                                               :mood imperative))))
+
+# ::id 126209
+# ::snt Vaig girar la pàgina i el que va venir després va ser això.
+(z1 / and
+    :op1 (z2 / girar
+             :tense past
+             :agent (z3 / jo)
+             :patient (z4 / pàgina))
+    :op2 (z5 / ser
+             :tense past
+             :theme (z6 / quelcom
+                        :theme_of (z7 / venir
+                                      :tense past
+                                      :time (z8 / després
+                                                :op1 z2)))
+             :identity (z9 / això)))
+
+# ::id 27807
+# ::snt Però, òbviament, hi ha aquesta idea que si deixen sortir els presos d'aquí, raptaran un motorista del carrer i es menjaran el fetge.
+(z1 / pero
+    :op2 (z2 / hi_ha
+             :theme (z3 / idea
+                        :quality (z4 / aquesta)
+                        :context (z5 / deixar_sortir
+                                     :agent (z6 / ells)
+                                     :patient (z7 / pres)
+                                     :source (z8 / aquí)
+                                     :condition_of (z9 / and
+                                                       :op1 (z10 / raptar
+                                                                 :tense future
+                                                                 :agent z7
+                                                                 :patient (z11 / motorista)
+                                                                 :source (z12 / carrer))
+                                                       :op2 (z13 / menjar
+                                                                 :tense future
+                                                                 :agent z7
+                                                                 :patient (z14 / fetge
+                                                                               :part_of z11)))))
+             :quality (z15 / obviament)))
+
+# ::id 181621
+# ::snt Les veus de noies i dones, i les veus dels nostres aliats estan limitades de manera que són perjudicials a nivell personal, econòmic, professional i polític.
+(z1 / limitar
+    :patient (z2 / and
+                 :op1 (z3 / veu
+                          :quantity +
+                          :context (z4 / and
+                                       :op1 (z5 / noia
+                                                :quantity +)
+                                       :op2 (z6 / dona
+                                                :quantity +)))
+                 :op2 (z7 / veu
+                          :quantity +
+                          :context (z8 / aliat
+                                       :quantity +
+                                       :related (z9 / nosaltres))))
+    :manner (z10 / ser
+                 :theme z2
+                 :attribute (z11 / perjudicial
+                                 :quantity +
+                                 :context (z12 / nivell
+                                               :quality (z13 / and
+                                                             :op1 (z14 / personal)
+                                                             :op2 (z15 / econòmic)
+                                                             :op3 (z16 / professional)
+                                                             :op4 (z17 / polític))))))
+
+# ::id 173170
+# ::snt Un cop vaig creure que havia vist el peus grans, però era un gos d'atura.
+(z1 / creure
+    :tense past
+    :agent (z2 / jo)
+    :theme (z3 / veure
+               :tense past
+               :aspect perfect
+               :experiencer z2
+               :stimulus (z4 / peus_grans))
+    :time (z5 / un_cop)
+    :concession (z6 / ser
+                    :tense past
+                    :aspect imperfect
+                    :theme (z7 / això)
+                    :identity (z8 / gos_d'atura)))
+
+# ::id 52318
+# ::snt Parlem d'un llibre de 900 pàgines, tan estrany com irresistible, amb una escena clau en què una colla de persones petites surten de la boca d'una noia adormida i fan explotar un gos d'atura.
+(z1 / parlar
+    :agent (z2 / nosaltres)
+    :context (z3 / llibre
+                 :composition (z4 / pàgina
+                                  :quantity (z5 / 900))
+                 :quality (z6 / tan
+                              :op1 (z7 / estrany)
+                              :op2 (z8 / irresistible))
+                 :content (z9 / escena
+                              :quality (z10 / clau)
+                              :identity (z11 / and
+                                             :op1 (z12 / sortir
+                                                       :theme (z13 / colla
+                                                                   :composition (z14 / persona
+                                                                                     :quantity +
+                                                                                     :quality (z15 / petit)))
+                                                       :source (z16 / boca
+                                                                    :part_of (z17 / noia
+                                                                                  :quality (z18 / adormida))))
+                                             :op2 (z19 / fer
+                                                       :agent z12
+                                                       :theme (z20 / explotar
+                                                                   :patient (z21 / gos_d'atura)))))))
+
+# ::id 172429
+# ::snt Per què és que cada personatge de qui la meva filla es disfressa, ja sigui el Groot, l'Increïble Hulk, l'Obi-Wan Kenobi o el Darth Maul, és un noi?
+(z1 / ser
+    :theme (z2 / ser
+               :theme (z3 / personatge
+                          :quality (z4 / cada)
+                          :theme_of (z5 / disfressar
+                                        :agent (z6 / filla
+                                                   :related (z7 / jo)))
+                          :theme_of (z8 / ser
+                                        :mode subjunctive
+                                        :example (z9 / or
+                                                     :op1 (z10 / Groot)
+                                                     :op2 (z11 / Increíble_Hulk)
+                                                     :op3 (z12 / Obi-Wan_Kenobi)
+                                                     :op4 (z13 / Darth_Maul))))
+               :attribute (z14 / noi))
+    :cause (z15 / ?))
+
+# ::id 170681
+# ::snt La segona manera d'aconseguir energia és del vent solar.
+(z1 / ser
+    :theme (z2 / manera
+               :ord (z3 / segona)
+               :manner_of (z4 / aconseguir
+                              :theme (z5 / energia)))
+    :source (z6 / vent_solar))
+
+# ::id 174325
+# ::snt El que em va portar al punt de partida.
+(z1 / portar
+    :tense past
+    :agent (z2 / algo)
+    :theme (z3 / jo)
+    :target (z4 / punt_de_partida))
+
+# ::id 172541
+# ::snt I no és culpa del Mike. És culpa nostra.
+(z1 / multi-sentence
+    :snt1 (z2 / and
+              :op2 (z3 / ser
+                       :polarity -
+                       :theme (z4 / això)
+                       :identity (z5 / culpa
+                                     :related (z6 / Mike))))
+    :snt2 (z7 / ser
+              :theme z4
+              :identity (z8 / culpa
+                            :related (z9 / nosaltres))))
+
+# ::id 115980
+# ::snt Com a ciutadans, us demano que no deixeu cap nen enrere.
+(z1 / demanar
+    :agent (z2 / jo)
+    :target (z3 / vosaltres)
+    :theme (z4 / deixar_enrere
+               :polarity -
+               :agent z3
+               :theme (z5 / nen
+                          :quality (z6 / cap)))
+    :condition (z7 / ciutadà
+                   :quantity +
+                   :identity_of z3))
+
+# ::id 149416
+# ::snt Gairebé com el que es veu en la malaltia de Parkinson.
+(z1 / com
+    :degree (z2 / gairebé)
+    :op2 (z3 / algo
+             :stimulus_of (z4 / veure
+                              :location (z5 / malaltia_de_Parkinson))))
+
+# ::id 22750
+# ::snt El meu cor bategava ràpid, em marejava, intentant entendre el que tenia davant.
+(z1 / and
+    :op1 (z2 / bategar
+             :tense past
+             :aspect imperfect
+             :patient (z3 / cor
+                          :part_of (z4 / jo))
+             :manner (z5 / ràpid))
+    :op2 (z6 / marejar
+             :tense past
+             :aspect imperfect
+             :theme z4)
+    :op3 (z7 / intentar
+             :tense past
+             :aspect imperfect
+             :agent z4
+             :theme (z8 / entendre
+                        :experiencer z4
+                        :theme (z9 / quelcom
+                                   :theme_of (z10 / tenir
+                                                  :tense past
+                                                  :aspect imperfect
+                                                  :agent z4
+                                                  :theme (z11 / davant))))))
+
+# ::id 162510
+# ::snt En ambdós casos, les restriccions guien la presa de decisions per assegurar-nos que aconseguim cada objectiu.
+(z1 / guiar
+    :agent (z2 / restricció
+               :quantity +)
+    :theme (z3 / presa_decisions)
+    :purpose (z4 / assegurar
+                 :theme (z5 / nos)
+                 :agent (z6 / aconseguir
+                            :agent z5
+                            :target (z7 / objectiu
+                                        :quality (z8 / cada))))
+    :context (z9 / cas
+                 :quality (z10 / ambdós)))
+
+# ::id 266251
+# ::snt Així que és molt coneguda pels enginyers, però no tant pels biòlegs.
+(z1 / així_que
+    :op2 (z2 / ser
+             :theme (z3 / algo)
+             :attribute (z4 / conegut
+                            :degree (z5 / molt))
+             :experiencer (z6 / enginyer
+                              :quantity +)
+             :concession (z7 / ser
+                             :polarity -
+                             :degree (z8 / tant
+                                         :compared z6
+                                         :coref z4)
+                             :context (z9 / biòleg
+                                          :quantity +))))
+
+# ::id 98911
+# ::snt És aquell company que no pots acomiadar. La veu que no pots ignorar.
+(z1 / multi-sentence
+    :snt1 (z2 / ser
+              :theme (z3 / quelcom)
+              :identity (z4 / company
+                            :quality (z5 / aquell)
+                            :patient_of (z6 / acomiadar
+                                            :mode no_probability
+                                            :agent (z7 / tu))))
+    :snt2 (z8 / ser
+              :theme z3
+              :identity (z9 / veu
+                            :stimulus_of (z10 / ignorar
+                                              :mode no_probability
+                                              :experiencer z7))))
+
+# ::id 70804
+# ::snt Si cometies un error, fracassaves. Com hauries de ser tractat?
+(z1 / multi-sentence
+    :snt1 (z2 / fracassar
+              :tense past
+              :aspect imperfect
+              :agent (z3 / tu)
+              :condition (z4 / cometre
+                             :tense past
+                             :aspect imperfect
+                             :agent z3
+                             :theme (z5 / error)))
+    :snt2 (z6 / ser
+              :mood conditional
+              :mode recomend
+              :theme z3
+              :attribute (z7 / tractat)
+              :manner (z8 / ?)))
+
+# ::id 250380
+# ::snt Crec que abans de fer els 'Monòlegs de la vagina' no creia en la felicitat.
+(z1 / creure
+    :agent (z2 / jo)
+    :theme (z3 / creure
+               :tense past
+               :aspect imperfect
+               :polarity -
+               :agent z2
+               :theme (z4 / felicitat)
+               :time (z5 / abans
+                         :op1 (z6 / fer
+                                  :agent z2
+                                  :product (z7 / Monòlegs_de_la_vagina)))))
+
+# ::id 3787
+# ::snt Vaig fer treball a la presó com a policia.
+(z1 / fer
+    :tense past
+    :agent (z2 / jo)
+    :theme (z3 / treball
+               :location (z4 / presó))
+    :manner (z5 / policia))
+
+# ::id 115994
+# ::snt Vol dir 'treball forçat'.
+(z1 / vol_dir
+    :theme (z2 / això)
+    :content (z3 / treball_forçat))
+
+# ::id 120276
+# ::snt Què volem dir amb 'bons'?
+(z1 / voler_dir
+    :agent (z2 / nosaltres)
+    :theme (z3 / bo
+               :quantity +)
+    :content (z4 / ?))
+
+# ::id 115195
+# ::snt Durant la major part de la seva vida, viuen la seva existència enmig de la cadena de l'experiència humana, on tot és normal, però el fracàs els catapulta bruscament dins la foscor cegadora de la decepció. L'èxit els catapulta amb la mateixa brusquedat, però lluny d'aquí, cap a la llum igualment cegadora de la fama, el reconeixement i l'elogi.
+(z1 / multi-sentence
+    :snt1 (z2 / viure
+              :agent (z3 / ells)
+              :theme (z4 / existència
+                         :related z3)
+              :location (z5 / enmig
+                            :context (z6 / cadena
+                                         :part_of (z7 / experiència_humana))
+                            :location_of (z8 / ser
+                                             :theme (z9 / tot)
+                                             :attribute (z10 / normal)))
+              :time (z11 / durant
+                         :op1 (z12 / part
+                                   :quality (z13 / major)
+                                   :part_of (z14 / vida
+                                                 :related z3)))
+              :concession (z15 / catapultar
+                               :agent (z16 / fracàs)
+                               :patient z3
+                               :manner (z17 / bruscament)
+                               :target (z18 / dins
+                                            :context (z19 / foscor
+                                                          :quality (z20 / cegadora)
+                                                          :context (z21 / decepció)))))
+    :snt2 (z22 / catapultar
+               :agent (z23 / èxit)
+               :patient (z24 / ells)
+               :manner (z25 / brusquedat
+                            :degree (z26 / mateixa
+                                         :compared z16))
+               :concession (z27 / lluny
+                                :context (z28 / aquí
+                                              :coref z18))
+               :target (z29 / llum
+                            :quality (z30 / cegadora
+                                          :degree (z31 / igualment
+                                                       :compared z19))
+                            :quality_of (z32 / and
+                                             :op1 (z33 / fama)
+                                             :op2 (z34 / reconeixement)
+                                             :op3 (z35 / elogi)))))
+
+# ::id 187847
+# ::snt Les excursions en vaixell, els sonars militars, la construcció submarina i les prospeccions sísmiques per buscar petroli són freqüents i poden interferir en la comunicació de les balenes.
+(z1 / and
+    :op1 (z2 / ser
+             :theme (z3 / and
+                        :op1 (z4 / excursió
+                                 :quantity +
+                                 :context (z5 / vaixell))
+                        :op2 (z6 / sonar
+                                 :quantity +
+                                 :quality (z7 / militar))
+                        :op3 (z8 / construcció
+                                 :quality (z9 / submarina))
+                        :op4 (z10 / prospecció
+                                  :quantity +
+                                  :quality (z11 / sísmica)
+                                  :purpose (z12 / buscar
+                                                :context (z13 / petroli))))
+             :frequency (z14 / freqüent))
+    :op2 (z15 / interferir
+              :mode possibility
+              :agent z3
+              :target (z16 / comunicació
+                           :related (z17 / balena
+                                         :quantity +))))
+
+# ::id 86863
+# ::snt Vaig acabar odiant haver-me gastat els diners en aquesta cosa.
+(z1 / acabar
+    :tense past
+    :theme (z2 / jo
+               :tense past
+               :aspect perfect
+               :attribute (z3 / odiar
+                              :tense past
+                              :aspect perfect
+                              :agent z2
+                              :cause (z4 / gastar
+                                         :aspect perfect
+                                         :agent z2
+                                         :patient (z5 / diners
+                                                      :possession_of z2)
+                                         :target (z6 / cosa
+                                                     :quality (z7 / aquesta))))))
+
+# ::id 207712
+# ::snt What?' vol dir 'Què?'
+(z1 / voler_dir
+    :theme (z2 / what)
+    :content (z3 / què))
+
+# ::id 144972
+# ::snt Enamorar-se és la part fàcil.
+(z1 / ser
+    :theme (z2 / enamorar-se)
+    :identity (z3 / part
+                  :quality (z4 / facil)))
+
+# ::id 36272
+# ::snt La ment humana ha creat no un, sinó 7.000 universos cognitius. Hi ha 7.000 llengües parlades arreu del món.
+(z1 / multi-sentence
+    :snt1 (z2 / crear
+              :aspect perfect
+              :agent (z3 / ment
+                         :part_of (z4 / humana))
+              :product (z5 / univers
+                           :quality (z6 / cognitiu)
+                           :quantity (z7 / 1
+                                         :polarity -
+                                         :contrast (z8 / 7000))))
+    :snt2 (z9 / hi_ha
+              :theme (z10 / llengua
+                          :quantity (z11 / 7000)
+                          :quality (z12 / parlat))
+              :location (z13 / món
+                             :quality (z14 / arreu))))
+
+# ::id 36273
+# ::snt I podem crear-ne moltes més, la llengua és un ésser viu, que podem polir i canviar per adaptar-la a les nostres necessitats.
+(z1 / and
+    :op1 (z2 / crear
+             :mode possibility
+             :agent (z3 / nosaltres)
+             :product (z4 / moltes
+                          :quantity (z5 / més)))
+    :op2 (z6 / ser
+             :theme (z7 / llengua)
+             :attribute (z8 / ésser
+                            :quality (z9 / viu)
+                            :patient_of (z10 / and
+                                             :mode possibility
+                                             :op1 (z11 / polir
+                                                       :agent z3
+                                                       :patient z7)
+                                             :op2 (z12 / canviar
+                                                       :agent z3
+                                                       :patient z7)
+                                             :purpose (z13 / adaptar
+                                                           :agent z3
+                                                           :patient z7
+                                                           :target (z14 / necessitat
+                                                                        :related z3))))))
+
+# ::id 36273_b
+# ::snt La ment humana ha creat no un, sinó 7.000 universos cognitius. Hi ha 7.000 llengües parlades arreu del món, i podem crear-ne moltes més. La llengua és un ésser viu, que podem anar polint i canviant per adaptar-la a les nostres necessitats.
+(z1 / multi-sentence
+    :snt1 (z2 / crear
+              :aspect perfect
+              :agent (z3 / ment
+                         :part_of (z4 / humana))
+              :product (z5 / univers
+                           :quality (z6 / cognitiu)
+                           :quantity (z7 / 1
+                                         :polarity -
+                                         :contrast (z8 / 7000))))
+    :snt2 (z9 / and
+              :op1 (z10 / hi_ha
+                        :theme (z11 / llengua
+                                    :quantity (z12 / 7000)
+                                    :quality (z13 / parlat))
+                        :location (z14 / món
+                                       :quality (z15 / arreu)))
+              :op2 (z16 / crear
+                        :mode possibility
+                        :agent (z17 / nosaltres)
+                        :product (z18 / mol
+                                      :quantity (z19 / més)
+                                      :coref z11)))
+    :snt3 (z20 / ser
+               :theme (z21 / llengua)
+               :attribute (z22 / ésser
+                               :quality (z23 / viu)
+                               :patient_of (z24 / and
+                                                :op1 (z25 / polir
+                                                          :agent z17)
+                                                :op2 (z26 / canviar
+                                                          :agent z17)
+                                                :purpose (z27 / adaptar
+                                                              :agent z17
+                                                              :patient z22
+                                                              :target (z28 / necessitat
+                                                                           :related (z29 / nostre)))))))
+
+# ::id 273954
+# ::snt La tecnologia és disponible, la infraestructura és disponible, i, tot i això, no passa.
+(z1 / and
+    :op1 (z2 / ser
+             :theme (z3 / tecnologia)
+             :quality (z4 / disponible))
+    :op2 (z5 / ser
+             :theme (z6 / infraestructura)
+             :quality (z7 / disponible))
+    :concession (z8 / passar
+                    :polarity -
+                    :theme (z9 / alguna_cosa)))
+
+# ::id 32369
+# ::snt I segons la revista Fortune, té una fortuna de 700 milions de dòlars.
+(z1 / segons
+    :source (z2 / revista
+                :name (z3 / Fortune))
+    :content (z4 / tenir
+                 :theme (z5 / el)
+                 :possession (z6 / fortuna
+                                 :quantity (z7 / 700_milions
+                                               :unit (z8 / dòlar)))))
+
+# ::id 148514
+# ::snt Com podem demostrar que ens preocupa l'ansietat dels crancs?
+(z1 / demostrar
+    :agent (z2 / nosaltres)
+    :theme (z3 / preocupar
+               :experiencer z2
+               :stimulus (z4 / ansietat
+                             :possession_of (z5 / cranc
+                                                :quantity +)))
+    :manner (z6 / ?))
+
+# ::id 196070
+# ::snt Aquest noi petit va estar allà cinc minuts sense moure's.
+(z1 / estar
+    :tense past
+    :theme (z2 / noi
+               :quality (z3 / aquest)
+               :quality (z4 / petit))
+    :location (z5 / allà)
+    :extent (z6 / minut
+                :quantity (z7 / cinc))
+    :manner (z8 / moure-
+                :polarity -
+                :theme z2))
+
+# ::id 34542
+# ::snt Ell diu que som éssers socials i per això compartim les emocions dels altres.
+(z1 / dir
+    :agent (z2 / ell)
+    :content (z3 / ser
+                 :theme (z4 / nosaltres)
+                 :identity (z5 / ésser
+                               :quantity +
+                               :quality (z6 / social))
+                 :result (z7 / compartir
+                             :agent z4
+                             :theme (z8 / emoció
+                                        :quantity +
+                                        :possession_of (z9 / altre
+                                                           :quantity +)))))
+
+# ::id 149043
+# ::snt Nosaltres diem, 'Plou a bots', 'Esperava l'espasa de Dàmocles'.
+(z1 / dir
+    :agent (z2 / nosaltres)
+    :content (z3 / and
+                 :op1 (z4 / ploure_a_brons)
+                 :op2 (z5 / esperar
+                          :tense past
+                          :aspect imperfect
+                          :agent (z6 / jo)
+                          :theme (z7 / espasa_de_Dàmocles))))
+
+# ::id 149052
+# ::snt Quan escoltem que plou a bots i càntirs, no pensem en gotes de pluja del tamany d'un càntir, però quan ho fem, ens adonem que el càntir ha de ser petit, una gerra, un pot, i no una olla amb dues anses.
+(z1 / pensar
+    :polarity -
+    :agent (z2 / nosaltres)
+    :theme (z3 / gota_de_pluja
+               :quantity +
+               :quality (z4 / tamany
+                            :context (z5 / càntir)))
+    :time (z6 / escoltar
+              :experiencer z2
+              :content (z7 / ploure
+                           :mode rain
+                           :manner (z8 / a_bots_i_càntirs)))
+    :concession (z9 / adonar
+                    :experiencer z2
+                    :time (z10 / fer
+                               :agent z2
+                               :theme z1)
+                    :theme (z11 / ser
+                                :mode obligation
+                                :theme z5
+                                :identity (z12 / petit
+                                               :example (z13 / or
+                                                             :op1 (z14 / gerra)
+                                                             :op2 (z15 / pot)
+                                                             :concession (z16 / olla
+                                                                              :quality (z17 / amb
+                                                                                            :op1 (z18 / ansa
+                                                                                                      :quantity 2))))))))
+
+# ::id 229253
+# ::snt En aquell moment, vaig tenir l'oportunitat de cridar a la comunitat tradicional de la medicina protèsica perquè portessin les seves habilitats a la ciència i l'art de fer cames.
+(z1 / tenir
+    :tense past
+    :theme (z2 / jo)
+    :possession (z3 / oportunitat
+                    :context (z4 / cridar
+                                 :agent z2
+                                 :theme (z5 / comunitat
+                                            :quality (z6 / tradicional)
+                                            :context (z7 / medicina
+                                                         :quality (z8 / protèsica)))
+                                 :purpose (z9 / portar
+                                              :agent (z10 / ells
+                                                          :possession (z11 / habilitat
+                                                                           :quantity +))
+                                              :target (z12 / and
+                                                           :op1 (z13 / ciència)
+                                                           :op2 (z14 / art)
+                                                           :quality (z15 / fer
+                                                                         :product (z16 / cama
+                                                                                       :quantity +))))))
+    :time (z17 / en_aquell_moment))
+
+# ::id 191591
+# ::snt És un procés aeròbic, que requereix oxigen i molta humitat.
+(z1 / ser
+    :theme (z2 / això)
+    :attribute (z3 / procés
+                   :quality (z4 / aeròbic))
+    :result (z5 / requerir
+                :agent z3
+                :theme (z6 / and
+                           :op1 (z7 / oxigen)
+                           :op2 (z8 / humitat
+                                    :quantity (z9 / molta)))))
+
+# ::id 194671
+# ::snt Però a l'agost de 1982, Mèxic va suspendre pagaments, i molts altres països el van seguir.
+(z1 / però
+    :op2 (z2 / and
+             :op1 (z3 / suspendre_pagament
+                      :tense past
+                      :agent (z4 / Mèxic))
+             :op2 (z5 / seguir
+                      :tense past
+                      :agent (z6 / país
+                                 :quality (z7 / altres)
+                                 :quantity (z8 / molts)))
+             :theme z4)
+    :time (z9 / 1982
+              :month (z10 / agost)))
+
+# ::id 70026
+# ::snt Podeu veure que més de 200 persones li han donat una puntuació mitjana de 4,99 sobre 5.
+(z1 / veure
+    :mode possibility
+    :experiencer (z2 / vosaltres)
+    :stimulus (z3 / donar
+                  :tense past
+                  :agent (z4 / persona
+                             :quantity (z5 / més
+                                           :op1 (z6 / 200)))
+                  :target (z7 / ell)
+                  :theme (z8 / puntuació
+                             :quality (z9 / mitjana)
+                             :value (z10 / 4.99)
+                             :scale (z11 / 5))))
+
+# ::id 46998
+# ::snt Un de cada deu estalvia prou.
+(z1 / estalviar
+    :agent (z2 / persona
+               :quantity (z3 / un)
+               :part_of (z4 / persona
+                            :quantity (z5 / deu)))
+    :degree (z6 / prou))
+
+# ::id 204462
+# ::snt Almenys li donaran el tractament mentre intentem resoldre el tema dels diners.
+(z1 / donar
+    :tense future
+    :agent (z2 / ells)
+    :target (z3 / ell)
+    :theme (z4 / tractament)
+    :quality (z5 / almenys)
+    :time (z6 / intentar
+              :agent (z7 / nosaltres)
+              :theme (z8 / resoldre
+                         :agent z7
+                         :theme (z9 / tema
+                                    :context (z10 / diners)))))
+
+# ::id 267981
+# ::snt Em sentia com si fos físicament present dins dels trossos del Titanic.
+(z1 / sentir
+    :tense past
+    :aspect imperfect
+    :experiencer (z2 / jo)
+    :theme (z3 / ser
+               :tense past
+               :mood subjunctive
+               :theme z2
+               :manner (z4 / present
+                           :quality (z5 / físicament))
+               :location (z6 / dins
+                             :op1 (z7 / tros
+                                      :quantity +
+                                      :context (z8 / Titanic)))))
+
+# ::id 126992
+# ::snt Aquí dins hi ha una mostra real on acabem de detectar un càncer de pàncrees.
+(z1 / estar
+    :location (z2 / dins
+                  :quality (z3 / aquí))
+    :theme (z4 / mostra
+               :quality (z5 / real)
+               :location_of (z6 / acabar
+                                :agent (z7 / nosaltres)
+                                :theme (z8 / detectar
+                                           :agent z7
+                                           :theme (z9 / càncer_de_pàncrees)))))
+
+# ::id 95962
+# ::snt I llavors li vaig dir, 'Li importaria anar a declarar al jutjat?'
+(z1 / and
+    :op2 (z2 / dir
+             :tense past
+             :agent (z3 / jo)
+             :target (z4 / ell)
+             :theme (z5 / importar
+                        :mood subjunctive
+                        :polarity ?
+                        :experiencer z4
+                        :stimulus (z6 / anar
+                                      :agent z4
+                                      :purpose (z7 / declarar
+                                                   :agent z4)
+                                      :target (z8 / jutjat)))))
+
+# ::id 150027
+# ::snt Els japonesos volen construir illes flotants.
+(z1 / voler
+    :agent (z2 / japonès
+               :quantity +)
+    :theme (z3 / construir
+               :agent z2
+               :theme (z4 / illa
+                          :quantity +
+                          :quality (z5 / flotant))))
+
+# ::id 126712
+# ::snt Aquesta és una confusió fonamental de l'advertència que Orwell va fer a '1984'.
+(z1 / ser
+    :theme (z2 / aquesta)
+    :attribute (z3 / confusió
+                   :quality (z4 / fonamental)
+                   :context (z5 / advertència
+                                :theme_of (z6 / fer
+                                              :tense past
+                                              :agent (z7 / Orwell)
+                                              :location (z8 / 1984)))))
+
+# ::id 101079
+# ::snt Podem guanyar molt i treure'n profit de l'anàlisi massiu d'aquestes dades personals, o 'big data', però també hi ha un preu a pagar en termes de privacitat.
+(z1 / and
+    :op1 (z2 / guanyar
+             :theme (z3 / nosaltres)
+             :degree (z4 / molt))
+    :op2 (z5 / treure_profit
+             :agent z3
+             :source (z6 / anàlisi
+                         :quality (z7 / massiu)
+                         :context (z8 / dades
+                                      :quantity (z9 / aquestes)
+                                      :quality (z10 / personal))
+                         :identity (z11 / big_data)))
+    :concession (z12 / hi_ha
+                     :theme (z13 / preu
+                                 :theme_of (z14 / pagar
+                                                :agent z3
+                                                :context (z15 / privacitat)))
+                     :quality (z16 / també)))
+
+# ::id 126710
+# ::snt La novel·la més emblemàtica de la literatura sobre la vigilància i la privadesa és '1984', de George Orwell, que aprenem a l'escola i que s'ha convertit en un lloc comú.
+(z1 / ser
+    :theme (z2 / novella
+               :quality (z3 / emblemàtica
+                            :degree (z4 / més))
+               :part_of (z5 / literatura
+                            :context (z6 / sobre
+                                         :op1 (z7 / vigilància)
+                                         :op2 (z8 / privadesa))))
+    :name (z9 / 1984)
+    :context (z10 / George_Orwell)
+    :theme_of (z11 / aprendre
+                   :agent (z12 / nosaltres)
+                   :location (z13 / escola))
+    :theme_of (z14 / convertir
+                   :tense past
+                   :result (z15 / lloc_comú)))
+
+# ::id 84164
+# ::snt Li vaig explicar les guerres contra els indis Pequot, a la badia de Massachusetts, el 1607...
+(z1 / explicar
+    :tense past
+    :agent (z2 / jo)
+    :theme (z3 / guerres_contra_els_indis_Pequot
+               :location (z4 / badia_Massachusetts)
+               :time (z5 / 1607))
+    :target (z6 / el))
+
+# ::id 64490
+# ::snt Així, aquesta plataforma social, Weibo, fins i tot amb la censura, ofereix una oportunitat real perquè 300 milions de persones xategin juntes cada dia.
+(z1 / oferir
+    :agent (z2 / plataforma_social
+               :name (z3 / Weibo)
+               :quality (z4 / aquesta))
+    :regardless (z5 / censura)
+    :theme (z6 / oportunitat
+               :quality (z7 / real)
+               :purpose (z8 / xatejar
+                            :agent (z9 / persona
+                                       :quantity (z10 / 300000000))
+                            :manner (z11 / juntes)
+                            :frequency (z12 / cada_dia))))
+
+# ::id 42239
+# ::snt Necessita un certificat si té un lloc web https, amb serveis xifrats SSL, com ara el Gmail.
+(z1 / necessitar
+    :theme (z2 / certificat
+               :quantity (z3 / un))
+    :condition (z4 / tenir
+                   :theme (z5 / tu)
+                   :possession (z6 / lloc_web
+                                   :quality (z7 / https)
+                                   :instrument (z8 / servei
+                                                   :quantity +
+                                                   :quality (z9 / xifrat)
+                                                   :name (z10 / SSL))
+                                   :example (z11 / Gmail))))
+
+# ::id 219253
+# ::snt El besavi havia estat l'Eli Whitney, l'inventor de la desmotadora de coto.
+(z1 / besavi
+    :related (z2 / el)
+    :theme_of (z3 / ser
+                  :aspect perfect
+                  :identity (z4 / Eli_Whitney
+                                :identity (z5 / inventor
+                                              :context (z6 / desmotadora_de_coto)))))
+
+# ::id 39791
+# ::snt El fitoplàncton és menjat pel zooplàncton, els peixos menuts mengen el zooplàncton, els grans es mengen els peixos menuts i així es forma la cadena alimentària.
+(z1 / and
+    :op1 (z2 / menjar
+             :agent (z3 / zooplàncton)
+             :patient (z4 / fitoplàncton))
+    :op2 (z5 / menjar
+             :agent (z6 / peix
+                        :quantity +
+                        :quality (z7 / menut))
+             :patient z3)
+    :op3 (z8 / menjar
+             :agent (z9 / peix
+                        :quantity +
+                        :quality (z10 / gran))
+             :patient z6)
+    :result (z11 / formar
+                 :theme (z12 / cadena_alimentària)))
+
+# ::id 132843
+# ::snt Heu sentit a parlar de l'efecte Mozart?
+(z1 / sentir
+    :aspect perfect
+    :polarity ?
+    :experiencer (z2 / heu)
+    :source (z3 / parlar
+                :theme (z4 / efecte_Mozart)))
+
+# ::id 92586
+# ::snt Aquesta és la portada d'un article extraordinari publicat a la revista Nature el 2009, que va començar a parlar de la crisi del fòsfor.
+(z1 / ser
+    :theme (z2 / aquesta)
+    :identity (z3 / portada
+                  :part_of (z4 / article
+                               :quality (z5 / extraordinari)
+                               :theme_of (z6 / publicar
+                                             :tense past
+                                             :location (z7 / revista
+                                                           :name (z8 / Nature))
+                                             :time (z9 / 2009)))
+                  :agent_of (z10 / començar
+                                 :tense past
+                                 :theme (z11 / parlar
+                                             :context (z12 / crisi
+                                                           :context (z13 / fòsfor))))))
+
+# ::id 270165
+# ::snt Això és una mesura que vam obtenir fa uns anys d'un satèl·lit que orbita Mart, anomenat Odyssey.
+(z1 / ser
+    :theme (z2 / això)
+    :identity (z3 / mesura
+                  :theme_of (z4 / obtenir
+                                :tense past
+                                :agent (z5 / nosaltres)
+                                :time (z6 / fa
+                                          :op1 (z7 / any
+                                                   :quantity (z8 / uns)))
+                                :source (z9 / satèl·lit
+                                            :agent_of (z10 / orbitar
+                                                           :theme (z11 / Mart))
+                                            :theme_of (z12 / anomenat
+                                                           :name (z13 / Odyssey))))))
+
+# ::id 2545
+# ::snt El passat octubre, la FAO va organitzar una conferència sobre aquest tema.
+(z1 / organitzar
+    :tense past
+    :agent (z2 / FAO)
+    :theme (z3 / conferència
+               :theme_of (z4 / sobre
+                             :theme (z5 / tema
+                                        :quality (z6 / aquest))))
+    :time (z7 / octubre
+              :quality (z8 / passat)))
+
+# ::id 77205
+# ::snt Per tant, vam utilitzar els raigs ultraviolats A, que no produeixen vitamina D.
+(z1 / per_tant
+    :op2 (z2 / utilitzar
+             :tense past
+             :agent (z3 / nosaltres)
+             :patient (z4 / raigs_ultraviolats_A
+                          :agent_of (z5 / produir
+                                        :polarity -
+                                        :product (z6 / vitamina_D)))))
+
+# ::id 20446
+# ::snt També s'han fet altres coses per salvar els nens en algunes d'aquestes campanyes, com ara donar-los vitamina A o la vacuna del xarampió, o donar-los mosquiteres per evitar la malària.
+(z1 / També
+    :op2 (z2 / fer
+             :aspect perfect
+             :theme (z3 / cosa
+                        :quantity +
+                        :quality (z4 / altre))
+             :purpose (z5 / salvar
+                          :patient (z6 / nen
+                                       :quantity +))
+             :time (z7 / en
+                       :op1 (z8 / campanya
+                                :quantity +
+                                :quality (z9 / algunes)
+                                :context (z10 / aquest)))
+             :example (z11 / o
+                           :op1 (z12 / donar
+                                     :target z6
+                                     :theme (z13 / o
+                                                 :op1 (z14 / vitamina_A)
+                                                 :op2 (z15 / vacuna
+                                                           :context (z16 / xarampió))))
+                           :op2 (z17 / donar
+                                     :target z6
+                                     :theme (z18 / mosquitera
+                                                 :purpose (z19 / evitar
+                                                               :theme (z20 / malària)))))))
+
+# ::id 172506
+# ::snt I si aneu a la botiga de Disney a comprar un vestit de la Vídua Negra, trobareu el Capità Amèrica i l'Increïble Hulk.
+(z1 / and
+    :op2 (z2 / anar
+             :agent (z3 / vosaltres)
+             :target (z4 / botiga
+                         :quality (z5 / Disney))
+             :purpose (z6 / comprar
+                          :agent z3
+                          :theme (z7 / vestit
+                                     :context (z8 / Vídua_Negra)))
+             :condition_of (z9 / trobar
+                               :tense future
+                               :agent z3
+                               :theme (z10 / and
+                                           :op1 (z11 / Capità_Amèrica
+                                                     :context_of z7)
+                                           :op2 (z13 / Increïble_Hulk
+                                                     :context_of z7)))))
+
+# ::id 152764
+# ::snt Però Leonardo no pensava en Vitruvi.
+(z1 / però
+    :op2 (z2 / pensar
+             :tense past
+             :aspect imperfect
+             :polarity -
+             :agent (z3 / Leonardo)
+             :theme (z4 / Vitruvi)))
+
+# ::id 158139
+# ::snt El jove Einstein va escriure aquest enigma?
+(z1 / escriure
+    :tense past
+    :polarity ?
+    :agent (z2 / Einstein
+               :quality (z3 / jove))
+    :result (z4 / enigma
+                :quality (z5 / aquest)))
+
+# ::id 234498
+# ::snt Els meus pares ho van trobar necessari per a la seva pau mental.
+(z1 / trobar
+    :tense past
+    :agent (z2 / pare
+               :quantity +
+               :related (z3 / jo))
+    :theme (z4 / algo)
+    :attribute (z5 / necessari)
+    :purpose (z6 / pau_mental))
+
+# ::id 149798
+# ::snt Pensa en el planeta Venus, al sistema solar.
+(z1 / pensar
+    :agent (z2 / tu)
+    :theme (z3 / planeta
+               :name (z4 / Venus)
+               :location (z5 / sistema_solar)))
+
+# ::id 111807
+# ::snt Als crancs els manquen espines, per això els costa tant caminar per aquest terreny tan accidentat.
+(z1 / mancar
+    :agent (z2 / cranc
+               :quantity +)
+    :theme (z3 / espina
+               :quantity +)
+    :cause_of (z5 / costar
+                  :theme z2
+                  :degree (z6 / tant)
+                  :manner (z7 / caminar)
+                  :location (z8 / terreny
+                                :quality (z9 / accidentat
+                                             :degree (z10 / tan)))
+                  :time (z11 / aquest)))
+
+# ::id 169178
+# ::snt Vaig continuar preguntant-me, vaig agafar el camí equivocat?
+(z1 / continuar
+    :tense past
+    :agent (z2 / jo)
+    :theme (z3 / preguntar
+               :agent z2
+               :target z2
+               :content (z4 / agafar
+                            :tense past
+                            :polarity ?
+                            :agent z2
+                            :theme (z5 / camí_equivocat))))
+
+# ::id 273599
+# ::snt Quan arribi a Austràlia, si hi arribo, hauré remat uns 14.000 o 16.000 quilòmetres.
+(z1 / remar
+    :tense future
+    :aspect perfect
+    :agent (z2 / jo)
+    :extend (z3 / quilòmetre
+                :quantity (z4 / or
+                              :op1 (z5 / 14000)
+                              :op2 (z6 / 16000)))
+    :time (z7 / arribar
+              :theme z2
+              :target (z8 / Austràlia))
+    :condition (z9 / arribar
+                   :theme z2
+                   :target z6))
+
+# ::id 203633
+# ::snt Quin tallatge? És pan comido. M'agraden els reptes.
+(z1 / multi-sentence
+    :snt1 (z2 / tallatge
+              :polarity ?)
+    :snt2 (z3 / ser
+              :theme (z4 / algo)
+              :attribute (z5 / pan_comido))
+    :snt3 (z6 / agradar
+              :experiencer (z7 / jo)
+              :theme (z8 / repte
+                         :quantity +)))
+
+# ::id 50782
+# ::snt Per més que ho intentis recordar, no el tens a punt per sortir, ni tan sols amagat en un racó fosc del ronyó.
+(z1 / intentar
+    :agent (z2 / tu)
+    :theme (z3 / recordar
+               :agent z2
+               :theme (z4 / algo))
+    :regardless (z5 / tenir_a_punt_per_sortir
+                    :polarity -
+                    :theme z2
+                    :content z4
+                    :op1_of (z6 / ni_tan_sols
+                                :op2 (z7 / amagat
+                                         :theme z4
+                                         :location (z8 / racó
+                                                       :quality (z9 / fosc)
+                                                       :part_of (z10 / ronyó
+                                                                     :part_of z2))))))
+
+# ::id 176733
+# ::snt M'he allargat una mica, però enteneu la idea.
+(z1 / allargar
+    :tense past
+    :agent (z2 / jo)
+    :quality (z3 / mica)
+    :concession (z4 / entendre
+                    :agent (z5 / vosaltres)
+                    :theme (z6 / idea)))
+
+# ::id 243127
+# ::snt Això és addictiu, sabeu què vull dir, quan és algú altre qui paga les conseqüències.
+(z1 / multi-sentence
+    :snt1 (z2 / ser
+              :theme (z3 / això)
+              :attribute (z4 / addictiu))
+    :snt2 (z5 / saber
+              :agent (z6 / vosaltres)
+              :theme (z7 / voler_dir
+                         :agent (z8 / jo)
+                         :theme z2))
+    :snt3 (z9 / ser
+              :time_of z2
+              :theme (z10 / algú
+                          :agent_of (z11 / pagar
+                                         :tense future
+                                         :theme (z12 / les_conseqüències)))))
+
+# ::id 75341
+# ::snt Imatges com aquesta del camp de concentració d'Auschwitz han quedat gravades a la nostra consciència durant el segle XX i ens han donat una nova comprensió de qui som, d'on venim i de l'època en què vivim.
+(z1 / and
+    :op1 (z2 / quedar
+             :aspect perfect
+             :theme (z3 / imatge
+                        :quantity +
+                        :example (z4 / aquesta)
+                        :context (z5 / camp_de_concentració
+                                     :location (z6 / Auschwitz)))
+             :attribute (z7 / gravar
+                            :theme z3
+                            :location (z8 / consciència
+                                          :possession_of (z9 / nosaltres)))
+             :time (z10 / segle_XX))
+    :op2 (z11 / donar
+              :aspect perfect
+              :agent z3
+              :target z9
+              :theme (z12 / comprensió
+                          :quality (z13 / nova)
+                          :context (z14 / and
+                                        :op1 (z15 / ser
+                                                  :theme z9
+                                                  :identity (z16 / qui))
+                                        :op2 (z17 / venir
+                                                  :source (z18 / d'on)
+                                                  :agent z9)
+                                        :op3 (z19 / època
+                                                  :time_of (z20 / viure
+                                                                :agent z9))))))
+
+# ::id 135116
+# ::snt La bona notícia és que la NASA té una petita i secreta divisió de plans d'emergència que està tractant aquest tema i intentant preservar el coneixement de l'Orion en cas d'adversitat.
+(z1 / ser
+    :theme (z2 / notícia
+               :quality (z3 / bona))
+    :identity (z4 / tenir
+                  :theme (z5 / NASA)
+                  :possession (z6 / divisió
+                                  :quality (z7 / and
+                                               :op1 (z8 / petita)
+                                               :op2 (z9 / secreta))
+                                  :context (z10 / plan
+                                                :quantity +
+                                                :context (z11 / emergència))
+                                  :agent_of (z12 / and
+                                                 :aspect continuous
+                                                 :op1 (z13 / tractar
+                                                           :theme (z14 / tema
+                                                                       :quality (z15 / aquest)))
+                                                 :op2 (z16 / intentar
+                                                           :aspect continuous
+                                                           :theme (z17 / preservar
+                                                                       :agent z6
+                                                                       :theme (z18 / coneixement
+                                                                                   :context (z19 / Orion))
+                                                                       :condition (z20 / cas
+                                                                                       :context (z21 / adversitat))))))))
+
+# ::id 163044
+# ::snt I al final dels meus vint anys, vaig acabar sent membre de l'Orquestra Simfònica de Barcelona.
+(z1 / and
+    :op2 (z2 / acabar
+             :tense past
+             :theme (z3 / jo)
+             :result (z4 / ser
+                         :theme z3
+                         :identity (z5 / membre
+                                       :membership (z6 / Orquestra_Simfònica_de_Barcelona)))
+             :time (z7 / final
+                       :context (z8 / any
+                                    :quantity (z9 / twenty)
+                                    :age_of z3))))
+
+# ::id 117898
+# ::snt Quina serà l'experiència d'un fan quan pugui ser el Messi corrent pel camp llançant la pilota a la xarxa o el Federer fent un servei a Wimbledon?
+(z1 / ser
+    :tense +
+    :theme (z2 / experiència
+               :possession_of (z3 / fan)
+               :time (z4 / ser
+                         :mode possibility
+                         :agent z3
+                         :idenity (z6 / o
+                                      :op1 (z7 / Messi
+                                               :agent_of (z8 / córrer
+                                                             :aspect +
+                                                             :extend (z9 / camp))
+                                               :agent_of (z10 / llançar
+                                                              :aspect +
+                                                              :patient (z11 / pilota)
+                                                              :target (z12 / xarxa)))
+                                      :op2 (z13 / Federer
+                                                :agent_of (z14 / fer
+                                                               :aspect +
+                                                               :theme (z15 / servei)
+                                                               :location (z16 / Wimbledon))))))
+    :identity ?)
+

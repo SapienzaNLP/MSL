@@ -400,7 +400,7 @@ class BasePLDataModule(pl.LightningDataModule):
         amrs_tok = {"input_ids":[], "attention_mask":[]}
 
         for idx, _ in enumerate(examples_batch['lang']):
-            self.tokenizer.src_lang = self.lan_tokens[examples_batch['lang'][idx]]
+            self.tokenizer.src_lang = examples_batch['lang'][idx]
 
             if "t5" in self.conf.model.model_name_or_path:
                 snt_tok = self.tokenizer(examples_batch['snt'][idx], max_length=self.conf.data.max_source_length, padding=self.padding, truncation=True)
@@ -412,7 +412,7 @@ class BasePLDataModule(pl.LightningDataModule):
 
 
             # Setup the tokenizer for targets
-            self.tokenizer.tgt_lang = self.lan_tokens[examples_batch['lang'][idx]]
+            self.tokenizer.tgt_lang = examples_batch['lang'][idx]
             with self.tokenizer.as_target_tokenizer():
                 amr_tok = self.tokenizer(examples_batch["amr"][idx], max_length=self.max_train_target_length+1, padding=self.padding, truncation=True)
                 amrs_tok["input_ids"].append(amr_tok["input_ids"])

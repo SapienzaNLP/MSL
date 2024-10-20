@@ -1,0 +1,1611 @@
+# ::id 223323
+# ::snt هناك ميكروبات، كما تعلم - تعود إلى الخميرة.
+(z1 / تعلم
+    :experiencer (z2 / أنت
+                     :theme (z4 / هناك
+                                :agent (z5 / ميكروبات
+                                           :quantity +))
+                     :theme (z6 / تعود
+                                :agent z5
+                                :target (z7 / خميرة))))
+
+# ::id 248638
+# ::snt نعود بضع سنوات إلى الوراء.
+(z1 / نعود_إلى_الوراء
+    :extent (z2 / سنة
+                :quantity (z3 / بضع)))
+
+# ::id 284943
+# ::snt إذا دعونا نعود الى السودان.
+(z1 / إذا
+    :op2 (z2 / دعونا
+             :theme (z3 / عودة
+                        :agent (z4 / نحن))
+             :target (z5 / السودان)))
+
+# ::id 276444
+# ::snt أحب هذه الكلمة، "تحرير".
+(z1 / أحب
+    :experiencer (z2 / أنا)
+    :stimulus (z3 / كلمة
+                  :quality (z4 / هذه)
+                  :identity (z5 / تحرير)))
+
+# ::id 138561
+# ::snt الطلاب كانوا 270 شاباً، متوقعين أن يكونوا القادة المستقبليين لأكثر ديكتاتورية وحشية وانعزالًا في العالم.
+(z1 / كان
+    :tense past
+    :theme (z2 / طالب
+               :quantity +)
+    :identity (z3 / شاب
+                  :quantity (z4 / 270))
+    :theme_of (z5 / توقع
+                  :tense past
+                  :aspect perfect
+                  :co_theme (z6 / كون
+                                :tense future
+                                :mode subjunctive
+                                :theme z2
+                                :identity (z7 / قائد
+                                              :quantity +
+                                              :quality (z8 / مستقبلي)
+                                              :membership (z9 / ديكتاتورية
+                                                              :quality (z10 / and
+                                                                            :op1 (z11 / وحشية)
+                                                                            :op2 (z12 / انعزال)
+                                                                            :degree (z13 / أكثر))
+                                                              :location (z14 / عالم))))))
+
+# ::id 68081
+# ::snt وتقول فيها أن العمل يرتبط تقليديا بالرجال.
+(z1 / تقول
+    :agent (z2 / هي)
+    :location (z3 / فيها
+                  :content (z4 / أن
+                               :theme (z5 / عمل)
+                               :theme (z6 / رجال)
+                               :manner (z7 / تقليديا))))
+
+# ::id 39410
+# ::snt كنا سنتناول الغداء مع رئيس البلدية ونتناول العشاء مع أهم الأشخاص في مالقة.
+(z1 / and
+    :op1 (z2 / كنا
+             :tense past
+             :agent (z3 / نحن)
+             :theme (z4 / تناول_الغداء
+                        :agent z3
+                        :accompanier (z5 / رئيس_البلدية)))
+    :op2 (z6 / تناول_العشاء
+             :agent z3
+             :accompanier (z7 / أهم_الأشخاص
+                              :location (z8 / مالقة))))
+
+# ::id 39404
+# ::snt في إحدى الحالات، سافرتُ برفقة فريق إلى مالقة لأن الأمر كان مختوما بالأختام الرسمية المختلفة من المدينة، وكانوا يريدون مني الحضور وبناء مبنىً في مينائهم.
+(z1 / سافر
+    :tense past
+    :agent (z2 / أنا)
+    :accompanier (z3 / فريق)
+    :target (z4 / مالقة)
+    :time (z5 / إحدى_الحالات)
+    :cause (z6 / and
+               :op1 (z7 / كان
+                        :tense past
+                        :theme (z8 / أمر)
+                        :attribute (z9 / مختوم
+                                       :instrument (z10 / أختم
+                                                        :mode +)
+                                       :location (z11 / مدينة
+                                                      :coref z4)
+                                       :quality (z12 / رسمي
+                                                     :degree (z13 / مختلف))))
+               :op2 (z14 / يريدون
+                         :tense past
+                         :agent (z15 / هم)
+                         :target (z16 / حضور
+                                      :agent z2)
+                         :target (z17 / بناء
+                                      :agent z2
+                                      :theme (z18 / مبنى)
+                                      :location (z19 / ميناء
+                                                     :possession_of z15)))))
+
+# ::id 250177
+# ::snt قلت: 'هناك شكل خاص من الهلوسة البصرية قد يصاحب تدهور الرؤية أو العمى.
+(z1 / قال
+    :tense past
+    :agent (z2 / انا)
+    :theme (z3 / هناك
+               :theme (z4 / شكل
+                          :quality (z5 / خاص)
+                          :context (z6 / هلوسة_بصرية)
+                          :agent_of (z7 / صاحب
+                                        :mode possibility
+                                        :tense future
+                                        :theme (z8 / or
+                                                   :op1 (z9 / تدهور
+                                                            :agent (z10 / رؤية))
+                                                   :op2 (z11 / عمى))))))
+
+# ::id 57214
+# ::snt واحد، إثنان، ثلاثة، أربعة، خمسة، ستة و سبعة.
+(z1 / and
+    :op1 (z2 / واحد)
+    :op2 (z3 / إثنان)
+    :op3 (z4 / ثلاثة)
+    :op4 (Z5 / أربعة)
+    :op5 (z6 / خمسة)
+    :op6 (z7 / ستة)
+    :op7 (z8 / سبعة))
+
+# ::id 113575
+# ::snt عامل المسرح: بالتوفيق
+(z1 / قال
+    :agent (z2 / عامل_المسرح)
+    :theme (z3 / بالتوفيق))
+
+# ::id 113575_b
+# ::snt عامل المسرح: حظاً سعيداً.
+(z1 / قال
+    :agent (z2 / عامل_المسرح)
+    :theme (z3 / حظ_سعيد))
+
+# ::id 169020
+# ::snt ومع ذلك، 40 في المئة من الآباء اليوم يختارون سحب أطفالهم من المدارس الحكومية ويدفعون من جيوبهم لوضعهم في مدارس خاصة.
+(z1 / and
+    :op2 (z2 / مع_ذلك
+             :op2 (z3 / ختار
+                      :tense past
+                      :agent (z4 / أب
+                                 :quantity (z5 / 40%))
+                      :time (z6 / اليوم)
+                      :theme (z7 / و
+                                 :op1 (z8 / سحب
+                                          :agent z4
+                                          :theme (z9 / ابن
+                                                     :quantity +
+                                                     :related z4)
+                                          :source (z10 / مدرسة
+                                                       :quantity +
+                                                       :quality (z11 / حكومية))))
+                      :op2 (z12 / دفع
+                                :agent z4
+                                :manner (z13 / من_جيب
+                                             :possession_of z4)
+                                :purpose (z14 / وضع
+                                              :theme z9
+                                              :source (z15 / مدرسة
+                                                           :quantity +
+                                                           :quality (z16 / خاصة)))))))
+
+# ::id 213712
+# ::snt في الولايات المتحدة، أسمع كثيرًا عبارة "بالطبع يجب أن نتعامل مع المشاكل الواضحة، ولكن إذا كنت لا ترى ما هو أمامك، فأنت إما غبي أو جاهل.
+(z1 / أسمع
+    :experiencer (z2 / أنا)
+    :frequency (z3 / كثيرا)
+    :location (z4 / الولايات_المتحدة)
+    :content (z5 / تعامل
+                 :mode recomend
+                 :agent (z6 / نحن)
+                 :target (z7 / مشكلة
+                             :quantity +
+                             :quality (z8 / واضحة))
+                 :quality (z9 / بالطبع)
+                 :concession (z10 / رأى
+                                  :polarity -
+                                  :experiencer (z11 / أنت)
+                                  :theme (z12 / شيء
+                                              :theme_of (z13 / أمام
+                                                             :op1 z11))
+                                  :condition_of (z14 / كنت
+                                                     :theme z11
+                                                     :attribute (z15 / and)
+                                                     :op1 (z16 / غبي)
+                                                     :op2 (z17 / جاهل)))))
+
+# ::id 28948
+# ::snt لذلك، يعاني النموذج الآسيوي الشرقي من تحيز انتقاء ضخم، يُعرف باسم الاختيار على متغير تابع، وهو ما نوصي طلابنا دائمًا بتجنبه.
+(z1 / يعاني
+    :theme (z2 / نموذج
+               :context (z3 / آسيوي
+                            :context (z4 / شرقي)))
+    :attribute (z5 / تحيز
+                   :quality (z6 / ضخم)
+                   :context (z7 / انتقاء)
+                   :identity (z8 / اختيار
+                                 :context (z9 / متغير
+                                              :theme (z10 / تابع))))
+    :identity (z11 / شيء
+                   :theme_of (z12 / يعرف
+                                  :content (z13 / اسم
+                                                :theme z8))
+                   :content (z14 / نوصي
+                                 :agent (z15 / نحن)
+                                 :target (z16 / طالب
+                                              :quantity +
+                                              :related z15)
+                                 :content (z17 / تجنب
+                                               :theme z8)
+                                 :time (z18 / دائما))))
+
+# ::id 31996
+# ::snt وفي دراسات أجريناها للتو في مختبري، فقد أظهرنا أن الأطفال في الرابعة من العمر يتفوقون فعليًا على البالغين في اكتشاف فرضية غير محتملة عندما نكلفهم بنفس المهمة بالضبط
+(z1 / and
+    :op2 (z2 / أظهر
+             :aspect perfect
+             :agent (z3 / نحن)
+             :theme (z4 / تفوق
+                        :tense past
+                        :aspect perfect
+                        :agent (z5 / أطفال
+                                   :context (z6 / رابعة
+                                                :source (z7 / عمر))))
+             :target (z8 / بالغ
+                         :quantity +)
+             :quality (z9 / فعليا)
+             :context (z10 / اكتشاف
+                           :theme (z11 / فرضية
+                                       :quality (z12 / غيرمحتمل))
+                           :time (z13 / نكلف
+                                      :agent z3
+                                      :target z5
+                                      :theme (z14 / مهمة
+                                                  :quality (z15 / نفس)
+                                                  :degree (z16 / بالضبط))))
+             :location (z17 / دراسة
+                            :quantity +
+                            :theme_of (z18 / أجري
+                                           :tense past
+                                           :aspect perfect
+                                           :agent z3
+                                           :location (z19 / مختبر
+                                                          :related (z20 / أنا))))))
+
+# ::id 257951
+# ::snt الناس الذين يصنعون الأحذية ينامون ويستيقظون في الصباح وكل الأحذية مصنوعة لهم سحرياً.
+(z1 / and
+    :op1 (z2 / صنع_أحذية
+             :agent (z3 / شخص
+                        :quantity +))
+    :op2 (z4 / نام
+             :agent z3)
+    :op3 (z5 / استيقظ
+             :experiencer z3
+             :time (z6 / صباح))
+    :op4 (z7 / صنع
+             :product (z8 / أحذية
+                          :quantity (z9 / كل))
+             :target z3
+             :manner (z10 / سحري)))
+
+# ::id 89005
+# ::snt لوني المفضل الآن هو الأزرق، لكني ما زلت مثليًا. هذا يظهر تأثير والدتي وحدوده.
+(z1 / multi-sentence
+    :snt1 (z2 / كون
+              :theme (z3 / لون
+                         :quality (z4 / مفضل
+                                      :related (z5 / أنا)))
+              :identity (z6 / أزرق)
+              :time (z7 / الآن)
+              :concession (z8 / ما_زال
+                              :theme z5
+                              :attribute (z9 / مثلي)))
+    :snt2 (z10 / يظهر
+               :agent z2
+               :theme (z11 / and
+                           :op1 (z12 / تأثير
+                                     :related (z13 / والدة
+                                                   :related z5))
+                           :op2 (z14 / حد))))
+
+# ::id 294047
+# ::snt ثم في عام 2002، عندما كانت الأمور تسير على ما يرام، حدثت ظاهرة تبييض المرجان في جزر فينيكس.
+(z1 / ثم
+    :op2 (z2 / حدث
+             :tense past
+             :theme (z3 / ظاهرة_تبييض_المرجان)
+             :location (z4 / جزر_فينيكس)
+             :time (z5 / عام_2002
+                       :time (z6 / تسير
+                                 :tense past
+                                 :aspect imperfect
+                                 :theme (z7 / أمور)
+                                 :manner (z8 / كانت
+                                             :aspect imperfect
+                                             :mood indicative
+                                             :theme z7
+                                             :manner (z9 / على_ما_يرام))))))
+
+# ::id 97764
+# ::snt استدر و، لنرى. إذا أعطيتك شيئًا يخصني، هذا شيء أملكه، بطاقة بوكر
+(z1 / multi-sentence
+    :snt1 (z2 / and
+              :op1 (z3 / استدر
+                       :mode imperative
+                       :agent (z4 / أنت))
+              :op2 (z5 / رؤي
+                       :mode imperative
+                       :experiencer (z6 / نحن)))
+    :snt2 (z7 / أعطي
+              :tense past
+              :agent (z8 / أنا)
+              :theme (z9 / شيء
+                         :possession_of (z10 / يخص
+                                             :tense past
+                                             :theme z8))
+              :target z4
+              :condition_of (z12 / أملك
+                                 :aspect perfect
+                                 :theme z8
+                                 :identity (z13 / شيء
+                                                :possession_of (z14 / أنا))
+                                 :identity (z15 / بطاقة_بوكر))))
+
+# ::id 99153
+# ::snt لا أفهم لماذا يحدث هذا مراراً وتكراراً.
+(z1 / فهم
+    :polarity -
+    :experiencer (z2 / أنا)
+    :theme (z3 / حدوث
+               :theme (z4 / هذا)
+               :quality (z5 / مرارا_وتكرارا))
+    :cause (z6 / لماذا))
+
+# ::id 99133
+# ::snt قصته هي قصتهم.
+(z1 / يكون
+    :theme (z2 / قصة
+               :possession_of (z3 / هو))
+    :identity (z4 / قصة
+                  :possession_of (z5 / هم)))
+
+# ::id 98945
+# ::snt أنت مخطئ لأنها العكس.
+(z1 / مخطئ
+    :theme (z2 / أنت)
+    :cause (z3 / تكون
+               :theme (z4 / هي)
+               :identiy (z5 / عكس)))
+
+# ::id 21327
+# ::snt هذا صحيح بغض النظر عن ما تتحدث عنه.
+(z1 / صحيح
+    :regardless (z2 / تتحدث
+                    :aspect continuous
+                    :agent (z3 / انت)
+                    :content (z4 / ما)
+                    :content (z6 / عنه)))
+
+# ::id 126209
+# ::snt وقلبت الصفحة فوجدت التالي.
+(z1 / قلب
+    :tense past
+    :agent (z2 / أنا)
+    :patient (z3 / صفحة)
+    :result (z4 / فوجت
+                :tense past
+                :agent z2
+                :theme (z5 / تالي)))
+
+# ::id 27807
+# ::snt تعلم ، ولكن من الواضح أن هناك فكرة مفادها أنه إذا أخرجت السجناء من هذا المكان ، فسوف يختطفون سائق دراجة نارية من الشارع ويأكلون كبده.
+(z1 / تعلم
+    :experiencer (z2 / انت)
+    :concession (z3 / فكرة
+                    :theme (z4 / أخرج
+                               :agent z2
+                               :patient (z5 / سجين
+                                            :quantity +)
+                               :source (z6 / مكان
+                                           :quality (z7 / هذا))
+                               :condition_of (z8 / ختطف
+                                                 :mood conditional
+                                                 :agent z5
+                                                 :theme (z9 / سائق
+                                                            :context (z10 / دراجة_نارية)
+                                                            :source (z11 / شارع))
+                                                 :theme (z12 / أكل
+                                                             :mood conditional
+                                                             :agent z5
+                                                             :patient (z13 / كبد
+                                                                           :possession_of z9))))
+                    :quality (z14 / من
+                                  :context (z15 / واضح))))
+
+# ::id 181621
+# ::snt أصوات الفتيات والنساء، وأصوات حلفائنا مقيدة بطرق تضرنا شخصيا واقتصاديا ومهنيا وسياسيا
+(z1 / مقيد
+    :patient (z2 / and
+                 :op1 (z3 / صوت
+                          :quantity +
+                          :context (z4 / و
+                                       :op1 (z5 / فتاة
+                                                :quantity +)
+                                       :op2 (z6 / نساء
+                                                :quantity +)))
+                 :op2 (z7 / صوت
+                          :quantity +
+                          :context (z8 / حليف
+                                       :quantity +
+                                       :related (z9 / نحن))))
+    :manner (z10 / تضر
+                 :theme z2
+                 :experiencer (z11 / نحن
+                                   :context (z12 / أصوات_حلفائنا))
+                 :theme (z13 / شخصيا
+                             :quality (z14 / and
+                                           :op1 (z15 / اقتصاديا)
+                                           :op2 (z16 / مهنيا)
+                                           :op3 (z17 / سياسيا)))))
+
+# ::id 173170
+# ::snt مرةً شعرت بأني رأيت وحش الجبال، لكنه كان كلب راعي ألماني.
+(z1 / شعور
+    :tense past
+    :aspect perfect
+    :agent (z2 / أنا)
+    :theme (z3 / رأى
+               :tense past
+               :experiencer z2
+               :stimulus (z4 / وحش_الجبال))
+    :time (z5 / مرة)
+    :concession (z7 / كان
+                    :tense past
+                    :aspect imperfect
+                    :mood indicative
+                    :theme (z8 / هو)
+                    :identity (z9 / كلب_راعي_ألماني)))
+
+# ::id 52318
+# ::snt نتحدث عن كتاب من 900 صفحة غريب ومثير للاهتمام في نفس الوقت، ويتميز بمشهد ذروة يخرج فيه حشد من الأشخاص الصغار من فم فتاة نائمة ويؤدي إلى انفجار كلب راعي ألماني.
+(z1 / نتحدث
+    :agent (z2 / نحن)
+    :context (z3 / كتاب
+                 :composition (z4 / صفحة
+                                  :quantity (z5 / 900))
+                 :quality (z6 / من
+                              :context (z7 / غريب
+                                           :quality (z8 / مثير
+                                                        :degree (z9 / للاهتمام))
+                                           :time (z10 / نفس
+                                                      :quality (z11 / وقت))))
+                 :quality (z12 / يتميز
+                               :theme (z13 / مشهد
+                                           :quality (z14 / ذروة)
+                                           :identity (z15 / حشد
+                                                          :composition (z16 / أشخاص
+                                                                            :quantity +
+                                                                            :quality (z17 / صغار)))
+                                           :source (z18 / فم
+                                                        :part_of (z19 / فتاة
+                                                                      :quality (z20 / نائمة))))
+                               :result (z21 / انفجار
+                                            :agent z16
+                                            :patient (z22 / كلب
+                                                          :quality (z23 / راعي
+                                                                        :type (z24 / ألماني)))))))
+
+# ::id 172429
+# ::snt لماذا كل شخصية تتنكر بها ابنتي، سواء كانت جروت أو الهلك الخارق أو أوبي وان كينوبي أو دارث مول، هي ذكر؟
+(z1 / multi-sentence
+    :snt1 (z2 / تتنكر
+              :aspect imperfect
+              :agent (z3 / ابنتي)
+              :theme (z4 / شخصية
+                         :quality (z5 / كل)
+                         :theme_of (z6 / تتنكر
+                                       :patient z3)
+                         :example (z7 / or
+                                      :op1 (z8 / جروت)
+                                      :op2 (z9 / الهلك_الخارق)
+                                      :op3 (z10 / أوبي_وان_كينوبي)
+                                      :op4 (z11 / دارث_مول))))
+    :snt2 (z12 / ?
+               :cause (z13 / تتنكر
+                           :patient ابنتي
+                           :theme شخصية
+                           :attribute (z14 / ذكر))))
+
+# ::id 170681
+# ::snt وسيلة ثانية للحصول على الطاقة هي الرياح الشمسية.
+(z1 / ان
+    :theme (z2 / وسيلة_ثانية_حصول_طاقة)
+    :identity (z3 / رياح_شمسية))
+
+# ::id 174325
+# ::snt هذا يعيدني إلى حيث بدأت.
+(z1 / يعيد
+    :agent (z2 / هذا)
+    :theme (z3 / أنا)
+    :target (z4 / بدأ
+                :tense past
+                :theme z3))
+
+# ::id 172541
+# ::snt وهذا ليس خطأ مايك، هذا خطأنا.
+(z1 / multi-sentence
+    :snt1 (z2 / و
+              :op2 (z3 / كون
+                       :polarity -
+                       :theme (z4 / هذا)
+                       :identity (z5 / خطأ
+                                     :related (z6 / مايك))))
+    :snt2 (z7 / كون
+              :theme z4
+              :identiy (z8 / خطأ
+                           :related (z9 / نحن))))
+
+# ::id 115980
+# ::snt كمواطنين، أناشدكم بعدم التخلي عن أي طفل.
+(z1 / أناشد
+    :agent (z2 / أنا)
+    :target (z3 / أنتم)
+    :theme (z4 / تخلي
+               :polarity -
+               :agent z3
+               :theme (z5 / طفل
+                          :quality (z6 / أي)))
+    :condition (z7 / مواطن
+                   :quantity +
+                   :identity_of z2))
+
+# ::id 149416
+# ::snt تقريباً مثل ما تراه في مرض باركنسون.
+(z1 / تقريبا
+    :op2 (z2 / مثل
+             :op1 (z3 / تراه
+                      :mode conditional
+                      :experiencer (z4 / انت)
+                      :location (z5 / مرض_باركنسون))))
+
+# ::id 22750
+# ::snt كان قلبي يضرب بسرعة، ورأسي تدور، وأنا أحاول فهم ما الذي يقف أمامي.
+(z1 / and
+    :op1 (z2 / كان
+             :aspect perfect
+             :theme (z3 / قلب
+                        :part_of (z4 / أنا))
+             :attribute (z5 / يضرب
+                            :aspect imperfect
+                            :manner (z6 / بسرعة)))
+    :op2 (z7 / تدور
+             :aspect imperfect
+             :theme (z8 / رأس
+                        :part_of z4))
+    :op3 (z9 / أحاول
+             :aspect imperfect
+             :agent z4
+             :theme (z10 / فهم
+                         :theme (z11 / ما
+                                     :agent_of (z12 / يقف
+                                                    :aspect imperfect
+                                                    :location (z13 / أمام
+                                                                   :op1 z4))))))
+
+# ::id 162510
+# ::snt في كلتا الحالتين، توجه القيود عملية اتخاذ القرار لضمان تحقيق الأهداف.
+(z1 / توجيه
+    :agent (z2 / قيد
+               :quantity +)
+    :theme (z3 / عملية_اتخاذ_القرار)
+    :purpose (z4 / ضمان
+                 :theme (z5 / تحقيق
+                            :theme (z6 / أهداف)))
+    :context (z7 / حالة
+                 :quality (z8 / كلتا)))
+
+# ::id 266251
+# ::snt إنها معروفة جداً لدى المهندسين، ولكنها ليست معروفة لدى علماء الأحياء.
+(z1 / and
+    :op1 (z2 / إن
+             :attribute (z3 / معروفة
+                            :theme (z4 / إنها)
+                            :experiencer (z5 / مهندس
+                                             :quantity +)
+                            :degree (z6 / جدا)))
+    :op2 (z7 / لكن
+             :attribute (z8 / معروفة
+                            :polarity -
+                            :theme z4
+                            :experiencer (z9 / عالم_الأحياء))))
+
+# ::id 98911
+# ::snt إنه رفیق السکن الذي لا يمكن طردها، إنها الصوت الذي لا يمكن تجاهله.
+(z1 / multi-sentence
+    :snt1 (z2 / be
+              :theme (z3 / انه)
+              :identity (z4 / رفیق_السکن
+                            :patient_of (z5 / طرد
+                                            :mode no_probability
+                                            :agent (z6 / انت))))
+    :snt2 (z7 / be
+              :theme z3
+              :identity (z8 / صوت
+                            :stimulus_of (z9 / تجاهل
+                                             :mode no_probability
+                                             :experiencer z6))))
+
+# ::id 70804
+# ::snt إذا ارتكبت خطأ، لقد فشلت. كيف يجب أن التعامل معك؟
+(z1 / multi-sentence
+    :snt1 (z2 / فشل
+              :tense past
+              :agent (z3 / أنت)
+              :condition (z4 / ارتكب
+                             :tense past
+                             :agent z3
+                             :theme (z5 / خطأ)))
+    :snt2 (z6 / يجب
+              :mood recomend
+              :agent (z7 / أنت)
+              :theme (z8 / التعامل
+                         :مع z7)
+              :manner (z9 / كيف)))
+
+# ::id 250380
+# ::snt أعتقد أنني قبل أن أقوم بعروض 'محادثات المهبل' لم أكن أؤمن بالسعادة.
+(z1 / أعتقد
+    :agent (z2 / أنا)
+    :theme (z3 / كان
+               :tense past
+               :time (z4 / قبل
+                         :op1 (z5 / أقوم
+                                  :tense past
+                                  :agent z2
+                                  :theme (z6 / عروض_محادثات_المهبل))))
+    :attribute (z7 / أؤمن
+                   :tense past
+                   :aspect imperfect
+                   :polarity -
+                   :agent z2
+                   :theme (z8 / سعادة)))
+
+# ::id 3787
+# ::snt ذهبت إلى مهمة في السجن كضابط شرطة
+(z1 / ذهب
+    :tense past
+    :agent (z2 / أنا)
+    :target (z3 / مهمة
+                :location (z4 / سجن))
+    :manner (z5 / شرطة_ضابط))
+
+# ::id 115994
+# ::snt تعني العمل القسري
+(z1 / تعني
+    :theme (z2 / it)
+    :content (z3 / العمل_القسري))
+
+# ::id 120276
+# ::snt ماذا نقصد بكلمة جيد؟
+(z1 / نقصد
+    :agent (z2 / نحن)
+    :theme (z3 / كلمة_جيد)
+    :content (z4 / ؟))
+
+# ::id 115195
+# ::snt طوال حياتك، تعيش حياتك هنا في منتصف سلسلة الخبرة البشرية، حيث كل شيء طبيعي ومطمئن ومنتظم، لكن الفشل يطرحك فجأة إلى هناك في ظلمة اليأس. النجاح يطرحك بنفس القوة ولكن بعيداً بنفس القوة إلى ضوء الشهرة والاعتراف والثناء.
+(z1 / multi-sentence
+    :snt1 (z2 / تعيش
+              :tense future
+              :agent (z3 / انت)
+              :theme (z4 / حياتك)
+              :location (z5 / منتصف
+                            :location (z6 / سلسلة
+                                          :part_of (z7 / خبرة
+                                                       :context (z8 / بشرية))
+                                          :quality (z9 / and
+                                                       :op1 (z10 / طبيعي)
+                                                       :op2 (z11 / مطمئن)
+                                                       :op3 (z12 / منتظم))))
+              :time (z13 / طوال
+                         :op1 (z14 / حياتك))
+              :concession (z15 / فشل
+                               :agent z3
+                               :result (z16 / ظلمة
+                                            :context (z17 / يأس))
+                               :manner (z18 / فجأة)))
+    :snt2 (z19 / نجاح
+               :agent z3
+               :result (z20 / ضوء
+                            :context (z21 / و
+                                          :op1 (z22 / شهرة)
+                                          :op2 (z23 / اعتراف)
+                                          :op3 (z24 / ثناء)))
+               :manner (z25 / بنفس
+                            :degree (z26 / قوة
+                                         :compared z15)
+                            :opposite (z27 / عيدا
+                                           :degree z26)
+                            :location (z28 / هناك
+                                           :coref z15))))
+
+# ::id 187847
+# ::snt القوارب، والسونار العسكري، والبناء تحت الماء، والمسح الزلزالي للنفط يحدثون بشكل متكرر وقد يتداخلون مع تواصل الحيتان.
+(z1 / حدث
+    :theme (z2 / and
+               :op1 (z3 / قارب
+                        :quantity +)
+               :op2 (z4 / سونار
+                        :quality (z5 / عسكري))
+               :op3 (z6 / بناء
+                        :location (z7 / تحت
+                                      :op (z8 / ماء)))
+               :op4 (z9 / مسح
+                        :quality (z10 / زلزالي)
+                        :purpose (z11 / نفط)))
+    :frequency (z12 / متكرر)
+    :cause_of (z13 / تداخل
+                   :mode possibility
+                   :agent z2
+                   :target (z14 / تواصل
+                                :related (z15 / حوت
+                                              :quantity +))))
+
+# ::id 86863
+# ::snt كنت مشمئزاً جداً لأني أنفقت أموالي على هذا الشيء.
+(z1 / كنت
+    :aspect perfect
+    :agent (z2 / أنا)
+    :attribute (z3 / مشمئز
+                   :degree (z4 / جدا))
+    :cause (z5 / أنفق
+               :aspect perfect
+               :agent z2
+               :patient (z6 / أموال
+                            :possession_of z2)
+               :target (z7 / شيء
+                           :quality (z8 / هذا))))
+
+# ::id 207712
+# ::snt ¿Qué؟' تعني 'ماذا؟'
+(z1 / تعني
+    :theme (z2 / qué)
+    :content (z3 / ماذا))
+
+# ::id 144972
+# ::snt الوقوع في الحب هو الجزء السهل
+(z1 / يكون
+    :theme (z2 / الوقوع_في_الحب)
+    :identity (z3 / جزء
+                  :quality (z4 / سهل)))
+
+# ::id 36272
+# ::snt اخترعت العقول البشرية ليس كونًا إدراكيًا واحدًا ، بل 7000 كون - هناك 7000 لغة منطوقة حول العالم.
+(z1 / multi-sentence
+    :snt1 (z2 / اخترع
+              :aspect perfect
+              :agent (z3 / عقل
+                         :part_of (z4 / بشرية))
+              :product (z5 / كون
+                           :quality (z6 / إدراكي)
+                           :quantity (z7 / 1
+                                         :polarity -
+                                         :contrast (z8 / 7000))))
+    :snt2 (z9 / there_be
+              :theme (z10 / لغة
+                          :quantity (z11 / 7000)
+                          :quality (z12 / منطوق))
+              :location (z13 / عالم
+                             :quality (z14 / حول))))
+
+# ::id 36273
+# ::snt ويمكننا إنشاء المزيد -- اللغات بالطبع كائنات حية، أشياء يمكننا تحسينها وتغييرها لتناسب احتياجاتنا.
+(z1 / multi-sentence
+    :snt1 (z2 / إنشاء
+              :mode possibility
+              :agent (z3 / نحن)
+              :product (z4 / المزيد))
+    :snt2 (z5 / كون
+              :theme (z6 / لغة
+                         :quantity +)
+              :attribute (z7 / كائن
+                             :quantity +
+                             :quality (z8 / حي)
+                             :patient_of (z9 / and
+                                             :op1 (z10 / تحسين
+                                                       :agent z3
+                                                       :patient z6)
+                                             :op2 (z11 / تغيير
+                                                       :agent z3
+                                                       :patient z6)
+                                             :purpose (z12 / تناسب
+                                                           :agent z3
+                                                           :patient z6
+                                                           :target (z13 / احتياج
+                                                                        :quantity +
+                                                                        :related z3))))
+              :quality (z14 / بالطبع)))
+
+# ::id 36273_b
+# ::snt لقد ابتكرت عقول البشر ليس كوناً إدراكيًا واحداً، بل 7000 كون معرفي، هناك 7000 لغة مختلفة حول العالم، ويمكننا إبتكار المزيد، اللغات بالطبع أشياء حية، أشياء يمكننا تحسينها وتغييرها لتناسب احتياجاتنا.
+(z1 / multi-sentence
+    :snt1 (z2 / ابتكر
+              :aspect perfect
+              :agent (z3 / عقل
+                         :part_of (z4 / بشر))
+              :product (z5 / كون
+                           :quality (z6 / إدراكي)
+                           :quantity (z7 / 1
+                                         :polarity -
+                                         :contrast (z8 / 7000))))
+    :snt2 (z9 / ابتكر
+              :mode possibility
+              :agent (z10 / نحن)
+              :product (z11 / المزيد
+                            :degree (z12 / كثير)
+                            :coref (z13 / لغة
+                                        :quantity +
+                                        :quality (z14 / مختلفة)
+                                        :location (z15 / حول
+                                                       :theme (z16 / عالم)))))
+    :snt3 (z17 / ابتكر
+               :mode possibility
+               :agent (z18 / نحن)
+               :product (z19 / لغة
+                             :quantity +)
+               :snt_of (z20 / أشياء
+                            :quantity +
+                            :quality (z21 / حية)
+                            :patient_of (z22 / and
+                                             :mode possibility
+                                             :op1 (z23 / تحسين
+                                                       :agent z18)
+                                             :op2 (z24 / تغيير
+                                                       :agent z18)
+                                             :purpose (z25 / تناسب
+                                                           :agent z18
+                                                           :patient z21
+                                                           :target (z26 / احتياج
+                                                                        :related z18))))
+               :quality (z27 / بالطبع)))
+
+# ::id 273954
+# ::snt التكنولوجيا موجودة، والبنية التحتية موجودة، ولكن لا يحدث شيء.
+(z1 / and
+    :op1 (z2 / موجودة
+             :theme (z3 / التكنولوجيا))
+    :op2 (z4 / موجودة
+             :theme (z5 / البنية_التحتية))
+    :concession (z6 / حدث
+                    :polarity -
+                    :theme (z7 / شيء)))
+
+# ::id 32369
+# ::snt وحسب مجلة فورتشن، يبلغ ثروته 700 مليون دولار.
+(z1 / حسب
+    :source (z2 / مجلة
+                :name (z3 / فورتشن))
+    :content (z4 / بلغ
+                 :theme (z5 / ثروته)
+                 :quantity (z6 / 700_مليون
+                               :unit (z7 / دولار))))
+
+# ::id 148514
+# ::snt كيف نظهر مدى اهتمامنا بقلق جراد البحر؟
+(z1 / نظهر
+    :agent (z2 / نحن)
+    :theme (z3 / مدى
+               :degree_of (z4 / اهتمام
+                              :experiencer z2
+                              :stimulus (z5 / قلق
+                                            :context (z6 / جراد_البحر))))
+    :manner (z7 / ؟))
+
+# ::id 196070
+# ::snt هذا الشاب هناك، وقف لمدة خمس دقائق، بلا حراك.
+(z1 / وقف
+    :tense past
+    :theme (z2 / شاب
+               :quality (z3 / هذا))
+    :location (z4 / هناك)
+    :extent (z5 / دقيقة
+                :quantity (z6 / خمس))
+    :manner (z7 / حراك
+                :polarity -))
+
+# ::id 34542
+# ::snt قال إننا مخلوقات اجتماعية، لذا نشارك الآخرين مشاعرهم.
+(z1 / قال
+    :tense past
+    :agent (z2 / هو)
+    :content (z3 / كون
+                 :theme (z4 / نحن)
+                 :identity (z5 / مخلوق
+                               :quantity +
+                               :quality (z6 / اجتماعي))
+                 :result (z7 / شارك
+                             :agent z4
+                             :theme (z8 / مشاعر
+                                        :quantity +
+                                        :possession_of (z9 / آخر
+                                                           :quantity +))
+                             :theme_of (z10 / نحن))))
+
+# ::id 149043
+# ::snt نقول: "تمطر القطط والكلاب"، "كنت أنتظر سيف داموكليس".
+(z1 / نقول
+    :agent (z2 / نحن)
+    :content (z3 / and
+                 :op1 (z4 / تمطر_القطط_والكلاب)
+                 :op2 (z5 / كنت
+                          :tense past
+                          :aspect imperfect
+                          :agent (z6 / أنت)
+                          :theme (z7 / انتظر
+                                     :agent z6
+                                     :theme (z8 / سيف_داموكليس)))))
+
+# ::id 149052
+# ::snt لا نفكر حقا في قطرة المطر بحجم قطة أو كلب عندما نسمع "تمطر القطط والكلاب"، لكن بمجرد أن أفعل ذلك، أدرك أنني متأكد بأن الكلب يجب أن يكون صغيرا -- كوكر سبانيل أو دشهند -- وليس جولدن ريتريفير أو نيوفاوندلاند.
+(z1 / فكر
+    :polarity -
+    :agent (z2 / نحن)
+    :theme (z3 / قطرة_مطر
+               :context (z4 / حجم
+                            :context (z5 / قطة
+                                         :op1 (z6 / كلب))))
+    :time (z7 / سمع
+              :experiencer z2
+              :content (z8 / تمطر_القطط_والكلاب))
+    :quality (z9 / حقا)
+    :concession (z10 / افعل
+                     :agent z2
+                     :theme z1
+                     :time (z11 / مجرد
+                                :op1 (z12 / أفعل
+                                          :agent z2
+                                          :theme z1)))
+    :result (z13 / أدرك
+                 :experiencer z2
+                 :stimulus (z14 / متأكد
+                                :experiencer z2
+                                :attribute (z15 / صغير
+                                                :degree (z16 / أنني)
+                                                :context (z17 / كلب
+                                                              :coref z6
+                                                              :example (z18 / or
+                                                                            :op1 (z19 / كوكر_سبانيل)
+                                                                            :op2 (z20 / دشهند)
+                                                                            :contrast (z21 / or
+                                                                                           :op1 (z22 / جولدن_ريتريفير)
+                                                                                           :op2 (z23 / نيوفاوندلاند))))))))
+
+# ::id 229253
+# ::snt لذلك في ذلك الوقت، كانت فرصتي لأن أطلب من المبتكرين خارج مجتمع الأطر الطبية التقليدية أن يأتوا ويضعوا مواهبهم في العلم والفن في بناء الساقين.
+(z1 / لذلك
+    :op2 (z2 / كان
+             :tense past
+             :theme (z3 / فرصة
+                        :possession_of (z4 / أنا))
+             :time (z5 / في_ذلك_الوقت)
+             :identity (z6 / فرصة
+                           :possession_of (z7 / أنا)
+                           :context (z8 / طلب
+                                        :agent z4
+                                        :theme (z9 / مبتكر
+                                                   :quantity +
+                                                   :quality (z10 / خارج
+                                                                 :context (z11 / مجتمع
+                                                                               :context (z12 / طر
+                                                                                             :quantity +
+                                                                                             :quality (z13 / طبي
+                                                                                                           :quality (z14 / تقليدي)))))
+                                                   :purpose (z15 / أن
+                                                                 :agent z9
+                                                                 :manner (z16 / يضع
+                                                                              :agent z9
+                                                                              :theme (z17 / موهبة
+                                                                                          :possession_of z9)
+                                                                              :target (z18 / بناء
+                                                                                           :context (z19 / ساق
+                                                                                                         :quantity +))))))
+                           :quality (z20 / علم
+                                         :context (z21 / فن)))))
+
+# ::id 191591
+# ::snt إنه عملية هوائية، تحتاج إلى الأكسجين، وتحتاج إلى الرطوبة.
+(z1 / إنه
+    :theme (z2 / عملية
+               :quality (z3 / هوائية))
+    :result (z4 / and
+                :op1 (z5 / تحتاج
+                         :agent z2
+                         :theme (z6 / أكسجين))
+                :op2 (z7 / تحتاج
+                         :agent z2
+                         :theme (z8 / رطوبة))))
+
+# ::id 194671
+# ::snt ولكن في أغسطس 1982، تخلفلت المكسيك عن سداد ديونها، وتبعتها عدة دول أخرى.
+(z1 / ولكن
+    :op2 (z2 / and
+             :op1 (z3 / تخلف
+                      :tense past
+                      :agent (z4 / المكسيك)
+                      :theme (z5 / سداد_دين
+                                 :possession_of z4))
+             :op2 (z6 / تبع
+                      :tense past
+                      :agent (z7 / دول
+                                 :quantity (z8 / عدة)
+                                 :quality (z9 / أخرى))
+                      :theme z4)
+             :time (z10 / 1982
+                        :month (z11 / أغسطس))))
+
+# ::id 70026
+# ::snt يمكنكم أن تروا أن أكثر من 200 شخص قد أعطوه تقييماً متوسطاً يزيد عن 4.99 من 5.
+(z1 / رأى
+    :mode possibility
+    :experiencer (z2 / أنتم)
+    :stimulus (z3 / أعطى
+                  :tense past
+                  :agent (z4 / شخص
+                             :quantity (z5 / أكثر)
+                             :quantity (z6 / 200))
+                  :target (z7 / هو)
+                  :theme (z8 / تقييم
+                             :quality (z9 / متوسط)
+                             :value (z10 / يزيد_عن
+                                         :op1 (z11 / 4.99)
+                                         :op2 (z12 / 5)))))
+
+# ::id 46998
+# ::snt واحد من كل عشرة يوفر ما يكفي.
+(z1 / يوفر
+    :agent (z2 / شخص
+               :quantity (z3 / واحد)
+               :part_of (z4 / شخص
+                            :quantity (z5 / عشرة)))
+    :degree (z6 / يكفي))
+
+# ::id 204462
+# ::snt على الأقل سيحصل على العلاج بينما نحاول حسم موضوع المال.
+(z1 / حصل
+    :tense future
+    :quality (z2 / على_الأقل)
+    :patient (z3 / هو)
+    :theme (z4 / علاج)
+    :time (z5 / حسم
+              :agent (z6 / نحاول)
+              :theme (z7 / موضوع
+                         :context (z8 / مال))))
+
+# ::id 267981
+# ::snt شعرت وكأنني موجود بداخل حطام تايتنك.
+(z1 / شعر
+    :tense past
+    :experiencer (z2 / أنا)
+    :theme (z3 / موجود
+               :theme z2
+               :location (z4 / بداخل
+                             :op1 (z5 / حطام
+                                      :context (z6 / تايتنك)))))
+
+# ::id 126992
+# ::snt العينة بالداخل حقيقية، وقد تمكنا للتو من تشخيص سرطان البنكرياس.
+(z1 / and
+    :op1 (z2 / حقيقية
+             :location (z3 / بالداخل)
+             :theme (z4 / عينة))
+    :op2 (z5 / تشخيص
+             :tense past
+             :agent (z6 / نحن)
+             :theme (z7 / سرطان_البنكرياس)
+             :time (z8 / للتو)))
+
+# ::id 95962
+# ::snt فقلت: هل تمانع في الذهاب إلى المحكمة؟
+(z1 / فقلت
+    :tense past
+    :agent (z2 / أنا)
+    :content (z3 / تمانع
+                 :mode subjunctive
+                 :polarity ?
+                 :agent (z4 / أنت)
+                 :theme (z5 / ذهاب
+                            :target (z6 / محكمة))))
+
+# ::id 150027
+# ::snt اليابانيون مهتمون ببناء الجزر العائمة.
+(z1 / مهتم
+    :agent (z2 / ياباني)
+    :attribute ( z4 / مهتمون
+                 :context (z3 / بناء
+                            :theme (z5 / جزر
+                                       :quantity +
+                                       :quality (z6 / عائمة)))))
+
+# ::id 126712
+# ::snt هذا تصور أساسي خاطئ فعلي للتحذيرات التي أطلقها أورويل في "1984".
+(z1 / تصور
+    :quality (z2 / أساسي)
+    :quality (z3 / خاطئ)
+    :quality (z4 / فعلي)
+    :theme (z5 / هذا)
+    :context (z6 / تحذير
+                 :quantity +
+                 :theme_of (z7 / أطلق
+                               :tense past
+                               :agent (z8 / أورويل)
+                               :location (z9 / 1984))))
+
+# ::id 101079
+# ::snt الآن هناك الكثير لنكسب ونستفيد من هذا التحليل الضخم للمعلومات الشخصية، أو البيانات الضخمة، ولكن هناك أيضًا مقايضات معقدة تأتي نتيجة التخلي عن خصوصيتنا.
+(z1 / هناك
+    :theme (z2 / الكثير
+               :theme_of (z3 / and
+                             :op1 (z4 / نكسب)
+                             :op2 (z5 / نستفيد)
+                             :source (z6 / تحليل
+                                         :quality (z7 / ضخم)
+                                         :context (z8 / معلومات
+                                                      :quality (z9 / شخصية))
+                                         :identity (z10 / بيانات_ضخمة))))
+    :time (z11 / الآن)
+    :concession (z12 / there_be
+                     :theme (z13 / مقايضة
+                                 :quantity +
+                                 :quality (z14 / معقدة)
+                                 :theme_of (z15 / تأتي
+                                                :source (z16 / تخلي
+                                                             :theme (z17 / خصوصية
+                                                                         :related (z18 / نحن))))))
+    :quality (z19 / أيضا))
+
+# ::id 126710
+# ::snt أشهر أعمال الأدب حول المراقبة والخصوصية هو رواية جورج أورويل 1984، والتي نتعلمها جميعا في المدرسة، ولذا أصبحت تقريبا مبتذلة.
+(z1 / أعمال_الأدب
+    :quality (z2 / أشهر)
+    :context (z3 / حول
+                 :op1 (z4 / مراقبة)
+                 :op2 (z5 / خصوصية))
+    :theme_of (z6 / يكون
+                  :theme (z7 / رواية
+                             :context (z8 / جورج_أورويل)
+                             :name (z9 / 1984))
+                  :theme_of (z10 / تعلم
+                                 :agent (z11 / نحن
+                                             :quality (z12 / جميعا))
+                                 :location (z13 / مدرسة))
+                  :result (z14 / تصبح
+                               :aspect perfect
+                               :theme (z15 / تقريبا)
+                               :attribute (z16 / مبتذلة))))
+
+# ::id 84164
+# ::snt بدأت مع حروب المستعمرة خليج ماساتشوستس بيكوات الهنود الحمرعام 1607
+(z1 / بدأ
+    :tense past
+    :agent (z2 / أنا)
+    :theme (z3 / حروب_بيكوات_الهند_الحمر
+               :location (z4 / خليج_ماساتشوستس)
+               :time (z5 / عام_1607)))
+
+# ::id 64490
+# ::snt وهذا الموقع الاجتماعي ويبو، حتى مع الرقابة، يعطي الصينيين فرصة حقيقية للتحدث مع بعضهم البعض، 300 مليون شخص يوميا.
+(z1 / يعطي
+    :agent (z2 / موقع_التواصل_الاجتماعي
+               :name (z3 / ويبو))
+    :regardless (z4 / رقابة)
+    :quality (z5 / حتى)
+    :result (z6 / فرصة
+                :quality (z7 / حقيقية)
+                :purpose (z8 / تحدث
+                             :agent (z9 / صيني
+                                        :quantity +)
+                             :manner (z10 / مع_بعض)
+                             :frequency (z11 / يوميا)
+                             :stimulus (z13 / شخص
+                                            :quantity (z14 / 300_مليون)))))
+
+# ::id 42239
+# ::snt حسنًا ، أنت تحتاج إلى شهادة إذا كان لديك موقع ويب يحتوي على خدمات تشفير https و SSL مثل Gmail.
+(z1 / حسنا
+    :op2 (z2 / تحتاج
+             :agent (z3 / أنت)
+             :theme (z4 / شهادة)
+             :condition (z5 / كان
+                            :theme z3
+                            :possession (z6 / موقع
+                                            :quality (z7 / ويب)
+                                            :agent_of (z8 / يحتوي)
+                                            :theme (z9 / خدمة
+                                                       :context (z10 / تشفير
+                                                                     :name (z11 / https)))
+                                            :theme (z12 / خدمة
+                                                        :context (z13 / تشفير
+                                                                      :name (z14 / SSL))
+                                                        :example (z15 / Gmail))))))
+
+# ::id 219253
+# ::snt جده الكبير كان إيلي ويتني، مخترع آلة التنظيف الكتان.
+(z1 / جده_الكبير
+    :related (z2 / هو)
+    :theme_of (z3 / كان
+                  :aspect perfect
+                  :identity (z4 / إيلي_ويتني
+                                :identity (z5 / مخترع
+                                              :context (z6 / آلة_تنظيف_الكتان)))))
+
+# ::id 39791
+# ::snt والحيوانات الصغيرة المعروفة بالزوبلانكتون تأكل الفايتوبلانكتون، والأسماك الصغيرة تأكل الزوبلانكتون، والأسماك الكبيرة تأكل الأسماك الصغيرة، وهكذا تتكون السلسلة الغذائية.
+(z1 / and
+    :op1 (z2 / تأكل
+             :agent (z3 / حيوان
+                        :quantity +
+                        :quality (z4 / صغيرة)
+                        :theme_of (z5 / معروف
+                                      :context (z6 / زوبلانكتون)))
+             :patient (z7 / فايتوبلانكتون))
+    :op2 (z8 / تأكل
+             :agent (z9 / سمك
+                        :quantity +
+                        :quality (z10 / صغيرة))
+             :patient z6)
+    :op3 (z11 / تأكل
+              :agent (z12 / سمك
+                          :quantity +
+                          :quality (z13 / كبيرة))
+              :patient z9)
+    :result (z14 / تتكون
+                 :theme (z15 / سلسلة_غذائية)))
+
+# ::id 132843
+# ::snt هل سمعت بفكرة تأثير موزارت
+(z1 / سمع
+    :aspect perfect
+    :polarity ?
+    :experiencer (z2 / انت)
+    :source (z3 / فكرة
+                :theme (z4 / تأثير_موزارت)))
+
+# ::id 92586
+# ::snt هذا هو غلاف مقالة ممتازة نشرت في مجلة نيتشر عام 2009 والتي أطلقت حقا النقاش حول أزمة الفوسفور.
+(z1 / يكون
+    :theme (z2 / هذا)
+    :identity (z3 / غلاف
+                  :part_of (z4 / مقالة
+                               :quality (z5 / ممتازة)
+                               :theme_of (z6 / نشر
+                                             :tense past
+                                             :location (z7 / مجلة
+                                                           :name (z8 / نيتشر)))
+                               :time (z9 / عام
+                                         :name (z10 / 2009)))
+                  :agent_of (z11 / أطلق
+                                 :tense past
+                                 :quality (z12 / حقا)
+                                 :theme (z13 / نقاش
+                                             :context (z14 / أزمة
+                                                           :context (z15 / فوسفور))))))
+
+# ::id 270165
+# ::snt هذا قياس حصلنا عليه قبل بضع سنوات من مركبة الأوديسي المدارية حول المريخ.
+(z1 / حصول
+    :tense past
+    :theme (z2 / قياس
+               :theme_of (z3 / نحصل
+                             :tense past
+                             :agent (z4 / نحن))
+               :time (z5 / قبل
+                         :op1 (z6 / سنوات
+                                  :quantity (z7 / بضع))))
+    :source (z8 / مركبة
+                :quality (z9 / مدارية)
+                :theme_of (z10 / أوديسي)
+                :location (z11 / مريخ)))
+
+# ::id 2545
+# ::snt عقد مؤتمر منظمة الأغذية والزراعة للأمم المتحدة (فاو) في أكتوبر الماضي وكرّس بالكامل لمناقشة هذا الأمر.
+(z1 / عقد
+    :tense past
+    :agent (z2 / مؤتمر
+               :possession_of (z3 / فاو)
+               :possession_of (z4 / منظمة
+                                  :name (z5 / الأغذية
+                                            :context (z6 / و_زراعة)))
+               :context (z7 / مناقشة
+                            :target (z8 / أمر
+                                        :theme_of (z9 / كرّس
+                                                      :tense past
+                                                      :quality (z10 / بالكامل)
+                                                      :target z2)))))
+
+# ::id 77205
+# ::snt إذًا استخدمنا الأشعة فوق البنفسجية أ، التي لا تساعد على تكوين فيتامين د.
+(z1 / إذا
+    :op2 (z2 / استخدم
+             :tense past
+             :agent (z3 / نحن)
+             :patient (z4 / الأشعة_فوق_البنفسجية
+                          :quality (z5 / أ)
+                          :theme_of (z6 / تكوين
+                                        :polarity -
+                                        :product (z7 / فيتامين_د)))))
+
+# ::id 20446
+# ::snt كما حاولت أن تنقذ الأطفال بأشياء أخرى - تعطيهم قطرات فيتامين أ، وتعطيهم لقاحات الحصبة، وتعطيهم شباك ناموس ضد الملاريا حتى خلال بعض هذه الحملات.
+(z1 / حاول
+    :aspect perfect
+    :agent (z2 / هم)
+    :theme (z3 / تنقذ
+               :patient (z4 / أطفال)
+               :manner (z5 / شيء
+                           :quantity +
+                           :quality (z6 / أخر)))
+    :example (z7 / or
+                 :op1 (z8 / تعطي
+                          :target z4
+                          :theme (z9 / قطرة
+                                     :quality (z10 / فيتامين_أ)))
+                 :op2 (z11 / تعطي
+                           :target z4
+                           :theme (z12 / لقاح
+                                       :quality (z13 / حصبة)))
+                 :op3 (z14 / تعطي
+                           :target z4
+                           :theme (z15 / شبكة_ناموس)
+                           :purpose (z16 / ضد
+                                         :theme (z17 / ملاريا))
+                           :time (z18 / خلال
+                                      :op1 (z19 / حملة
+                                                :quality (z20 / بعض)
+                                                :context (z21 / هذه))))))
+
+# ::id 172506
+# ::snt وإذا ذهبت إلى متجر ديزني لشراء زي الأرملة السوداء، ستجد كابتن أمريكا والهالك.
+(z1 / إذا
+    :op2 (z2 / ذهبت
+             :agent (z3 / أنت)
+             :target (z4 / متجر
+                         :quality (z5 / ديزني))
+             :purpose (z6 / شراء
+                          :agent z3
+                          :theme (z7 / زي
+                                     :context (z8 / أرملة_سوداء)))
+             :condition_of (z9 / تجد
+                               :tense future
+                               :agent z3
+                               :theme (z10 / and
+                                           :op1 (z11 / كابتن_أمريكا
+                                                     :context_of z7)
+                                           :op2 (z12 / الهالك
+                                                     :context_of z7)))))
+
+# ::id 152764
+# ::snt على الرغم من أن ليوناردو لم يكن يفكر في فيتروفيو فقط.
+(z1 / على_الرغم_من
+    :op2 (z2 / فكر
+             :tense past
+             :aspect imperfect
+             :polarity -
+             :agent (z3 / ليوناردو)
+             :theme (z4 / فيتروفيو)
+             :quality (z5 / فقط)))
+
+# ::id 158139
+# ::snt هل كتب الشاب آينشتاين هذا اللغز حقاً؟
+(z1 / كتب
+    :tense past
+    :polarity ?
+    :agent (z2 / آينشتاين
+               :agent (z3 / شاب))
+    :result (z4 / لغز
+                :quality (z5 / هذا))
+    :quality (z6 / حقا))
+
+# ::id 234498
+# ::snt وجد والداي أنه ضروري للراحة النفسية.
+(z1 / وجد
+    :tense past
+    :agent (z2 / والد
+               :related (z3 / أنا)))
+
+# ::id 149798
+# ::snt فكروا في كوكب الزهرة في نظامنا الشمسي.
+(z1 / فكر
+    :mode imperative
+    :agent (z2 / انتم)
+    :theme (z3 / كوكب
+               :name (z4 / الزهرة)
+               :location (z5 / نظام
+                             :related (z6 / شمسي
+                                          :related (z7 / نحن)))))
+
+# ::id 111807
+# ::snt السرطانات ليس لديها أشواك، لذا يواجهون مشكلة في هذا النوع من التضاريس الوعرة.
+(z1 / ليس_لديه
+    :agent (z2 / سرطان
+               :quantity +)
+    :theme (z3 / شوك
+               :quantity +)
+    :cause_of (z4 / يواجه
+                  :theme z2
+                  :attribute (z5 / مشكلة)
+                  :location (z6 / تضاريس
+                                :quality (z7 / وعر
+                                             :degree (z8 / من))
+                                :quality (z9 / نوع
+                                             :quality (z10 / هذا)))))
+
+# ::id 169178
+# ::snt كنت أسأل نفسي، هل اتخذت الطريق الخطأ؟
+(z1 / كنت
+    :aspect imperfect
+    :theme (z2 / أسأل
+               :agent (z3 / أنا
+                          :coref z2)
+               :theme (z4 / اتخذ
+                          :tense past
+                          :polarity ?
+                          :agent z2
+                          :theme (z5 / طريق_خطأ))))
+
+# ::id 273599
+# ::snt بحلول وقت وصولي إلى أستراليا، إن وصلت إلى أستراليا، سأكون قد قطعت مسافة تتراوح بين ٩ آلاف و ١٠ آلاف ميل.
+(z1 / قطع_مسافة
+    :tense future
+    :aspect perfect
+    :agent (z2 / أنا)
+    :extend (z3 / ميل
+                :quantity (z4 / تتراوح
+                              :op1 (z5 / بين
+                                       :op1 (z6 / ٩_آلاف)
+                                       :op2 (z7 / ١٠_آلاف)))))
+
+# ::id 203633
+# ::snt أي مقاس؟ هذا سهل. أحب التحديات.
+(z1 / multi-sentence
+    :snt1 (z2 / مقاس
+              :polarity ?)
+    :snt2 (z3 / سهل
+              :degree +
+              :quality (z4 / هذا))
+    :snt3 (z5 / أحب
+              :experiencer (z6 / أنا)
+              :theme (z7 / تحديات
+                         :quantity +)))
+
+# ::id 50782
+# ::snt مهما كان ما تحاول تذكره، فهو ليس على طرف لسانك ، ولا حتى يختبئ في زاوية مجهولة من طحالِك.
+(z1 / و
+    :op1 (z2 / كان
+             :theme (z3 / مهما)
+             :theme (z4 / تحاول
+                        :agent z4
+                        :theme (z5 / تذكر
+                                   :aspect continuous
+                                   :agent z4
+                                   :theme (z6 / هو)))))
+
+# ::id 176733
+# ::snt تعلمون أنا تركت بعض الأمور، لكنكم فهمتم الفكرة العامة.
+(z1 / تعلمون
+    :experiencer (z2 / أنتم)
+    :content (z3 / ترك
+                 :tense past
+                 :agent z2
+                 :theme (z4 / امور)
+                 :quantity (z5 / بعض)
+                 :concession (z6 / فهمتم
+                                 :agent z2
+                                 :theme (z7 / فكرة_عامة))))
+
+# ::id 243127
+# ::snt هذا العمل يُصبح مُمِثلًا للإدمان، تعرفون ما أعنيه، عندما يتكفّل شخص آخر بالدفع
+(z1 / multi-sentence
+    :snt1 (z2 / يُصبح
+              :aspect imperfect
+              :theme (z3 / عمل
+                         :quality (z4 / هذا))
+              :attribute (z5 / ممثل
+                             :context (z6 / ادمان)))
+    :snt2 (z7 / تعرفون
+              :agent (z8 / انتم)
+              :theme (z9 / اعني
+                         :agent (z10 / انا)
+                         :theme z2))
+    :snt3 (z11 / تكفل
+               :aspect imperfect
+               :agent (z12 / شخص
+                           :quality (z13 / اخر))
+               :theme (z14 / دفع)
+               :time_of z2))
+
+# ::id 75341
+# ::snt صور مثل هذه من معسكر الاعتقال أوشفيتس ترسخت في وعينا خلال القرن العشرين ومنحتنا فهما جديدا لمن نحن ومن أين جئنا والعصر الذي نعيش فيه.
+(z1 / و
+    :op1 (z2 / ترسخ
+             :aspect perfect
+             :theme (z3 / صور
+                        :quantity +
+                        :example (z4 / هذه)
+                        :context (z5 / معسكر_الاعتقال
+                                     :name (z6 / أوشفيتس))
+                        :location (z7 / وعي
+                                      :possession_of (z8 / نحن)))
+             :time (z9 / قرن_عشرين))
+    :op2 (z10 / منحت
+              :aspect perfect
+              :agent z3
+              :target z8
+              :theme (z11 / فهم
+                          :quality (z12 / جديد)
+                          :context (z13 / and
+                                        :op1 (z14 / كون
+                                                  :theme z8
+                                                  :identity (z15 / من))
+                                        :op2 (z16 / جئنا
+                                                  :agent z8
+                                                  :source (17 / من_أين))
+                                        :op3 (z18 / العصر
+                                                  :quantity +
+                                                  :time_of (z19 / نعيش
+                                                                :agent z8))))))
+
+# ::id 135116
+# ::snt الخبر الجيد هو أن لدى وكالة الفضاء الأمريكية قسماً سرياً صغيراً للتخطيط الاحتياطي يعمل على هذه المسألة، يحاول الحفاظ على معرفة أوريون في حالة وقوع مصيبة كهذه.
+(z1 / يكون
+    :theme (z2 / خبر
+               :quality (z3 / جيد))
+    :identity (z4 / أن
+                  :theme (z5 / وكالة_الفضاء_الأمريكية)
+                  :possession (z6 / قسم
+                                  :quality (z7 / سري)
+                                  :quality (z8 / صغير)
+                                  :purpose (z9 / تخطيط_احتياطي)
+                                  :agent_of (z10 / عمل
+                                                 :tense past
+                                                 :theme (z11 / مسألة
+                                                             :quality (z12 / هذه))))
+                  :agent_of (z13 / حاول
+                                 :tense past
+                                 :aspect imperfect
+                                 :theme (z14 / حفاظ
+                                             :agent z6
+                                             :theme (z15 / معرفة
+                                                         :context (z16 / أوريون))
+                                             :condition (z17 / وقوع
+                                                             :theme (z18 / مصيبة
+                                                                         :quality (z19 / كهذه)))))))
+
+# ::id 163044
+# ::snt وبحلول نهاية العشرينات من عمري، انتهى بي المطاف عضوا في أوركسترا سمفونية برشلونة بإسبانيا.
+(z1 / انتهى_بي_المطاف
+    :theme (z2 / أنا)
+    :result (z3 / عضو
+                :membership (z4 / أوركسترا_سمفونية_برشلونة
+                                :location (z5 / إسبانيا)))
+    :time (z6 / حلول
+              :op1 (z7 / نهاية
+                       :context (z8 / عشرينات
+                                    :age_of z2))))
+
+# ::id 117898
+# ::snt ما رأيك بتجربة المشجع عندما يكون ميسي يركض بسرعة على الملعب ويسدد الكرة في الشباك، أو فيدرر يقدم إرسالة في ويمبلدون؟
+(z1 / رأي
+    :agent (z2 / أنت)
+    :content (z3 / ?)
+    :theme (z4 / تجربة
+               :possession_of (z5 / مشجع))
+    :time (z6 / or
+              :op1 (z7 / كون
+                       :mode conditional
+                       :location (z8 / يكون
+                                     :theme (z9 / ميسي)
+                                     :attribute (z10 / يركض
+                                                     :mode conditional
+                                                     :manner (z11 / بسرعة)
+                                                     :location (z12 / ملعب))
+                                     :attribute (z13 / يسدد
+                                                     :mode conditional
+                                                     :patient (z14 / كرة)
+                                                     :location (z15 / شباك))))
+              :op2 (z16 / يكون
+                        :theme (z17 / فيدرر)
+                        :attribute (z18 / يقدم
+                                        :mode conditional
+                                        :patient (z19 / إرسالة)
+                                        :location (z20 / ويمبلدون)))))
+

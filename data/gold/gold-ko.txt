@@ -1,0 +1,1454 @@
+# ::id 223323
+# ::snt 미생물이 있죠 -- 효모로 돌아가 보면
+(z1 / 있죠
+    :theme (z2 / 미생물)
+    :agent_of (z3 / 돌아가다
+                  :target (z4 / 효모)
+                  :mode possibility))
+
+# ::id 248638
+# ::snt 우리는 시간을 몇 년 전으로 돌려놓을 거야.
+(z1 / 돌려놓다
+    :tense future
+    :agent (z2 / 우리)
+    :theme (z3 / 시간)
+    :extent (z4 / 년
+                 :quantity (z5 / 몇))
+    :time (z6 / 전))
+
+
+# ::id 284943
+# ::snt 그럼 수단으로 돌아가 봅시다.
+(z1 / 그럼
+    :op2 (z2 / 돌아가다
+             :mode imperative
+             :agent (z3 / 우리)
+             :target (z4 / 수단)))
+
+# ::id 276444
+# ::snt 나는 그 단어를 좋아해요, 'disenthrall.'
+(z1 / 좋아하다
+    :experiencer (z2 / 나)
+    :stimulus (z3 / 단어
+                  :quality (z4 / 그)
+                  :identity (z5 / disenthrall)))
+
+# ::id 138561
+# ::snt 학생들은 270명의 젊은이들이었고, 그들은 북한이라는 존재하는 가장 고립된, 잔인한 독재 정권의 미래 지도자들로 기대되었다.
+(z1 / be
+    :tense past
+    :theme (z2 / 학생
+               :quantity +)
+    :identity (z3 / 젊은이
+                  :quantity (z4 / 270))
+    :theme_of (z5 / 기대
+                  :tense past
+                  :theme z3
+                  :identity (z7 / 지도자
+                                   :quantity +
+                                   :quality (z8 / 미래)
+                                   :membership (z9 / 정권
+                                                          :quality (z10 / 독재)
+                                                          :context (z11 / 북한)
+                                                          :quality (z12 / and
+                                                                  :op1 (z13 / 고립된
+                                                                           :degree (z14 / 가장))
+                                                                  :op2 (z15 / 잔인한)
+                                                          :theme_of (z16 / 존재하는))))))
+
+# ::id 68081
+# ::snt 그 책에서는 전통적으로 일이 남자들과 연관되어 있다고 말하고 있어요.
+(z1 / 말하고_있다
+    :aspect continuous
+    :location (z2 / 책
+                  :quality 그)
+    :theme (z3 / 연관되어_있다
+               :tense past
+               :manner (z5 / 전통적으로)
+               :theme (z6 / 일)
+               :co-theme (z7 / 남자
+                             :quantity +)))
+
+# ::id 39410
+# ::snt 우리는 시장님과 점심을 먹고, 말라가에서 가장 중요한 사람들과 저녁을 먹을 예정이었습니다.
+(z1 / and
+    :op1 (z2 / 먹다
+             :tense past
+             :aspect perfect
+             :agent (z3 / 우리)
+             :theme (z4 / 점심)
+             :accompanier (z5 / 시장님))
+    :op2 (z6 / 먹다
+             :tense future
+             :agent z3
+             :theme (z7 / 저녁)
+             :accompanier (z8 / 사람들
+                              :quantity +
+                              :quality (z9 / 중요한
+                                           :degree (z10 / 가장)))
+             :location (z11 / 말라가)))
+
+# ::id 39404
+# ::snt 한번은 말라가로 팀을 데리고 가서, 도시에서 매우 공식적인 도장으로 봉인된 서류를 가지고 왔다. 그들은 나에게 그들의 항구에 건물을 지어달라고 했다.
+(z1 / multi-sentence
+    :snt1 (z2 / and
+              :op1 (z3 / 데리고_가다
+                        :tense past
+                        :agent (z4 / 나)
+                        :target (z5 / 말라가)
+                        :accompanier (z6 / 팀)
+                        :time (z7 / 한번))
+              :op2 (z8 / 가지고_오다
+                        :tense past
+                        :agent z4
+                        :location (z9 / 도시
+                                      :coref z5)
+                        :theme (z10 / 서류
+                                    :quality (z11 / 봉인된
+                                                  :instrument (z12 / 도장
+                                                                   :quality (z13 / 공식적
+                                                                                 :degree (z14 / 매우))))))
+              :snt2 (z15 / 지어달라고_하다
+                         :tense past
+                         :agent (z16 / 그들)
+                         :target z4
+                         :theme (z17 / 건물)
+                         :location (z18 / 항구
+                                        :possession_of z16))))
+
+# ::id 250177
+# ::snt 나는 말했어요, '시력이 떨어지거나 맹인이 되면서 생기는 특별한 시각 환각이 있어요.'
+(z1 / 말하다
+    :tense past
+    :agent (z2 / 나)
+    :theme (z3 / 있다
+               :theme (z4 / 환각
+                          :quality (z5 / 시각)
+                          :quality (z6 / 특별한)
+                          :agent_of (z7 / 생기다
+                                        :accompanier (z8 / or
+                                                         :op1 (z9 / 떨어지다
+                                                                  :theme (z10 / 시력))
+                                                         :op2 (z11 / 되다
+                                                                   :theme (z12 / 맹인)))))))
+
+# ::id 57214
+# ::snt 하나, 둘, 셋, 넷, 다섯, 여섯, 일곱.
+(z1 / and
+    :op1 (z2 / 하나)
+    :op2 (z3 / 둘)
+    :op3 (z4 / 셋)
+    :op4 (z5 / 넷)
+    :op5 (z6 / 다섯)
+    :op6 (z7 / 여섯)
+    :op7 (z8 / 일곱))
+
+# ::id 113575
+# ::snt 조명기사: 파이팅
+(z1 / 말하다
+    :agent (z2 / 조명기사)
+    :theme (z3 / 파이팅))
+
+# ::id 113575_b
+# ::snt 조명기사: 행운을 빌어요.
+(z1 / 말하다
+    :agent (z2 / 조명기사)
+    :theme (z3 / 행운을_빌어요))
+
+# ::id 169020
+# ::snt 그런데 오늘날 40%의 부모들이 공립학교에서 자녀들을 빼내고 돈을 주고 사립학교에 보내는 선택을 하고 있습니다.
+(z1 / 그런데
+    :op2 (z2 / 오늘날
+             :time_of (z3 / 선택
+                          :aspect continuous
+                          :agent (z4 / 부모
+                                     :quantity (z5 / 40%))
+                          :theme (z6 / and
+                                     :op1 (z7 / 빼내다
+                                              :agent z4
+                                              :theme (z8 / 자녀
+                                                         :quantity +
+                                                         :related z4)
+                                              :source (z9 / 공립학교))
+                                     :op2 (z10 / 보내다
+                                               :agent z4
+                                               :theme z8
+                                               :target (z11 / 사립학교)
+                                               :manner (z12 / 주다
+                                                            :agent z4
+                                                            :theme (z13 / 돈)))))))
+
+# ::id 213712
+# ::snt 미국에서는 '물론 우리는 명백한 문제에 대해 대처해야 하지만, 당신이 무엇이 당신 앞에 있는지 모르면, 당신은 멍청하거나 무지하다' 라고 많이 말합니다.
+(z1 / 말하다
+    :frequency (z2 / 많이)
+    :location (z3 / 미국)
+    :content (z4 / 대처하다
+                 :mode recommendation
+                 :agent (z5 / 우리)
+                 :target (z6 / 문제
+                             :quality (z7 / 명백한))
+                 :quality (z8 / 물론)
+                 :concession (z9 / 모르다
+                                 :theme (z10 / 무엇)
+                                 :location (z11 / 앞
+                                                :op1 (z12 / 당신))
+                                 :condition_of (z13 / 이다
+                                                    :theme z12
+                                                    :attribute (z14 / or
+                                                                    :op1 (z15 / 멍청)
+                                                                    :op2 (z16 / 무지))))))
+
+# ::id 28948
+# ::snt 그래서 동아시아 모델은 이런 대규모 선택편향이 있습니다. 종속변수 선택이라고 하는데, 우리 학생들에게 피하라고 항상 가르치는 것이죠.
+(z1 / 그래서
+    :op2 (z2 / 있습니다
+             :theme (z3 / 모델
+                        :context (z4 / 동아시아))
+             :attribute (z5 / 선택편향
+                            :quality (z6 / 대규모)
+                            :quality (z7 / 이런)
+                            :identity (z8 / 종속변수_선택)
+                            :theme_of (z9 / 피하라고
+                                          :theme_of (z10 / 가르치는
+                                                         :agent (z11 / 우리
+                                                                     :target (z12 / 학생
+                                                                                  :quantity +
+                                                                                  :related z11)
+                                                                     :frequency (z14 / 항상)))))))
+
+# ::id 31996
+# ::snt 제 연구실에서 최근에 한 실험에서 4살 어린이들이 성인보다 더 놀라운 가설을 찾아내는 능력이 더 뛰어나다는 것을 보여줬어요.
+(z1 / 보여주다
+    :tense past
+    :agent (z2 / 저)
+    :time (z3 / 최근)
+    :context (z4 / 실험 
+                    :quality (z5 / 한
+                        :location (z6 / 연구실
+                                        :related z2)))
+    :theme (z7 / 능력
+               :quality (z8 / 뛰어나다
+                              :degree (z9 / 더))
+               :possession_of (z10 / 어린이
+                              :quantity +
+                              :age (z11 / 4))
+               :compared (z12 / 성인
+                                   :quantity +)
+               :context (z13 / 찾아내다
+                               :theme (z14 / 가설
+                                            :quality (z15 / 놀라운
+                                                          :degree (z16 / 더))))))
+
+# ::id 257951
+# ::snt 신발을 만드는 사람들은 잠이 들고 아침에 일어나면 신발이 다 만들어져 있다.
+(z1 / and
+    :op1 (z2 / 잠이들다
+             :experiencer (z3 / 사람
+                              :quantity +
+                              :agent_of (z4 / 만들다
+                                            :product (z5 / 신발))))
+    :op2 (z6 / 만들어져_있다
+             :tense past
+             :product (z7 / 신발
+                          :quantity (z8 / 다))
+             :time (z9 / 일어나다
+                       :experiencer z3
+                       :time (z10 / 아침))))
+
+# ::id 89005
+# ::snt 지금 제가 좋아하는 색깔은 파란색인데, 여전히 게이에요. 이건 엄마의 영향과 한계를 보여주죠.
+(z1 / multi-sentence
+    :snt1 (z2 / 이다
+              :theme (z3 / 색깔
+                         :quality (z4 / 좋아하다
+                                      :related (z5 / 나)))
+              :identity (z6 / 파란색)
+              :time (z7 / 지금)
+              :concession (z8 / 이다
+                              :theme z5
+                              :quality (z9 / 여전히)
+                              :attribute (z10 / 게이)))
+    :snt2 (z11 / 보여주다
+               :agent (z12 / 이것
+                           :coref z2)
+               :attribute (z13 / and
+                               :op1 (z14 / 영향
+                                         :related (z15 / 엄마
+                                                       :related z5))
+                               :op2 (z16 / 한계
+                                         :related z15))))
+
+# ::id 294047
+# ::snt 그리고 2002년, 모든 것이 정상적으로 진행되던 중에 피닉스 제도에서 산호 산소배출 사건이 발생했습니다.
+(z1 / 그리고
+    :op2 (z2 / 발생
+             :tense past
+             :theme (z3 / 사건
+                        :context (z4 / 산호_산소배출))
+             :location (z5 / 피닉스_제도)
+             :time (z6 / 2002년)
+             :time (z7 / 진행
+                       :tense past
+                       :aspect continuous
+                       :theme (z8 / 모든_것)
+                       :manner (z9 / 정상적으로))))
+
+# ::id 97764
+# ::snt 돌아서서, 내 물건을 주면, 이건 내가 가지고 있는 포커칩이야.
+(z1 / multi-sentence
+    :snt1 (z2 / 돌아서다
+              :mode imperative
+              :agent (z3 / 너))
+    :snt2 (z4 / 주다
+              :agent (z5 / 나)
+              :mode conditional
+              :theme (z6 / 물건
+                         :possession_of z5)
+              :condition_of (z7 / 이다
+                                :theme (z8 / 이것)
+                                :identity (z9 / 포커칩)
+                                :possession_of (z10 / 가지고_있다
+                                                    :theme z5))))
+
+# ::id 99153
+# ::snt 왜 이런 일이 계속 생기는지 이해가 안 가.
+(z1 / 이해가다
+    :polarity -
+    :experiencer (z2 / 나)
+    :theme (z3 / 생기다
+               :frequency (z4 / 계속)
+               :theme (z5 / 일
+                          :quality (z6 / 이런)))
+    :cause (z7 / ?))
+
+# ::id 99133
+# ::snt 그의 이야기는 그들의 이야기이다.
+(z1 / 이다
+    :theme (z2 / 이야기
+                  :possession_of (z3 / 그))
+    :identity (z4 / 이야기
+                  :possession_of (z5 / 그들)))
+
+# ::id 98945
+# ::snt 당신이 틀렸어요, 왜냐하면 그것은 정반대거든요.
+(z1 / 틀리다
+    :tense past
+    :agent (z2 / 당신)
+    :cause (z3 / 이다
+               :theme (z4 / 그것)
+               :identity (z5 / 정반대)))
+
+# ::id 21327
+# ::snt 이건 무슨 이야기를 하던 간에 사실이죠.
+(z1 / 이다
+    :theme (z2 / 이것)
+    :attribute (z3 / 사실)
+    :regardless (z4 / 하던_간에
+                         :theme (z5 / 이야기
+                                     :quality (z6 / 무슨))))
+
+# ::id 126209
+# ::snt 그리고 다음 페이지를 넘기면 이런 것이 나왔어요.
+(z1 / 그리고
+    :op2 (z2 / and
+             :op1 (z3 / 넘기다
+                      :aspect perfect
+                      :mood conditional
+                      :patient (z4 / 페이지
+                                   :quality (z5 / 다음)))
+             :op2 (z6 / 나오다
+                      :tense past
+                      :aspect perfect
+                      :patient (z7 / 것
+                                   :quality (z8 / 이런)))))
+
+# ::id 27807
+# ::snt 그들이 이곳의 죄수들을 풀어놓으면 길에서 지나가던 운전자를 납치해 간다든가 간을 식사할 것이라는 믿음이 있습니다.
+(z1 / 믿음이_있다
+    :agent (z2 / 그들)
+    :theme (z3 / 풀어놓다
+               :mood conditional
+               :patient (z4 / 죄수
+                            :quantity +
+                            :context (z5 / 곳
+                                         :quality (z6 / 이)))
+               :condition_of (z7 / or
+                                 :op1 (z8 / 납치하다_가다
+                                           :agent z4
+                                           :patient (z9 / 운전자
+                                                        :agent_of (z10 / 지나다가
+                                                                       :location (z11 / 길))))
+                                 :op2 (z12 / 식사하다
+                                            :tense future
+                                            :patient (z13 / 간
+                                                          :part_of z9)))))
+
+# ::id 181621
+# ::snt 여자들과 여성들의 목소리, 그리고 우리의 지지자들의 목소리는 개인적으로, 경제적으로, 직업적으로, 정치적으로 손해를 입는다.
+(z1 / 손해를_입다
+    :patient (z2 / and
+                 :op1 (z3 / 목소리
+                          :context (z4 / and
+                                       :op1 (z5 / 여자
+                                                :quantity +)
+                                       :op2 (z6 / 여성
+                                                :quantity +)))
+                 :op2 (z7 / 목소리
+                          :context (z8 / 지지자
+                                       :quantity +
+                                       :related (z9 / 우리))))
+    :manner (z10 / and
+                 :op1 (z12 / 개인적)
+                 :op2 (z13 / 경제적)
+                 :op3 (z14 / 직업적)
+                 :op4 (z15 / 정치적)))
+
+# ::id 173170
+# ::snt 어느 날 빅풋을 보았다고 생각했는데, 그건 저먼 저먼 셰퍼드였다.
+(z1 / 생각
+    :tense past
+    :agent (z2 / 나)
+    :theme (z3 / 보다
+               :tense past
+               :experiencer z2
+               :stimulus (z4 / 빅풋))
+    :time (z5 / 어느_날)
+    :concession (z7 / 이다
+                    :tense past
+                    :theme (z8 / 그것)
+                    :identity (z9 / 저먼_셰퍼드)))
+
+# ::id 52318
+# ::snt 우리가 이야기하는 책은 900쪽짜리로, 이상하면서도 매력적이며, 잠든 소녀의 입에서 작은 사람들 떼가 나와서 저먼 셰퍼드을 터뜨리는 결말이 있는 책이다.
+(z1 / 이야기
+    :aspect continuous
+    :agent (z2 / 우리)
+    :context (z3 / 책
+                 :quality (z4 / 이
+                              :composition (z5 / 쪽
+                                               :quantity (z6 / 900))
+                              :attribute (z7 / and
+                                             :op1 (z8 / 이상하다)
+                                             :op2 (z9 / 매력적이다))
+                              :content (z10 / 결말
+                                            :identity (z11 / and
+                                                           :op1 (z12 / 나오다
+                                                                      :agent (z13 / 떼
+                                                                                  :composition (z14 / 사람
+                                                                                                    :quantity +
+                                                                                                    :quality (z15 / 작은)))
+                                                                      :source (z16 / 입
+                                                                                   :part_of (z17 / 소녀
+                                                                                                 :quality (z18 / 잠든))))
+                                                           :op2 (z19 / 터뜨리다
+                                                                      :agent z14
+                                                                      :patient (z20 / 저먼_셰퍼드)))))))
+
+# ::id 172429
+# ::snt 왜 제 딸이 화장을 하면, 그녀가 선택한 캐릭터는 그루트, 인크레더블 헐크, 오비완 케노비, 다스 모울 같은 남자 캐릭터인가요?
+(z1 / 이다
+    :cause (z2 / 화장
+               :agent (z3 / 딸
+                          :related (z4 / 나)))
+    :theme (z5 / 캐릭터
+               :quality (z6 / 남자)
+               :theme_of (z7 / 선택
+                             :tense past
+                             :agent z3)
+               :example (z8 / or
+                            :op1 (z9 / 그루트)
+                            :op2 (z10 / 인크레더블_헐크)
+                            :op3 (z11 / 오비완_케노비)
+                            :op4 (z12 / 다스_모울))))
+
+# ::id 170681
+# ::snt 두 번째로, 태양풍에서도 에너지를 얻을 수 있어요.
+(z1 / 얻다
+    :mood possibility
+    :theme (z3 / 에너지)
+    :source (z4 / 태양풍)
+    :manner (z5 / 두_번째))
+
+# ::id 174325
+# ::snt 나는 처음으로 돌아가고 싶다.
+(z1 / 샆다
+    :agent (z2 / 나)
+    :theme (z3 / 돌아가다
+               :target (z4 / 처음)))
+
+# ::id 172541
+# ::snt 그게 마이크 잘못이 아니라 우리 잘못이죠.
+(z1 / and
+    :op1 (z2 / 이다
+              :polarity -
+              :theme (z3 / 그게)
+              :identity (z4 / 잘못
+                            :related (z5 / 마이크)))
+    :op2 (z6 / 이다
+              :theme (z7 / 잘못
+                         :related (z8 / 우리))))
+
+# ::id 115980
+# ::snt 시민으로서, 아이들을 버리지 말아 주시기를 부탁드립니다.
+(z1 / 부탁하다
+    :agent (z2 / 나)
+    :theme (z3 / 버리다
+               :polarity -
+               :agent (z4 / 아이
+                          :quantity +))
+    :condition (z5 / 시민
+                   :identity_of z2))
+
+# ::id 149416
+# ::snt 마치 파킨슨병에서 볼 수 있는 것처럼.
+(z1 / 마치
+    :compared (z2 / 보다
+                  :mood possibility
+                  :location (z4 / 파킨슨병)
+                  :stimulus (z5 / 무엇)))
+
+# ::id 22750
+# ::snt 심장이 빨리 뛰고 머리가 어지러워서, 그 앞에 서 있는 것을 이해하려고 했어요.
+(z1 / and
+    :op1 (z2 / 뛰다
+             :agent (z3 / 심장
+                        :part_of (z4 / 나))
+             :manner (z5 / 빨리))
+    :op2 (z6 / 어지럽다
+             :theme (z7 / 머리
+                        :part_of z4))
+    :op3 (z8 / 이해하다
+             :tense past
+             :agent z4
+             :theme (z9 / 서_있다
+                        :theme (z10 / 것)
+                        :location (z11 / 앞))))
+
+# ::id 162510
+# ::snt 두 경우 모두 제약들이 의사결정을 이끌어가며 우리가 목표를 달성하도록 합니다.
+(z1 / 이끌어가다
+    :agent (z2 / 제약
+               :quantity +)
+    :theme (z3 / 의사결정)
+    :purpose (z4 / 달성
+                 :theme (z5 / 우리)
+                 :target (z6 / 목표))
+    :context (z7 / 경우
+                 :quantity (z8 / 두)
+                 :quality (z9 / 모두)))
+
+# ::id 266251
+# ::snt 엔지니어들에게는 잘 알려진 것이지만 생물학자들에게는 잘 알려지지 않았죠.
+(z1 / and
+    :op1 (z2 / 알려지다
+             :theme (z3 / 것)
+             :experiencer (z4 / 엔지니어
+                              :quantity +)
+             :degree (z5 / 잘))
+    :op2 (z6 / 알려지다
+             :polarity -
+             :theme z3
+             :experiencer (z8 / 생물학자
+                              :quantity +)
+             :degree (z9 / 잘)))
+
+# ::id 98911
+# ::snt 쫓아내지 못하는 룸메이트야. 무시하지 못하는 목소리야.
+(z1 / multi-sentence
+    :snt1 (z2 / 이다
+              :theme (z3 / 룸메이트)
+              :patient_of (z4 / 쫓아내지_못하다
+                                 :polarity -))
+    :snt2 (z5 / 이다
+              :theme (z6 / 목소리)
+              :quality (z7 / 무시하지_못하다
+                           :polarity -)))
+
+# ::id 70804
+# ::snt 뭔가를 잘못했다면, 실패했겠죠. 어떻게 대해야 하나요?
+(z1 / multi-sentence
+    :snt1 (z2 / 잘못하다
+              :tense past
+              :mood conditional
+              :theme (z3 / 뭔가))
+    :condition_of (z4 / 실패하다
+                      :tense past
+                      :mood conditional)
+    :snt2 (z5 / 어떻게대하다
+              :mode recommendation
+              :theme (z7 / ?)))
+
+# ::id 250380
+# ::snt 바지나 이야기'를 하기 전에는 행복이라는 것이 정말 있는 줄 몰랐어요.
+(z1 / 모르다
+    :tense past
+    :agent (z2 / 나)
+    :theme (z4 / 있다
+               :manner (z5 / 정말)
+               :theme (z6 / 것
+                          :coref (z7 / 행복)))
+    :time (z8 / 전
+              :op1 (z9 / 하다
+                        :agent z2
+                        :theme (z10 / 바지나_이야기))))
+
+# ::id 3787
+# ::snt 나는 경찰로 감옥에 근무했어요.
+(z1 / 근무하다
+    :tense past
+    :agent (z2 / 나)
+    :location (z3 / 감옥)
+    :identity (z4 / 경찰))
+
+# ::id 115994
+# ::snt 이것은 '강제 노동'이란 뜻입니다.
+(z1 / 뜻이다
+    :theme (z2 / 이것)
+    :content (z3 / 강제_노동))
+
+# ::id 120276
+# ::snt 우리가 말하는 '좋다'는 무슨 뜻일까요?
+(z1 / 뜻
+    :theme (z2 / 말하다
+               :agent (z3 / 우리)
+               :theme (z4 / 좋다))
+    :content (z5 / ?))
+
+# ::id 115195
+# ::snt 대부분의 삶은 인간 경험의 사슬 중간에서 보내게 되는데, 모든 것이 정상이고 안심스럽고 규칙적인 곳이죠. 그러다가 실패가 갑자기 여기서 훨씬 더 어두운 실망의 쪽으로 밀어버립니다. 성공은 또한 갑자기 밀어내지만, 실패와 같은 거리로, 그곳은 똑같이 어둡고, 그만큼이나 이름과 인정, 칭찬의 눈부심으로 가득 차 있습니다.
+(z1 / multi-sentence
+      :snt1 (z2 / 보내게_되다 
+                        :theme (z3 / 삶
+                                     :quality (z4 / 대부분)) 
+                        :location (z5 / 중간
+                                        :context (z6 / 사슬
+                                                       :part_of (z7 / 인간_경험)))
+                        :location_of (z8 / 곳
+                                            :theme (z9 / 모든것 
+                                                         :attribute (z10 / and
+                                                                         :op1 (z11 / 정성)
+                                                                         :op2 (z12 / 안심)
+                                                                         :op3 (z13 / 규칙적))))
+                        :concession (z14 / 밀어버리다
+                                             :agent (z15 / 실패)
+                                             :manner (z16 / 갑자기)
+                                             :source (z17 / 여기서)
+                                             :target (z18 / 쪽
+                                                         :quality (z19 / 어두운
+                                                                      :degree (z20 / 훨씬_더))))
+       :snt2 (z21/ 밀어내다
+                        :agent (z22 / 성공)
+                        :manner (z23 / 갑자기)
+                                       :degree (z24 / 같은_거리로
+                                                     :compared z15))
+                        :target (z25 / 곳
+                                    :quality (z26 / 어둡다 
+                                                  :degree (z27 / 똑같이 
+                                                                :coref 15))
+                                    :patient_of (z28 / 차_있다
+                                                   :context (z29 / 눈부신
+                                                                  :quality (z30 / and 
+                                                                               :op1 (z31 / 이름)
+                                                                               :op2 (z32 / 인정)
+                                                                               :op3 (z33 / 칭찬)))))))
+
+# ::id 187847
+# ::snt 보트, 군용 소나, 해저 공사, 석유 탐사를 위한 지진 조사 등이 더 자주 일어나고 있어 고래의 소통을 방해할 수 있습니다.
+(z1 / 일어나고_있다
+    :aspect continuous
+    :theme (z2 / 등
+               :op1 (z3 / 보트)
+               :op2 (z4 / 소나
+                        :quality (z5 / 군용))
+               :op3 (z6 / 공사
+                        :quality (z7 / 해저))
+               :op4 (z8 / 조사
+                        :quality (z9 / 지진)
+                        :purpose (z10 / 탐사
+                                      :purpose (z11 / 석유))))
+    :frequency (z12 / 자주
+                    :degree (z13 / 더))
+    :cause_of (z14 / 방해하다
+                   :mode possibility
+                   :agent
+                   :target (z15 / 소통
+                                :related (z16 / 고래))))
+
+# ::id 86863
+# ::snt 나는 이걸 사서 돈을 쓴 게 너무 역겨웠어요.
+(z1 / 역겹다 
+    :tense past
+    :agent (z2 / 나)
+    :degree (z3 / 너무)
+    :cause (z4 / 쓰다 
+               :tense past
+               :agent z2
+               :theme (z5 / 돈
+                            :possession_of z2)
+               :target (z6 / 사다
+                           :agent z2
+                           :theme (z7 / 이것))))
+
+# ::id 207712
+# ::snt 뭐?'는 'what?'이에요.
+(z1 / 이다
+    :theme (z2 / 뭐)
+    :content (z3 / what))
+
+# ::id 144972
+# ::snt 사랑에 빠지는 건 쉬운 일이죠.
+(z1 / 이다
+    :theme (z2 / 사랑에_빠지다)
+    :identity (z3 / 일
+                  :quality (z4 / 쉬운)))
+
+# ::id 36272
+# ::snt 인간의 마음은 한 개의 인지 우주를 만들어 냈을 뿐만 아니라 7천 개의 언어를 만들어 냈어요.
+(z1 / and
+    :op1 (z2 / 만들어_내다
+             :agent (z3 / 마음
+                        :part_of (z4 / 인간))
+             :product (z5 / 우주
+                          :quality (z6 / 인지)
+                          :quantity (z7 / 1
+                                        :polarity -
+                                        :contrast (z8 / 7천))))
+    :op2 (z9 / 만들어_내다
+             :agent z3
+             :product (z10 / 언어
+                           :quantity (z11 / 7천))))
+
+# ::id 36273
+# ::snt 우리는 더 많은 언어를 만들 수 있어요. 언어는 살아있는 것이고, 우리의 필요에 맞게 다듬고 바꿀 수 있는 것이죠.
+(z1 / multi-sentence
+    :snt1 (z2 / 만들다
+              :mode possibility
+              :agent (z3 / 우리)
+              :product (z5 / 언어
+                           :quantity (z6 / 많은)
+                           :degree (z7 / 더)))
+    :snt2 (z8 / 살아있다
+              :theme (z9 / 것)
+              :identity (z10 / 언어)
+              :patient_of (z11 / and
+                               :mode possibility
+                               :agent z3
+                               :op1 (z12 / 다듬다)
+                               :op2 (z13 / 바꾸다)
+                               :purpose (z14 / 필요에_맞게
+                                             :related z3))))
+
+# ::id 36273_b
+# ::snt 인간의 두뇌는 하나의 인지 우주를 만들어 냈고, 7천개의 언어가 존재하며, 더 많은 언어를 만들어 낼 수 있습니다. 언어는 살아있는 것이고, 우리의 필요에 맞게 다듬고 변화시킬 수 있는 존재입니다.
+(z1 / multi-sentence
+    :snt1 (z2 / 만들어_내다
+              :tense past
+              :agent (z3 / 두뇌
+                         :part_of (z4 / 인간))
+              :product (z5 / 우주
+                           :quality (z6 / 인지)
+                           :quantity (z7 / 하나)))
+    :snt2 (z9 / and
+              :op1 (z10 / 존재하다
+                        :theme (z11 / 언어
+                                    :quantity (z12 / 7천)))
+              :op2 (z13 / 만들어_내다
+                        :mode possibility
+                        :agent z4
+                        :product (z14 / 더
+                                      :degree (z15 / 많이)
+                                      :coref z11)))
+    :snt3 (z16 / 이다
+               :theme (z17 / 언어)
+               :attribute (z18 / 것
+                               :quality (z19 / 살아있는)
+                               :patient_of (z20 / and
+                                                :mode possibility
+                                                :agent (z21 / 우리)
+                                                :op1 (z22 / 다듬다)
+                                                :op2 (z23 / 변화시키다)
+                                                :purpose (z24 / 필요에_맞게
+                                                              :related z21)))))
+
+# ::id 273954
+# ::snt 기술은 있고, 시설은 갖춰져 있는데도, 이런 일이 벌어지지 않는다.
+(z1 / and
+    :op1 (z2 / 있다
+             :theme (z3 / 기술))
+    :op2 (z4 / 갖춰져_있다
+             :theme (z5 / 시설))
+    :concession (z6 / 벌어지다
+                    :polarity -
+                    :theme (z7 / 일
+                               :quality (z8 / 이런))))
+
+# ::id 32369
+# ::snt 포춘 매거진에 따르면, 그는 7억 달러의 가치가 있다고 합니다.
+(z1 / 따르면
+    :source (z2 / 매거진
+                :name (z3 / 포춘))
+    :content (z4 / 있다
+                 :theme (z5 / 그)
+                 :possession (z6 / 가치
+                                 :quantity (z7 / 7억
+                                               :unit (z8 / 달러)))))
+
+# ::id 148514
+# ::snt 우리는 랍스터의 불안을 얼마나 신경쓰는지 보여줄 수 있을까요?
+(z1 / 보여주다
+    :agent (z2 / 우리)
+    :theme (z3 / 신경쓰다
+               :stimulus (z4 / 불안
+                             :related (z45 / 럽스터))
+               :degree (z6 / 얼마나))
+    :manner (z7 / ?))
+
+# ::id 196070
+# ::snt 이 작은 아이가 다섯 분 동안 움직이지 않고 서 있었어요.
+(z1 / 서_있다
+    :tense past
+    :theme (z2 / 아이
+               :quality (z3 / 작은)
+               :quality (z4 / 이))
+    :extent (z6 / 분
+                :quantity (z7 / 다섯))
+    :manner (z8 / 움직이다
+                :polarity -))
+
+# ::id 34542
+# ::snt 그는 우리가 사회적 존재라서 다른 이의 감정을 공유한다고 말했어요.
+(z1 / 말하다
+    :tense past
+    :agent (z2 / 그)
+    :content (z3 / 이다
+                 :theme (z4 / 우리)
+                 :identity (z5 / 존재
+                               :quality (z6 / 사회적))
+                 :result (z7 / 공유하다
+                             :agent z4
+                             :theme (z8 / 감정)
+                             :possession_of (z9 / 이
+                                                :quality (z10 / 다른)))))
+
+# ::id 149043
+# ::snt 우리는 '비가 억수같이 쏟아진다', '다모클레스의 칼날을 기다렸어' 라고 말해요.
+(z1 / 말하다
+    :agent (z2 / 우리)
+    :content (z3 / and
+                 :op1 (z4 / 쏟아지다
+                          :theme (z5 / 비)
+                          :manner (z6 / 억수같이))
+                 :op2 (z7 / 기다리다
+                          :tense past
+                          :theme (z8 / 칼날
+                                     :possession_of (z9 / 다모클레스)))))
+
+# ::id 149052
+# ::snt 우리는 비가 개나 고양이가 내리는 것처럼 생각하지 않는다. 그러나 이 생각을 해보니, 나는 그 개가 작은 개라는 것을 확신한다. 코커 스패니엘이나 닥스훈트 같은 개가 아닌, 골든 리트리버나 뉴펀들랜드 같은 큰 개가 아니라는 것을 확신한다.
+(z1 / multi-sentence
+    :snt1 (z2 / 생각하다
+              :polarity -
+              :agent (z3 / 우리)
+              :theme (z4 / 비
+                         :compared (z5 / 내리다
+                                       :theme (z6 / or
+                                                  :op1 (z7 / 개)
+                                                  :op2 (z8 / 고양이)))))
+    :snt2 (z9 / 확신하다
+              :agent (z10 / 나)
+              :theme (z11 / 개
+                          :coref z7
+                          :quality (z12 / 그)
+                          :quality (z13 / 작은)))
+    :snt3 (z14 / 확신하다
+               :theme z7
+               :identity (z15 / 아니다
+                              :polarity -
+                              :example (z16 / or
+                                            :op1 (z17 / 코커_스패니엘)
+                                            :op2 (z18 / 닥스훈트)
+                                            :op3 (z19 / 골든_리트리버)
+                                            :op4 (z20 / 뉴펀들랜드))
+                              :quality (z21 / 큰))))
+
+# ::id 229253
+# ::snt 그 당시에, 그것은 전통적 의료 보조 장비 제작 커뮤니티 밖의 혁신가들에게 발을 내딛어서 그들의 재능을 이 과학과 기술, 그리고 다리를 만드는 예술에 기부하라고 호소하는 기회였습니다.
+(z1 / 이다
+    :tense past
+    :theme (z2 / 그것)
+    :identity (z3 / 기회
+                  :context (z4 / 호소하다
+                               :target (z5 / 혁신가
+                                           :quantity +
+                                           :quality (z6 / 밖의
+                                                        :context (z7 / 커뮤니티
+                                                                     :quality 전통적
+                                                                     :product (z9 / 장비
+                                                                                  :quality (z10 / 의료)
+                                                                                  :quality (z11 / 보조))))))
+                  :purpose (z12 / 기부하다
+                                :agent z6
+                                :theme (z13 / 재능
+                                            :possession_of z6)
+                                :target (z14 / and
+                                             :op1 (z15 / 과학)
+                                             :op2 (z16 / 기술)
+                                             :op3 (z17 / 예술
+                                                        :purpose (z18 / 만든다
+                                                                      :product (z19 / 다리)))))
+                  :time (z20 / 그_당시)))
+
+# ::id 191591
+# ::snt 이것은 유산소 과정이기 때문에 산소가 필요하고, 충분한 수분도 필요합니다.
+(z1 / 이다 
+    :theme (z2 / 이것)
+    :attribute (z3 / 과정
+                    :quality (z4 / 유산소))
+    :result (z5 / and 
+                  :op1 (z6 / 필요하다
+                            :theme (z7/ 산소))
+                  :op2 (z8 / 필요하다
+                            :them (z9 / 수분
+                                       :quantity (z10 / 충분한)))))
+
+# ::id 194671
+# ::snt 그러나 1982년 8월 멕시코가 채무 불이행을 하자 다른 나라들도 이에 이어졌다.
+(z1 / 그러나
+    :cause (z2 / 하자
+               :agent (z3 / 멕시코)
+               :theme (z4 / 채무_불이행))
+    :result (z5 / 이어오다
+                :tense past
+                :agent (z6 / 나라
+                           :quality (z7 / 다른
+                                        :quantity +))
+                :theme z4)
+    :time (z8 / 1982년
+              :month (z9 / 8월)))
+
+# ::id 70026
+# ::snt 200명이 넘는 사람들이 그에게 5점 만점에서 4.99점 이상을 주었다는 것을 보실 수 있습니다.
+(z1 / 보다
+    :mode possibility
+    :stimulus (z2 / 주다
+                  :tense past
+                  :agent (z3 / 사람
+                             :quantity (z5 / 넘다
+                                           :op1 (z6 / 200명))))
+    :target (z7 / 그)
+    :theme (z8 / 만점
+               :scale (z9 / 5점)
+               :value (z10 / 이상
+                           :op1 (z11 / 4.99))))
+
+# ::id 46998
+# ::snt 10명 중 1명만이 충분히 저축하고 있습니다.
+(z1 / 저축하다
+    :aspect continuous
+    :agent (z2 / 명
+               :quantity (z7 / 1)
+               :part_of (z4 / 명
+                            :quantity (z5 / 10)))
+    :degree (z6 / 충분히))
+
+# ::id 204462
+# ::snt 적어도 돈 문제를 해결하려고 노력하는 동안에 치료를 받을 수 있어요.
+(z1 / 받다
+    :tense future
+    :mode possibility
+    :theme (z2 / 치료)
+    :quality (z3 / 적어도)
+    :time (z4 / 노력하다
+              :aspect continuous
+              :purpose (z5 / 해결하다
+                           :theme (z6 / 문제
+                                      :context (z7 / 돈)))))
+
+# ::id 267981
+# ::snt 타이타닉호의 난파선 안에 실제로 있는 것 같았어요.
+(z1 / 같다
+    :tense past
+    :theme (z2 / 있다
+                  :experiencer (z3 / 나)
+                  :manner (z4 / 실제로)
+                  :location (z5 / 안
+                                :op1 (z6 / 난파선
+                                         :related (z7 / 타이타닉호)))))
+
+# ::id 126992
+# ::snt 이 안에는 방금 췌장암을 진단한 샘플이 들어있습니다.
+(z1 / 들어있다
+    :location (z2 / 안
+                  :quality (z3 / 이))
+    :theme (z4 / 샘플
+               :location_of (z5 / 진단하다
+                                :tense past
+                                :theme (z6 / 췌장암)
+                                :time (z7 / 방금))))
+
+# ::id 95962
+# ::snt 그래서 나는 '당신 법정에 와 주시겠어요?' 라고 말했죠.
+(z1 / 그래서
+    :op2 (z2 / 말하다
+             :tense past
+             :agent (z3 / 나)
+             :content (z4 / 주다
+                          :mood conditional
+                          :polarity ?
+                          :agent (z5 / 당신)
+                          :target (z6 / 오다
+                                      :agent z5
+                                      :location (z7 / 법정)))))
+
+# ::id 150027
+# ::snt 일본 사람들은 떠다니는 섬을 만들고 싶어합니다.
+(z1 / 하고싶다
+    :agent (z2 / 사람
+               :quantity +
+               :related (z3 / 일본))
+    :theme (z4 / 만들다
+               :agent z2
+               :theme (z5 / 섬
+                          :quality (z6 / 떠다니는))))
+
+# ::id 126712
+# ::snt 오웰이 1984에서 경고했던 것들을 이해하지 못한 것이죠.
+(z1 / 이해하다
+    :polarity -
+    :theme (z2 / 경고하다
+               :tense past
+               :agent (z3 / 오월)
+               :theme (z4 / 것
+                          :quantity +)
+               :location (z5 / 1984)))
+
+# ::id 101079
+# ::snt 이제 개인정보의 대규모 분석, 빅데이터로부터 많은 이득을 얻을 수 있지만, 우리의 개인정보를 내놓음으로써 생기는 복잡한 상충 관계도 함께 따르게 됩니다.
+(z1 / 얻다
+    :mode possibility
+    :theme (z2 / 이득
+               :quality (z3 / 많은)
+               :source (z4 / 분석
+                           :quality (z5 / 대규모)
+                           :context (z6 / 개인정보)
+                           :identity (z7 / 빅데이터))
+               :time (z8 / 이제))
+    :concession (z9 / 따르게_되다
+                    :manner (z10 / 함께)
+                    :theme (z11 / 상충_관계
+                                :quality (z12 / 복잡한)
+                                :source (z13 / 내놓은
+                                             :theme (z14 / 개인정보
+                                                         :related (z15 / 우리))))))
+
+# ::id 126710
+# ::snt 감시와 사생활에 관한 문학작품 중 가장 상징적인 작품은 조지 오웰의 소설 '1984'이다. 이 소설은 우리가 학교에서 배우는데, 그래서 이 소설은 거의 클리셰가 되었다.
+(z1 / and 
+    :op1 (z2 / 이다 
+             :theme (z3 / 작품
+                          :quality (z4 / 상징적
+                                       :degree (z5 / 가장))
+                          :part_of (z6 / 문학작품
+                                         :context (z7 / and
+                                                       :op1 (z8 / 감시)
+                                                       :op2 (z9 / 사생활))))
+             :attribute (z10 / 소설
+                          :context (z11 / 조지_오웰)
+                          :name (z12 / 1984)))
+    :op2 (z13 / 배우다
+               :agent (z14 / 우리)
+               :theme (z15 / 소설 
+                            :quality (z16 / 이)
+                            :coref z10)
+               :location (z17 / 학교)
+               :result (z18 / 되다
+                            :patient z10
+                            :quality (z19 / 거의)
+                            :attribute (z20 / 클리셰))))
+
+# ::id 84164
+# ::snt 나는 1607년 매사추세츠 주 콜로니의 페쿧 인디언 전쟁부터 시작했습니다.
+(z1 / 시작하다
+    :tense past
+    :agent (z2 / 나)
+    :theme (z3 / 페쿧_인디언_전쟁
+               :location (z4 / 매사추세츠_주_콜로니))
+    :time (z5 / 1607년))
+
+# ::id 64490
+# ::snt 그래서 이 웨이보 소셜 미디어는 심지어 검열을 뚫고 3억명이 매일 함께 이야기하고 채팅할 수 있는 기회를 제공합니다.
+(z1 / 제공하다
+    :agent (z2 / 소셜_미디어
+               :name (z3 / 웨이보))
+    :regardless (z4 / 검열)
+    :result (z5 / 기회
+                :purpose (z6 / and
+                             :op1 (z7 / 채팅하다
+                                      :mode possibility
+                                      :agent (z8 / 3억명))
+                             :op2 (z9 / 이야기하다
+                                      :mode possibility
+                                      :agent z8)
+                             :manner (z10 / 함께)
+                             :frequency (z11 / 매일))))
+
+# ::id 42239
+# ::snt 그리고 https와 SSL 암호화 서비스가 있는 웹사이트가 있다면 인증서가 필요하다.
+(z1 / 필요하다
+    :theme (z2 / 인증서)
+    :condition (z3 / 있다
+                   :theme (z4 / 웹사이트
+                              :quality (z5 / https)
+                              :instrument (z6 / 서비스
+                                              :quality (z7 / 암호화)
+                                              :name (z8 / SSL)))))
+
+# ::id 219253
+# ::snt 그의 증조할아버지는 면직기를 발명한 엘리 휘트니였다.
+(z1 / 증조할아버지
+    :related (z2 / 그)
+    :theme_of (z3 / 이다
+                  :identity (z4 / 엘리_휘트니
+                                :identity (z5 / 발명가
+                                              :context (z6 / 면직기)))))
+
+# ::id 39791
+# ::snt 그리고 작은 물고기들이 족히 먹고, 큰 물고기들이 작은 물고기들을 먹고, 그리고 사람들이 큰 물고기들을 먹는 식으로 식량사슬이 이어진다.
+(z1 / and
+    :op1 (z2 / 먹다
+             :agent (z3 / 물고기
+                        :quantity +
+                        :quality (z4 / 작은))
+             :patient (z5 / 족히))
+    :op2 (z6 / 먹다
+             :agent (z7 / 물고기
+                        :quantity +
+                        :quality (z8 / 큰))
+             :patient z3)
+    :op3 (z9 / 먹다
+             :agent (z10 / 사람
+                         :quantity +)
+             :patient z7))
+
+# ::id 132843
+# ::snt 모차르트 효과에 대해 들어보신 적 있나요?
+(z1 / 들어보다
+    :aspect perfect
+    :polarity ?
+    :theme (z2 / 모차르트_효과))
+
+# ::id 92586
+# ::snt 이것은 2009년에 발표된 자연지에 실린 놀라운 기사의 표지입니다. 이 기사가 인류의 인산 위기에 대한 논의를 촉발했습니다.
+(z1 / 이것
+    :theme_of (z2 / 표지
+                  :part_of (z3 / 기사
+                               :quality (z4 / 놀라운)
+                               :theme_of (z5 / 실리다
+                                             :location (z6 / 자연지)
+                                             :time (z7 / 2009))
+                               :agent_of (z8 / 발표)
+                               :identiy (z9 / 촉발
+                                            :tense past
+                                            :agent z3
+                                            :theme (z10 / 논의
+                                                        :context (z11 / 위기
+                                                                      :quality (z12 / 인산)
+                                                                      :context (z13 / 인류)))))))
+
+# ::id 270165
+# ::snt 이 측정은 몇 년 전에 우리가 오디세이라고 불리는 화성 궤도 위성에서 얻은 자료입니다.
+(z1 / 이다
+    :theme (z2 / 측정
+               :quality (z3 / 이)
+               :identity (z4 / 자료
+                             :theme_of (z5 / 얻다
+                                           :agent (z6 / 우리)
+                                           :time (z7 / 전
+                                                     :op1 (z8 / 년
+                                                              :quantity (z9 / 몇)))
+                                           :source (z10 / 위성
+                                                        :quality (z11 / 화성_궤도))
+                                           :theme_of (z12 / 불리다
+                                                          :agent z6
+                                                          :name (z13 / 오디세이))))))
+
+# ::id 2545
+# ::snt 지난 10월 FAO에서 이에 대해 전적으로 신경을 쓴 회의가 있었습니다.
+(z1 / 있다
+    :tense past
+    :theme (z2 / 회의
+               :possession_of (z3 / FAO)
+               :theme_of (z4 / 신경을_쓰다
+                             :tense past
+                             :quality (z5 / 전적으로)
+                             :target (z6 / 이)))
+    :time (z7 / 10월
+              :quality (z8 / 지난)))
+
+# ::id 77205
+# ::snt 그래서 우리는 비타민 D를 만들지 않는 자외선 A를 사용했어요.
+(z1 / 그래서
+    :op2 (z2 / 사용
+             :tense past
+             :agent (z3 / 우리)
+             :patient (z4 / 자외선_A
+                          :agent_of (z5 / 만들다
+                                        :polarity -
+                                        :product (z6 / 비타민_D)))))
+
+# ::id 20446
+# ::snt 또한 이 캠페인에서는 다른 방법으로도 아이들을 구하려고 노력했습니다. 비타민 A를 주고, 홍역 예방주사를 맞추고, 말라리아 예방망을 걸어주기도 했습니다.
+(z1 / multi-sentence
+    :snt1 (z2 / 또한
+              :op2 (z3 / 노력하다
+                       :tense past
+                       :manner (z4 / 방법
+                                   :quality (z5 / 다른)
+                                   :manner (z6 / 도))
+                       :purpose (z7 / 구하다
+                                    :theme (z8 / 아이들
+                                               :quantity +))
+                       :location (z9 / 캠페인
+                                     :quality (z10 / 이))))
+    :snt2 (z11 / 하다
+               :tense past
+               :theme (z12 / or
+                           :op1 (z13 / 주다
+                                     :theme (z14 / 비타민_A))
+                           :op2 (z15 / 맞추다
+                                     :theme (z16 / 홍역_예방주사))
+                           :op3 (z17 / 걸어주다
+                                     :theme (z18 / 말라리아_예방망)))))
+
+# ::id 172506
+# ::snt 디즈니 스토어에 가서 블랙 위도우 의상을 찾으려고 하면 캡틴 아메리카와 인크레더블 헐크를 찾게 될 겁니다.
+(z1 / and
+    :op2 (z2 / 가다
+             :agent (z3 / 너)
+             :target (z4 / 스토어
+                         :quality (z5 / 디즈니)))
+    :purpose (z6 / 찾다
+                 :agent z3
+                 :theme (z7 / 의상
+                            :context (z8 / 블랙_위도우)))
+    :result (z9 / 찾다
+                :agent z3
+                :theme (z10 / and
+                            :op1 (z11 / 캡틴_아메리카
+                                      :context_of z7)
+                            :op2 (z12 / 인크레더블_헐크
+                                      :context_of z7))))
+
+# ::id 152764
+# ::snt 레오나르도는 빈트루비오에 대해서만 생각하고 있지 않았어요.
+(z1 / 생각하다
+    :tense past
+    :aspect perfect
+    :polarity -
+    :agent (z2 / 레오나르도)
+    :theme (z3 / 빈트루비오)
+    :quality (z4 / 만))
+
+# ::id 158139
+# ::snt 청년 시절 아인슈타인이 진짜 이 퍼즐을 만들었을까?
+(z1 / 만들다
+    :tense past
+    :polarity ?
+    :agent (z2 / 아인슈타인
+               :quality (z3 / 청년시절))
+    :result (z4 / 퍼즐
+                :quality (z5 / 이))
+    :quality (z6 / 진짜))
+
+# ::id 234498
+# ::snt 부모님은 마음의 평화를 위해 필요하다고 생각했어요.
+(z1 / 생각하다
+    :tense past
+    :agent (z2 / 부모님)
+    :theme (z3 / 필요하다
+               :aspect perfect
+               :theme (z4 / 이것)
+               :purpose (z5 / 마음의_평화)))
+
+# ::id 149798
+# ::snt 금성을 생각해보십시오.
+(z1 / 생각해_보다
+    :mode imperative
+    :politeness high
+    :agent (z2 / 십시오)
+    :theme (z3 / 금성))
+
+# ::id 111807
+# ::snt 이 게들은 가시가 없어서 울퉁불퉁한 바닷가에서 문제가 생긴다.
+(z1 / 없어서
+    :agent (z2 / 이_게
+               :quantity +)
+    :theme (z3 / 가시
+               :quantity +)
+    :cause_of (z4 / 생기다
+                  :theme (z5 / 문제)
+                  :location (z6 / 바닷가
+                                :quality (z7 / 울퉁불퉁))))
+
+# ::id 169178
+# ::snt 계속해서 물었어요, 제가 잘못된 길을 가고 있는 건가요?
+(z1 / 계속해서
+    :agent (z2 / 나)
+    :theme (z3 / 물다
+               :agent z2
+               :theme (z4 / 가다
+                          :aspect continuous
+                          :tense past
+                          :polarity ?
+                          :agent z2
+                          :theme (z5 / 잘못된_길))))
+
+# ::id 273599
+# ::snt 오스트레일리아에 도착할 때, 오스트레일리아에 도착한다면, 난 아마 1만 6천킬로미터를 더 노를 것이다.
+(z1 / 노
+    :tense future
+    :extend (z2 / 킬로미터
+                :quantity (z3 / 1만_6천))
+    :agent (z4 / 나)
+    :time (z5 / 도착하다
+              :theme z4
+              :target (z6 / 오스트레일리아))
+    :condition (z7 / 도착하다
+                   :theme z4
+                   :target z8))
+
+# ::id 203633
+# ::snt 몇 호? 쉽죠. 도전을 좋아해요.
+(z1 / multi-sentence
+    :snt1 (z2 / 호
+              :polarity ?
+              :quantity +)
+    :snt2 (z3 / 쉽다)
+    :snt3 (z4 / 좋아하다
+              :theme (z5 / 도전)))
+
+# ::id 50782
+# ::snt 무엇이든 당신이 기억하려고 애쓰는 것은 혀 끝에 놓여있지 않아요. 비록 당신의 비장의 한 구석에 숨어있지도 않아요.
+(z1 / multi-sentence
+    :snt1 (z2 / 놓여_있다
+              :theme (z3 / 무엇이든)
+              :location (z4 / 혀_끝)
+              :polarity -
+              :quality (z5 / 기억_하려고
+                           :agent (z6 / 당신)
+                           :effort (z7 / 애쓰다
+                                       :agent z6)))
+    :snt2 (z8 / 숨어있다
+             :polarity -
+             :location (z9 / 구석
+                           :quality (z10 / 한)
+                           :part_of (z11 / 비장
+                                         :part_of z6))))
+
+# ::id 176733
+# ::snt 알겠죠? 이야기를 좀 생략했지만, 대강 이해하시죠?
+(z1 / 알겠죠
+    :polarity ?
+    :experiencer (z2 / 당신)
+    :content (z3 / 생략하다
+                 :tense past
+                 :agent (z4 / 나)
+                 :theme (z5 / 이야기)
+                 :quality (z6 / 좀)
+                 :concession (z7 / 이해하다
+                                 :polarity ?
+                                 :experiencer (z8 / 당신)
+                                 :manner (z9 / 대강))))
+
+# ::id 243127
+# ::snt 이 비즈니스는 중독성이 있어요. 뭔 말인지 알겠죠? 누군가가 돈을 내주니까.
+(z1 / multi-sentence
+    :snt1 (z2 / 있어요
+              :theme (z3 / 비즈니스
+                         :quality (z4 / 이))
+              :attribute (z5 / 중독성))
+    :snt2 (z6 / 알겠죠
+              :agent (z7 / 뭔_말))
+    :snt3 (z9 / 내주다
+              :agent (z10 / 누군가)
+              :theme (z11 / 돈)))
+
+# ::id 75341
+# ::snt 이러한 오슈비츠 집중교도소의 사진들은 20세기에 우리의 의식 속에 새겨들어져 왔고, 우리에게 새로운 이해를 선사해 주었습니다. 우리가 누구인지, 어디에서 왔는지, 그리고 우리가 살아가는 시대에 대한 이해를 말이죠.
+(z1 / and
+    :op1 (z2 / 새기들어_오다
+             :aspect past
+             :theme (z3 / 사진
+                        :quantity +
+                        :example (z4 / 이러한)
+                        :context (z5 / 집중교도소
+                                     :name (z6 / 오슈비츠)))
+             :location (z7 / 의식
+                           :possession_of (z8 / 우리))
+             :time (z9 / 20세기))
+    :op2 (z10 / 선서해주다
+              :aspect past
+              :target z8
+              :theme (z11 / 이해
+                          :quality (z12 / 새로운)
+                          :context (z13 / and
+                                        :op1 (z14 / 이다
+                                                   :theme z8
+                                                   :identity (z15 / 누구))
+                                        :op2 (z16 / 오다
+                                                   :agent z8
+                                                   :source (z17 / 어디에서))
+                                        :op3 (z18 / 시대
+                                                  :time_of (z19 / 살아가다
+                                                                :agent z8))))))
+
+# ::id 135116
+# ::snt 좋은 소식은 NASA가 이 문제를 연구하고 오리온호에 대한 지식을 보존하려는 작전을 가지고 있다는 것이다.
+(z1 / 이다
+    :theme (z2 / 소식
+               :quality (z3 / 좋은))
+    :identity (z4 / 가지고_있다
+                  :theme (z5 / NASA)
+                  :possession (z6 / 작전
+                                  :purpose (z7 / 보존
+                                               :agent z5
+                                               :theme (z8 / 지식
+                                                          :context (z9 / 오리온호)))
+                                  :theme (z10 / 연구
+                                              :theme (z11 / 문제
+                                                          :quality (z12 / 이))))))
+
+# ::id 163044
+# ::snt 20대 말에 스페인 바르셀로나 교향악단의 연주자가 되었습니다.
+(z1 / 되다
+    :tense past
+    :result (z2 / 연주자
+                :membership (z3 / 교향악단
+                                :location (z4 / 바르셀로나
+                                              :location (z5 / 스페인))))
+    :time (z6 / 말
+              :context (z7 / 20대)))
+
+# ::id 117898
+# ::snt 팬들은 메시가 피치를 달리며 골대에 골을 넣는 모습을 상상하며 페더러가 움블던에서 서브하는 모습을 상상하며 어떤 경험을 할 것이라고 생각하십니까?
+(z1 / 생각하다
+    :agent (z2 / 당신)
+    :theme (z3 / 경험하다
+               :tense future
+               :experiencer (z4 / 팬
+                                :quantity +)
+               :time (z5 / 상상하다
+                         :agent z4
+                         :identity (z6 / or
+                                       :op1 (z7 / 메시
+                                                :agent_of (z8 / 달리다
+                                                              :location (z9 / 피치))
+                                                :agent_of (z10 / 넣다
+                                                               :patient (z11 / 골)
+                                                               :location (z12 / 골대)))
+                                       :op2 (z13 / 페러더
+                                                 :agent_of (z14 / 서브하다
+                                                                :location (z15 / 움블던))))))
+    :content (z16 / ?))
+

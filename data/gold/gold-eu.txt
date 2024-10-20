@@ -1,0 +1,1467 @@
+# ::id 223323
+# ::snt Bakterioak, jakin dezakezue, ondoan daude, garagardoan.
+(z1 / ikusi
+    :experiencer (z2 / zu)
+    :theme (z3 / bakterio
+               :quantity +
+               :location (z4 / ondoan)
+               :location (z5 / garagardo)))
+
+# ::id 248638
+# ::snt Orain, joan atzera bi urte.
+(z1 / joan_atzera
+    :agent (z2 / orain)
+    :extent (z3 / urte
+                :quantity (z4 / bi)))
+
+# ::id 284943
+# ::snt Baina itzul zaitez Sudanera.
+(z1 / baina
+    :op2 (z2 / itzuli_zaitez
+             :mode imperative
+             :agent (z3 / zu)
+             :target (z4 / Sudan)))
+
+# ::id 276444
+# ::snt Maite dut hitza hori, 'desentzat'
+(z1 / maite_du
+    :experiencer (z2 / ni)
+    :stimulus (z3 / hitza
+                  :quality (z4 / hori)
+                  :identity (z5 / desentzat)))
+
+# ::id 138561
+# ::snt Ikasleak 270 gazte ziren, diktadura izolatu eta zorrotz baten ordezko liderrak izango ziren.
+(z1 / izan
+    :tense past
+    :theme (z2 / ikasle
+               :quantity +)
+    :identity (z3 / gazte
+                  :quantity (z4 / 270))
+    :identity (z5 / liderra
+                  :quantity +
+                  :quality (z6 / ordezko)
+                  :membership (z7 / diktadura
+                                  :quality (z8 / izolatu)
+                                  :quality (z9 / zorrotz)))
+    :tense future)
+
+# ::id 68081
+# ::snt Eta bertan, gizonen lanak ohikoak dira.
+(z1 / and
+    :op2 (z2 / orduan
+             :op1 (z3 / lan
+                      :theme (z4 / gizon
+                                 :quantity +)
+                      :quality (z5 / ohiko))
+             :location (z6 / bertan)))
+
+# ::id 39410
+# ::snt Orduan, bazkaltzera joango ginen herriko alkatearekin eta Malagako jende garrantzitsuarekin afaltzera joango ginen.
+(z1 / and
+    :op1 (z2 / joan
+             :tense past
+             :aspect imperfect
+             :agent (z3 / gu)
+             :purpose (z4 / bazkaldu
+                          :agent z3
+                          :accompanier (z5 / alkate
+                                           :location (z6 / herri)))
+             :time (z7 / orduan))
+    :op2 (z8 / joan
+             :tense past
+             :aspect imperfect
+             :agent z3
+             :purpose (z9 / afaldu
+                          :agent z3
+                          :accompanier (z10 / jende
+                                            :quantity (z11 / garrantzitsu)
+                                            :location (z12 / Malaga)))))
+
+# ::id 39404
+# ::snt Orain dela urte bat, Malagako hirira joan nintzen, talde batekin, zegokion eraikin bat eraikitzeko, hiriko zigilu ofizialak eta besteak, hiriko zinegotzi ofizial batek sinaturik.
+(z1 / joan
+    :tense past
+    :agent (z2 / ni)
+    :time (z3 / orain
+              :location (z4 / Malaga)
+              :quality (z5 / dela
+                           :time (z6 / urte
+                                     :quantity (z7 / bat))))
+    :location (z8 / hiri
+                  :name Malaga)
+    :accompanier (z9 / talde)
+    :purpose (z10 / eraikin
+                  :theme (z11 / eraikin
+                              :theme (z12 / eraikin
+                                          :theme z2
+                                          :location z8)
+                              :location (z13 / hiri
+                                             :coref z8))
+                  :mood subjunctive
+                  :tense past
+                  :agent z2
+                  :instrument (z14 / and
+                                   :op1 (z15 / zigilu
+                                             :quantity +
+                                             :quality (z16 / ofizial)
+                                             :location z8)
+                                   :op2 (z17 / zinegotzi
+                                             :quantity +
+                                             :quality (z18 / ofizial)
+                                             :location z8)
+                                   :op3 (z19 / beste
+                                             :quantity +
+                                             :location z8))))
+
+# ::id 250177
+# ::snt Hau da, ikusmena desagertzean edo itsu egitean, ikusmenaren kalteak eragiten dituen irudi ikusgarriak sortu daitezkeela.'
+(z1 / izan
+    :theme (z2 / hau)
+    :identity (z3 / sortu
+                  :tense future
+                  :agent (z4 / irudi_ikusgarri
+                             :context (z5 / ikusmen
+                                          :agent_of z3))
+                  :manner (z6 / or
+                              :op1 (z7 / desagertze)
+                              :op2 (z8 / itsu))
+                  :condition (z9 / edo
+                                 :op1 z6
+                                 :op2 z7)))
+
+# ::id 57214
+# ::snt Bat, bi, hiru, lau, bost, sei eta zazpi.
+(z1 / and
+    :op1 (z2 / bat)
+    :op2 (z3 / bi)
+    :op3 (z4 / hiru)
+    :op4 (z5 / lau)
+    :op5 (z6 / bost)
+    :op6 (z7 / sei)
+    :op7 (z8 / zazpi))
+
+# ::id 113575
+# ::snt Ekipamendari: Zorte on.
+(z1 / eskerrik_asko
+    :agent (z2 / ekipamendari)
+    :theme (z3 / zorte_on))
+
+# ::id 113575_b
+# ::snt Emanaldi-kide: Zorte on.
+(z1 / eskerrik_asko
+    :agent (z2 / kide
+               :type (z3 / emanaldi)))
+
+# ::id 169020
+# ::snt Baina, hala ere, gaur egun, gurasoek %40 eskola pribatuetara eramaten dituzte seme-alabak, ordaintzeko.
+(z1 / baina
+    :op2 (z2 / hala_ere
+             :op2 (z3 / eramaten
+                      :agent (z4 / guraso
+                                 :quantity +)
+                      :theme (z5 / seme-alaba
+                                 :quantity +
+                                 :related z4)
+                      :target (z6 / eskola_pribatu
+                                  :quantity +)
+                      :manner (z7 / ordain
+                                  :agent z4
+                                  :theme z6))
+             :time (z8 / gaur_egun)))
+
+# ::id 213712
+# ::snt Entzuten dut Estatu Batuetan hainbat aldiz: 'Jakina, arazo argiak konpontzeko saiatu behar ditugu, baina, zerbait aurrean ez baduzu ikusten, edo txarto zara, edo nekaezina'.
+(z1 / entzun
+    :experiencer (z2 / ni)
+    :location (z3 / Estatu_Batuak)
+    :frequency (z4 / aldiz
+                   :quantity (z5 / hainbat))
+    :content (z6 / saiatu
+                 :mode recomend
+                 :agent (z7 / gu)
+                 :target (z8 / arazo
+                             :quantity +
+                             :quality (z9 / argi))
+                 :quality (z10 / jakina)
+                 :concession (z11 / ikusi
+                                  :polarity -
+                                  :experiencer (z12 / zu)
+                                  :theme (z13 / zerbait
+                                              :location (z14 / aurrean))
+                                  :condition_of (z15 / or
+                                                     :op1 (z16 / zara
+                                                               :quality (z17 / txarto))
+                                                     :op2 (z18 / izan
+                                                               :aspect perfect
+                                                               :agent z12
+                                                               :attribute (z19 / nekaezina))))))
+
+# ::id 28948
+# ::snt Hala ere, 'Ekialdeko Asia' ereduak hautapen selektibo handi hau du, baita 'baldintza erantzunaren hautapena' izenekoaren, ikasleek saihestu behar dutenaren.
+(z1 / hala_ere
+    :op2 (z2 / eredu
+             :context (z3 / Ekialdeko_Asia)
+             :attribute (z4 / hautapen
+                            :quality (z5 / selektibo)
+                            :quality (z6 / handi)
+                            :theme_of (z7 / izen
+                                          :name (z8 / baldintza_erantzunaren_hautapena))
+                            :identity (z9 / z7
+                                          :theme_of (z10 / saihestu
+                                                         :obligation (z11 / behar
+                                                                          :agent (z12 / ikasle)))))))
+
+# ::id 31996
+# ::snt Eta nire laborategian egin ditugun ikerketetan, 4 urteko haurrek helduen baino hobekiagoak direla frogatu dugu, zerbait probabilitate txikia duten hipotesi bat frogatzen.
+(z1 / and
+    :op2 (z2 / frogatu
+             :aspect perfect
+             :agent (z3 / gu)
+             :theme (z4 / haurrek
+                        :quantity +
+                        :context (z5 / urte
+                                     :quantity (z6 / 4)))
+             :attribute (z7 / hobekiagoak
+                            :compared (z8 / heldu
+                                          :quantity +))
+             :location (z9 / ikerketa
+                           :quantity +
+                           :theme_of (z10 / egin
+                                          :aspect perfect_continuous
+                                          :agent z3
+                                          :location (z11 / laborategi
+                                                         :related (z12 / nire))))
+             :time (z13 / frogatzen
+                        :theme (z14 / hipotesi
+                                    :context (z15 / zerbait
+                                                  :quality (z16 / probabilitate
+                                                                :degree (z17 / txikia)))))))
+
+# ::id 257951
+# ::snt Zapataria ohean sartzen zen, eta goiz erretiratzen zen, eta zapatak denak eginak zeuden, duendek eginak.
+(z1 / and
+    :op1 (z2 / sartu
+             :tense past
+             :aspect imperfect
+             :agent (z3 / zapataria)
+             :location (z4 / ohea))
+    :op2 (z5 / erretiratu
+             :tense past
+             :aspect imperfect
+             :experiencer z3
+             :time (z6 / goiz))
+    :op3 (z7 / egon
+             :tense past
+             :aspect imperfect
+             :theme (z8 / zapato
+                        :quantity (z9 / denak))
+             :attribute (z10 / eginak))
+    :op4 (z11 / egin
+              :tense past
+              :aspect perfect
+              :agent (z12 / duende
+                          :quantity +)
+              :theme z7))
+
+# ::id 89005
+# ::snt Orain nire kolore gustukoa urdina da, baina oraindik gay naiz. Hau nire ama influentziaren eta mugarik ezagutuaren erakusle da.
+(z1 / multi-sentence
+    :snt1 (z2 / izan
+              :theme (z3 / kolore_gustuko
+                         :related (z4 / nire))
+              :identity (z5 / urdin)
+              :time (z6 / orain)
+              :concession (z7 / izan
+                              :theme z4
+                              :attribute (z8 / gay)
+                              :time (z9 / oraindik)))
+    :snt2 (z10 / erakutsi
+               :agent z2
+               :theme (z11 / hau)
+               :quality (z12 / izan
+                             :theme (z13 / ama
+                                         :related z4)
+                             :attribute (z14 / eta
+                                             :op1 (z15 / mugarik)
+                                             :op2 (z16 / ezagutu)))))
+
+# ::id 294047
+# ::snt Orduan, 2002an, dena ondo ateri zenean, Fenix uharteetako koralek argitu egin ziren.
+(z1 / orduan
+    :op2 (z2 / egin
+             :tense past
+             :aspect perfect
+             :agent (z3 / koralek
+                        :location (z4 / uharteetako_Fenix))
+             :result (z5 / argi)
+             :time (z6 / 2002
+                       :context (z7 / ateri
+                                    :quality (z8 / ondo)
+                                    :theme (z9 / dena)))))
+
+# ::id 97764
+# ::snt Hurbildu zaitez eta ikusi dezagun. Zerbait ematen badizut, zerbait nirea da, poker txartela.
+(z1 / multi-sentence
+    :snt1 (z2 / and
+              :op1 (z3 / hurbildu
+                       :mode imperative
+                       :agent (z4 / zuek))
+              :op2 (z5 / ikusi
+                       :mode imperative
+                       :experiencer (z6 / gu)))
+    :snt2 (z7 / emon
+              :agent (z8 / nik)
+              :theme (z9 / zerbait)
+              :condition (z10 / baditu
+                              :theme z8
+                              :content (z11 / zerbait
+                                            :quality (z12 / nirea)
+                                            :type (z13 / poker_txartela)))))
+
+# ::id 99153
+# ::snt Ez dut ulertzen zergatik gertatzen zaidan.
+(z1 / ulertu
+    :polarity -
+    :experiencer (z2 / ni)
+    :theme (z3 / gertatu
+               :aspect imperfect
+               :mood indicative
+               :theme z2
+               :identity (z4 / zergatik)))
+
+# ::id 99133
+# ::snt Bere istorioa haien istorioa da.
+(z1 / izan
+    :theme (z2 / istorio
+               :possession_of (z3 / bere))
+    :identity (z4 / istorio
+                  :possession_of (z5 / haien)))
+
+# ::id 98945
+# ::snt Zuek akats egiten duzue, zerbait zentzuzkoa ezagutzen ez baduzue.
+(z1 / akats_egiten
+    :agent (z2 / zuek)
+    :cause (z3 / ezagutu
+               :theme (z4 / zerbait
+                          :quality (z5 / zentzuzkoa))
+               :condition (z6 / badu
+                              :polarity -
+                              :theme z2)))
+
+# ::id 21327
+# ::snt Hala ere, egia da, zuek zer ari zareten ere.
+(z1 / hala_ere
+    :result (z2 / egia
+                :theme (z3 / zuek
+                           :target_of (z4 / ari
+                                          :aspect continuous
+                                          :theme (z5 / zuek)
+                                          :content (z6 / zer)))))
+
+# ::id 126209
+# ::snt Orri batzuk etzi eta hurrengoa zen hau.
+(z1 / and
+    :op1 (z2 / etzi
+             :patient (z3 / orri
+                          :quantity +
+                          :quantity (z4 / batzuk)))
+    :op2 (z5 / izan
+             :tense past
+             :aspect perfect
+             :theme (z6 / orri
+                        :quantity +
+                        :quality (z7 / hurrengoa))
+             :identity (z8 / hau)))
+
+# ::id 27807
+# ::snt Baina argi dago, espetxeetatik ateratzen badira, mototxil-zale bat erasoko lukela eta haren hegalarekin bazkalduko lukela.
+(z1 / baina
+    :op2 (z2 / atera
+             :agent (z3 / hauek)
+             :source (z4 / espetxea
+                         :quantity +)
+             :condition_of (z5 / ikusi
+                               :quality (z6 / argi)
+                               :theme z3)
+             :concession (z7 / erasotu
+                             :agent z3
+                             :patient (z8 / mototxil-zale)
+                             :concession (z9 / bazkaldu
+                                             :agent z3
+                                             :patient (z10 / hegal)
+                                             :source z8))))
+
+# ::id 181621
+# ::snt Neskentzako eta emakumeentzako ahotsak, eta gure lagunen ahotsak murriztuak daude, eta horrek kalteak eragiten dizkigu pertsonal, ekonomiko, profesional eta politiko mailan.
+(z1 / murriztu
+    :patient (z2 / and
+                 :op1 (z3 / ahots
+                          :quantity +
+                          :context (z4 / and
+                                       :op1 (z5 / neska
+                                                :quantity +)
+                                       :op2 (z6 / emakume
+                                                :quantity +)))
+                 :op2 (z7 / ahots
+                          :quantity +
+                          :context (z8 / lagun
+                                       :quantity +
+                                       :related (z9 / gure))))
+    :manner (z10 / eragin
+                 :agent z2
+                 :result (z11 / kalte
+                              :quantity +
+                              :context (z12 / maila
+                                            :quality (z13 / and
+                                                          :op1 (z14 / pertsonal)
+                                                          :op2 (z15 / ekonomiko)
+                                                          :op3 (z16 / profesional)
+                                                          :op4 (z17 / politiko))))))
+
+# ::id 173170
+# ::snt Batetik uste izan nuen Bigfoot ikusi nuela, baina aleman pastor bat izan zen.
+(z1 / ikusi
+    :tense past
+    :aspect perfect
+    :experiencer (z2 / nik)
+    :stimulus (z3 / Bigfoot)
+    :time (z4 / batetik)
+    :concession (z5 / izan
+                    :theme (z6 / aleman_pastor)))
+
+# ::id 52318
+# ::snt 900 orrialdeko liburu baten inguruan hitz egin genuen, oso aparta eta erakargarria, non neska lo dagoen bokatik pertsona txiki hainbat ateratzen diren, eta aleman pastor bat puskatzen duten.
+(z1 / hitz_egi
+    :tense past
+    :agent (z2 / gu)
+    :context (z3 / liburu
+                 :composition (z4 / orrialde
+                                  :quantity (z5 / 900))
+                 :part_of (z6 / bat)
+                 :quality (z7 / inguruan)
+                 :quality (z8 / aparta)
+                 :quality (z9 / erakargarria)
+                 :content (z10 / scena
+                               :identity (z11 / and
+                                              :op1 (z12 / ateratze
+                                                        :agent (z13 / pertsona
+                                                                    :quantity +
+                                                                    :quality (z14 / txiki))
+                                                        :source (z15 / boka
+                                                                     :location_of (z16 / neska
+                                                                                       :quality (z17 / lo))))
+                                              :op2 (z18 / puskatze
+                                                        :agent z13
+                                                        :theme (z19 / aleman
+                                                                    :quality (z20 / pastor)))))))
+
+# ::id 172429
+# ::snt Nire alabak nolabait, Groot, The Incredible Hulk, Obi-Wan Kenobi edo Darth Maul izan ohi dituen pertsonai guztiak mutilak dira?
+(z1 / izan
+    :theme (z2 / pertsonai
+               :quality (z3 / guztiak)
+               :theme_of (z4 / izan
+                             :tense past
+                             :aspect perfect
+                             :frequency (z5 / ohi)
+                             :theme (z6 / or
+                                        :op1 (z7 / Groot)
+                                        :op2 (z8 / The_Incredible_Hulk)
+                                        :op3 (z9 / Obi-Wan_Kenobi)
+                                        :op4 (z10 / Darth_Maul)))
+               :attribute (z11 / mutil))
+    :time (z12 / ?))
+
+# ::id 170681
+# ::snt Bigarren bide bat, eguzki- haizea erabiliz, energia lortzea da.
+(z1 / bide
+    :ord (z2 / bigarren)
+    :manner_of (z3 / erabiliz
+                   :instrument (z4 / eguzki-haizea))
+    :theme (z5 / lortzea
+               :quality (z6 / energía)))
+
+# ::id 174325
+# ::snt Hau da nire hasiera puntura itzultzera nauzuna.
+(z1 / izan
+    :attribute (z2 / hau)
+    :agent (z3 / nire)
+    :theme (z4 / itzuli
+               :target z3
+               :source (z5 / puntua
+                           :quality (z6 / hasiera))))
+
+# ::id 172541
+# ::snt Eta ez da Mikeen inork salbuespena. Guk garelako.
+(z1 / multi-sentence
+    :snt1 (z2 / ez
+              :agent (z3 / inor)
+              :theme (z4 / salbuespen
+                         :quantity +
+                         :related (z5 / Mike)))
+    :snt2 (z6 / salbuespen
+              :quantity +
+              :related (z7 / gu))
+    :snt3 (z8 / izan
+              :theme z7
+              :identity (z9 / garelako
+                            :related (z10 / gu))))
+
+# ::id 115980
+# ::snt Herritar gisa, ez dagoen haurrik utzi ezazue eskatzen dizuet.
+(z1 / eskatu
+    :agent (z2 / ni)
+    :target (z3 / zu)
+    :theme (z4 / utzi
+               :polarity -
+               :theme (z5 / haur
+                          :quality (z6 / ez_dagoen)))
+    :condition (z7 / herritar
+                   :identity_of z3))
+
+# ::id 149416
+# ::snt Parkinson gaixotasunaren antzekoa.
+(z1 / antzeko
+    :op1 (z2 / Parkinson_gaixotasuna))
+
+# ::id 22750
+# ::snt Nire bihotza oso azkarrak egin zuen, burua zorrotz, aurrean zegoenaren ulertzen saiatzen.
+(z1 / and
+    :op1 (z2 / egin
+             :tense past
+             :aspect perfect
+             :agent (z3 / bihotz
+                        :part_of (z4 / nire))
+             :manner (z5 / azkar
+                         :degree (z6 / oso))))
+
+# ::id 162510
+# ::snt Bi kasuetan, mugak erabiltzen dira erabakiak hartzerakoan helburuak lortzeko.
+(z1 / erabili
+    :aspect perfect
+    :agent (z2 / muga
+               :quantity +)
+    :theme (z3 / erabaki_hartze)
+    :purpose (z4 / lortu
+                 :theme (z5 / helburu
+                            :quantity +))
+    :context (z6 / kasu
+                 :quantity (z7 / bi)))
+
+# ::id 266251
+# ::snt Hori dela eta, ingurugiroan ezaguna da, baina ez biologoentzat.
+(z1 / dela
+    :op2 (z2 / and
+             :op1 (z3 / hori)
+             :op2 (z4 / ezagun
+                      :location (z5 / ingurugiro)
+                      :experiencer (z6 / algo))
+             :z7 (z8 / baina
+                     :op1 z4
+                     :op2 (z9 / biologo
+                              :quantity +))))
+
+# ::id 98911
+# ::snt Hau da, zure lagunak kanporatu ezin duzun pertsona. Hau da, ezin duzun ahaztu.
+(z1 / multi-sentence
+    :snt1 (z2 / izan
+              :theme (z3 / hau)
+              :identity (z4 / pertsona
+                            :patient_of (z5 / kanporatu
+                                            :mode no_probability
+                                            :agent (z6 / lagun
+                                                       :belonging z7)))))
+
+# ::id 70804
+# ::snt Akats bat egin baduzu, huts egin duzu. Nola tratatu behar zenuke?
+(z1 / multi-sentence
+    :snt1 (z2 / egin
+              :tense past
+              :agent (z3 / bat)
+              :theme (z4 / akats))
+    :snt2 (z5 / egin
+              :tense past
+              :agent z3
+              :theme (z6 / huts))
+    :snt3 (z7 / behar
+              :mood conditional
+              :mode recomend
+              :theme z3
+              :manner (z8 / tratatu)
+              :description (z9 / nola)))
+
+# ::id 250380
+# ::snt Vaginaren Monologoak' egiten hasi baino lehen, benetan ez nuen zoriontsu izan.
+(z1 / egon
+    :tense past
+    :aspect perfect
+    :polarity -
+    :quality (z2 / zoriontsu)
+    :theme (z3 / ni)
+    :time (z4 / hasi
+              :tense past
+              :op1 (z5 / Monologoak
+                       :product (z6 / Vaginaren))
+              :time (z7 / before)))
+
+# ::id 3787
+# ::snt Zigor gunean ibili nintzen, polizia agente gisa.
+(z1 / ibili
+    :tense past
+    :agent (z2 / nintzen)
+    :location (z3 / zigor_gune)
+    :manner (z4 / polizia_agente))
+
+# ::id 115994
+# ::snt Hau da 'lan zorrotza'.
+(z1 / izan
+    :theme (z2 / hau)
+    :identity (z3 / lan_zorrotza))
+
+# ::id 120276
+# ::snt Zer esan nahi dugu 'onak'?
+(z1 / esan_nahi
+    :agent (z2 / gu)
+    :theme (z3 / on
+               :quantity +)
+    :content (z4 / ?))
+
+# ::id 115195
+# ::snt Bizitzako zati handi batean, pertsona arruntak bezala, arrazoi eta logika erabiltzen dituzte, baina, arrazoia erabiltzeak, ez du esan nahi zerbait egia izatea.
+(z1 / multi-sentence
+    :snt1 (z2 / erabili
+              :agent (z3 / pertsona
+                         :quantity +
+                         :quality (z4 / arrunta))
+              :theme (z5 / and
+                         :op1 (z6 / arrazo)
+                         :op2 (z7 / logika))
+              :time (z8 / bizitzako
+                        :part (z9 / zati
+                                  :quality (z10 / handi)
+                                  :part_of (z11 / bizitza))))
+    :snt2 (z12 / erabili
+               :agent z3
+               :theme z7
+               :polarity -
+               :condition (z14 / erabili
+                               :agent z3
+                               :theme z6
+                               :polarity +)))
+
+# ::id 187847
+# ::snt Itsasontziak, soinu militarrak, itsasoratze-lanak eta petroliaren bila-sondeoa askotan gertatzen dira, eta horrek arazoak sor ditzake baleen arteko komunikazioan.
+(z1 / and
+    :op1 (z2 / gertatu
+             :theme (z3 / and
+                        :op1 (z4 / itsasontzi
+                                 :quantity +)
+                        :op2 (z5 / soinu
+                                 :quality (z6 / militar))
+                        :op3 (z7 / itsasoratze
+                                 :quantity +)
+                        :op4 (z8 / sondeo
+                                 :quality (z9 / petroliaren)
+                                 :purpose (z10 / bila)))
+             :frequency (z11 / askotan)))
+
+# ::id 86863
+# ::snt Amaitu zen. Haserre zegoen diru hori gastatu izan zuela.
+(z1 / multi-sentence
+    :snt1 (z2 / amaitu
+              :tense past
+              :theme (z3 / ezer))
+    :snt2 (z4 / izan
+              :tense past
+              :aspect perfect
+              :theme (z5 / zuek)
+              :possession (z6 / diru
+                              :quality (z7 / hori))
+              :attribute (z8 / haserre)
+              :cause (z9 / gastatu
+                         :aspect perfect
+                         :agent z5
+                         :patient z6)))
+
+# ::id 207712
+# ::snt What?' 'Zer?' esan nahi du.
+(z1 / esan_nahi_du
+    :theme (z2 / what)
+    :content (z3 / zeri))
+
+# ::id 144972
+# ::snt Maite izatea, zatia da.
+(z1 / izan
+    :theme (z2 / maite_izatea)
+    :identity (z3 / zatia))
+
+# ::id 36272
+# ::snt Gizonen buruan, 7000 mundu kognitiborik sortu ditugu, 7000 hizkuntza daude mundu osotan.
+(z1 / multi-sentence
+    :snt1 (z2 / sortu
+              :aspect perfect
+              :agent (z3 / gizon)
+              :product (z4 / mundu
+                           :quality (z5 / kognitibo)
+                           :quantity (z6 / 7000)))
+    :snt2 (z7 / izan
+              :theme (z8 / hizkuntza
+                         :quantity (z9 / 7000))
+              :location (z10 / mundu
+                             :quality (z11 / osotan))))
+
+# ::id 36273
+# ::snt Eta sortu dezakegu askoz gehiago, hizkuntza bizia da, eta moldatu eta aldatu dezakegu gure beharretara.
+(z1 / and
+    :op1 (z2 / sortu
+             :mode possibility
+             :agent (z3 / gu)
+             :product (z4 / asko
+                          :quantity (z5 / gehiago)))
+    :op2 (z6 / and
+             :op1 (z7 / hizkuntza
+                      :quality (z8 / bizia))
+             :op2 (z9 / hizkuntza
+                      :mode possibility
+                      :agent z3
+                      :manner (z10 / andatu)
+                      :manner (z11 / aldatu)
+                      :purpose (z12 / behar
+                                    :related z3))))
+
+# ::id 36273_b
+# ::snt Gizonen buruan, ez da 7000, baizik eta 7000 unibertso kognitiborik sortu ditugu. Mundu osotan, 7000 hizkuntza daude, eta gehiago sortu ditzakegu. Hizkuntza bizia da, eta moldeatu eta aldatu dezakegu gure beharretara.
+(z1 / multi-sentence
+    :snt1 (z2 / sortu
+              :aspect perfect
+              :agent (z3 / gizon
+                         :part_of (z4 / buru))
+              :product (z5 / unibertso
+                           :quality (z6 / kognitibo)
+                           :quantity (z7 / 1
+                                         :polarity -
+                                         :contrast (z8 / 7000))))
+    :snt2 (z9 / and
+              :op1 (z10 / izan
+                        :theme (z11 / hizkuntza
+                                    :quantity (z12 / 7000))
+                        :location (z13 / mundu
+                                       :quality (z14 / oso)))
+              :op2 (z15 / sortu
+                        :mode possibility
+                        :agent (z16 / gu)
+                        :product (z17 / gehiago
+                                      :quantity +
+                                      :coref z11)))
+    :snt3 (z18 / izan
+               :theme (z19 / hizkuntza)
+               :attribute (z20 / bizia)
+               :patient_of (z21 / and
+                                :mode possibility
+                                :op1 (z22 / moldeatu
+                                          :agent z16)
+                                :op2 (z23 / aldatu
+                                          :agent z16)
+                                :purpose (z24 / behar
+                                              :quantity +
+                                              :related z16))))
+
+# ::id 273954
+# ::snt Teknologia dago, azpiegitura dago, baina ez dago.
+(z1 / and
+    :op1 (z2 / dago
+             :theme (z3 / teknologia))
+    :op2 (z4 / dago
+             :theme (z5 / azpiegitura))
+    :concession (z6 / dago
+                    :polarity -
+                    :theme (z7 / ez)))
+
+# ::id 32369
+# ::snt Eta, Fortune aldizkariren arabera, 700 milioi dolarreko diru-lagunak ditu.
+(z1 / and
+    :op2 (z2 / arabera
+             :source (z3 / aldizkari
+                         :name (z4 / Fortune))
+             :content (z5 / ditu
+                          :aspect perfect
+                          :agent (z6 / el)
+                          :possession (z7 / diru-lagun
+                                          :quantity (z8 / 700
+                                                        :unit (z9 / milioi)
+                                                        :currency (z10 / dolar))))))
+
+# ::id 148514
+# ::snt Nola erakutsi dezakegu kraboen kezka askoan datza gure kezka?
+(z1 / erakutsi
+    :manner (z2 / krabo
+                :quantity +
+                :possession_of (z3 / kezka
+                                   :quantity +
+                                   :quality (z4 / asko)))
+    :quality (z5 / datu)
+    :theme (z6 / gure
+               :possession_of (z7 / kezka))
+    :manner (z8 / ?))
+
+# ::id 196070
+# ::snt Etxe honetako mutil txikia, hemen gelditu zen bost minutuz.
+(z1 / gelditu
+    :tense past
+    :theme (z2 / mutil
+               :quality (z3 / txiki)
+               :location (z4 / etxe
+                             :quality (z5 / honetako)))
+    :location (z6 / hemen)
+    :extent (z7 / minuto
+                :quantity (z8 / bost)))
+
+# ::id 34542
+# ::snt Esan du pertsona gizakia dela eta besteentzat sentimenduak partekatzen ditugula.
+(z1 / esan
+    :agent (z2 / du)
+    :content (z3 / izan
+                 :theme (z4 / pertsona
+                            :quality (z5 / gizakia))
+                 :result (z6 / partekatu
+                             :agent z4
+                             :theme (z7 / sentimendu
+                                        :quantity +
+                                        :possession_of (z8 / beste)))))
+
+# ::id 149043
+# ::snt Esaten dugu, 'Euria bota du', 'Damoclesen ezpata zain egon nuen'.
+(z1 / esan
+    :agent (z2 / gu)
+    :content (z3 / and
+                 :op1 (z4 / euri_bota_du)
+                 :op2 (z5 / zain_egon
+                          :tense past
+                          :aspect imperfect
+                          :agent (z6 / Damocles)
+                          :theme (z7 / ezpata))))
+
+# ::id 149052
+# ::snt Ez dugu pentsatzen ontzi handi bateko euripean entzutean, baina pentsatzen dugu ontzi txiki batean, ontzi txiki batean, ontzi txiki batean, ez ontzi handi batean.
+(z1 / pentsatu
+    :polarity -
+    :agent (z2 / gu)
+    :theme (z3 / euri
+               :location (z4 / ontzi
+                             :quality (z5 / handi)
+                             :part_of (z6 / bat)))
+    :time (z7 / entzutu)
+    :concession (z8 / pentsatu
+                    :agent z2
+                    :theme (z9 / ontzi
+                               :quality (z10 / txiki)
+                               :example (z11 / ontzi
+                                             :quantity +
+                                             :quality z10)
+                               :quality (z12 / ez)
+                               :part_of (z13 / bat))))
+
+# ::id 229253
+# ::snt Orduan, aitzindariak medikuntza tradizionalaren komunitateetatik kanpo dauden pertsonak deitu nahi izan nituen, zeregin hauetan parte hartzera gonbidatu nahi izan nituen, beren talentua ekartzea, zientzia eta artean, oinak egiteko.
+(z1 / izan
+    :tense past
+    :theme (z2 / ni)
+    :possession (z3 / orduan)
+    :possession (z4 / deitu
+                    :tense past
+                    :agent (z5 / aitzindari
+                               :quantity +
+                               :context (z6 / pertsona
+                                            :coref z5
+                                            :possession (z7 / kanpo
+                                                            :location (z8 / komunitate
+                                                                          :quality (z9 / medikuntza
+                                                                                       :quality (z10 / tradizionala)))))))
+    :theme z2
+    :time z3)
+
+# ::id 191591
+# ::snt Prozesu aireo bat da, oxigeno behar du eta hezetasun asko ere.
+(z1 / izan
+    :theme (z2 / prozesu
+               :quality (z3 / aireo))
+    :result (z4 / and
+                :op1 (z5 / behar
+                         :agent z2
+                         :theme (z6 / oxigeno))
+                :op2 (z7 / behar
+                         :agent z2
+                         :theme (z8 / hezetasun
+                                    :quantity (z9 / asko)
+                                    :quality (z10 / ere)))))
+
+# ::id 194671
+# ::snt Baina 1982ko abuztuan, Mexikoak bere zorra ez zuen ordaindu, eta hainbat herrialdek ere ez.
+(z1 / baina
+    :op2 (z2 / and
+             :op1 (z3 / ordaindu
+                      :tense past
+                      :polarity -
+                      :agent (z4 / Mexiko)
+                      :theme (z5 / zorra
+                                 :possession_of z4))
+             :op2 (z6 / ordaindu
+                      :tense past
+                      :polarity -
+                      :agent (z7 / herrialde
+                                 :quality (z8 / hainbat))
+                      :theme z4)
+             :time (z9 / 1982
+                       :month (z10 / abuztuan))))
+
+# ::id 70026
+# ::snt Ikusi dezakezue 200 pertsonak 5 baino gehiagotan 4,99 baino gehiago eman diote.
+(z1 / ikusi
+    :mode possibility
+    :experiencer (z2 / dezakezue)
+    :stimulus (z3 / eman
+                  :agent (z4 / pertsona
+                             :quantity (z5 / 200))
+                  :theme (z6 / ikusi)
+                  :target (z7 / z4)
+                  :quality (z8 / baino_gehiago
+                               :op1 (z9 / 5)
+                               :op2 (z10 / 4.99))))
+
+# ::id 46998
+# ::snt Pertsona batetik hamarrek nahikoa jasaten dute.
+(z1 / jas
+    :patient (z2 / pertsona
+                 :quantity +
+                 :part_of (z3 / pertsona
+                              :quantity (z4 / hamar)))
+    :degree (z5 / nahikoa))
+
+# ::id 204462
+# ::snt Gutxienez, tratamendua jasoko du, diruaren aurrekontza arazteko saioan zaudenean.
+(z1 / jaso
+    :tense future
+    :theme (z2 / tratamendu)
+    :patient (z3 / gutxienez)
+    :context (z4 / arazi
+                 :tense future
+                 :agent (z5 / dirua)
+                 :theme (z6 / aurrekontza)
+                 :time (z7 / saio
+                           :agent (z8 / zaudenean))))
+
+# ::id 267981
+# ::snt Titanicaren hondarreran fisikoki egon nuen sentitzen nintzen.
+(z1 / sentitu
+    :tense past
+    :aspect imperfect
+    :experiencer (z2 / ni)
+    :theme (z3 / egon
+               :tense past
+               :aspect imperfect
+               :theme z2
+               :location (z4 / hondar
+                             :quantity +
+                             :context (z5 / Titanic))))
+
+# ::id 126992
+# ::snt Hemen dago erakustaldi batean, orain gutxiago, azaldu dena, minbizi mota larri batean.
+(z1 / dago
+    :location (z2 / hemen)
+    :theme (z3 / erakustaldi
+               :location_of (z4 / azaldu
+                                :tense past
+                                :time (z5 / orain_gutxiago)
+                                :theme (z6 / minbizi
+                                           :type (z7 / mota
+                                                     :quality (z8 / larri))))))
+
+# ::id 95962
+# ::snt Eta orduan esan nion, 'Zer gertatu zitzaidan auzian zehar egon behar duzun zerbait dela eta?'
+(z1 / and
+    :op2 (z2 / esan
+             :tense past
+             :agent (z3 / ni)
+             :theme (z4 / gertatu
+                        :aspect perfect
+                        :time future
+                        :cause (z5 / zerbait
+                                   :identity (z6 / egon
+                                                 :aspect imperfect
+                                                 :time future
+                                                 :theme z4
+                                                 :location (z7 / auzi
+                                                               :agent z4))))))
+
+# ::id 150027
+# ::snt Japoniarrak itsas hondartzak eraikitzeko interesatuta daude.
+(z1 / interesatu
+    :agent (z2 / japoniarrak
+               :quantity +)
+    :context (z3 / eraikitzeko
+                 :theme (z4 / itsas_hondartza
+                            :quantity +)))
+
+# ::id 126712
+# ::snt Hau oso ulermen akats nagusia da, Orwell '1984'an egin zituen abisuetan.
+(z1 / izan
+    :theme (z2 / hau)
+    :attribute (z3 / akats
+                   :quality (z4 / ulermen)
+                   :quality (z5 / nagusia)
+                   :context (z6 / abisua
+                                :quantity +
+                                :theme_of (z7 / egin
+                                              :tense past
+                                              :agent (z8 / Orwell)
+                                              :location (z9 / 1984)))))
+
+# ::id 101079
+# ::snt Oso ondoan atera dezakegu, eta erabili dezakegu datu pertsonalak, big data, analizatzeko, baina pribatutasunaren kostu handi bat ordaindu behar dugu.
+(z1 / and
+    :op1 (z2 / atera_dezakegu
+             :location (z3 / ondoan)
+             :quality (z4 / oso))
+    :op2 (z5 / erabili_dezakegu
+             :theme (z6 / datu
+                        :quantity +
+                        :quality (z7 / pertsonal))
+             :purpose (z8 / analizatu
+                          :theme z6
+                          :identity (z9 / big_data)))
+    :concession (z10 / ordaindu_behar_dugu
+                     :theme (z11 / kostu
+                                 :quality (z12 / handi)
+                                 :theme_of (z13 / pribatutasun))))
+
+# ::id 126710
+# ::snt Literaturaren ikurra da, pribatutasuna eta zaintza gaietan, George Orwellen '1984' eleberria, eskolan ikasten duguna eta klixe bilakatu dena.
+(z1 / literaturaren_ikurra
+    :context (z2 / and
+                 :op1 (z3 / pribatutasuna)
+                 :op2 (z4 / zaintza))
+    :theme (z5 / eleberria
+               :context (z6 / George_Orwell)
+               :name (z7 / 1984))
+    :theme_of (z8 / ikasi
+                  :agent (z9 / gu)
+                  :location (z10 / eskola))
+    :theme_of (z11 / bilakatu
+                   :tense past
+                   :aspect perfect
+                   :quality (z12 / klixe)))
+
+# ::id 84164
+# ::snt ...le conté la historia de las Guerras contra los Indios Pequot, en la Bahía de Massachusetts en 1607...
+(z1 / contar
+    :tense past
+    :agent (z2 / yo)
+    :theme (z3 / historia
+               :context (z4 / Guerras_contra_los_Indios_Pequot)
+               :location (z5 / Bahía_Massachusetts)
+               :time (z6 / 1607))
+    :target (z7 / el))
+
+# ::id 64490
+# ::snt Hala ere, Weibo sare sozialak, murrizketen aurrean, aukera ematen die egunero 300 milioi pertsona elkarrekin hitz egiteko.
+(z1 / aurrean
+    :op2 (z2 / ematen
+             :agent (z3 / sare_soial
+                        :name (z4 / Weibo))
+             :theme (z5 / murrizketa)
+             :result (z6 / aukera
+                         :frequency (z7 / egunero)
+                         :agent (z8 / pertsona
+                                    :quantity (z9 / 300_milioi))
+                         :purpose (z10 / hitz_egiteko
+                                       :agent z8
+                                       :manner (z11 / elkarrekin)))))
+
+# ::id 42239
+# ::snt Zertifikatu batzuk behar dira, webgune https bat baduzu, Gmail bezalako zerbitzu enkriptatuak erabiltzen dituztenean.
+(z1 / behar
+    :theme (z2 / zertifikatu
+               :quantity (z3 / batzuk))
+    :condition (z4 / baduzu
+                   :theme (z5 / webgune
+                              :quality (z6 / https))
+                   :example (z7 / erabili
+                                :agent (z8 / zerbintzu
+                                           :quantity +
+                                           :quality (z9 / enkriptatu)
+                                           :name (z10 / Gmail)))))
+
+# ::id 219253
+# ::snt Bere aitona Eli Whitney izan zen, kotoi desmotailearen sortzailea.
+(z1 / aitona
+    :related (z2 / bere)
+    :theme (z3 / izan
+               :tense past
+               :theme (z4 / Eli_Whitney
+                          :identity (z5 / sortzaile
+                                        :context (z6 / kotoi_desmotaile)))))
+
+# ::id 39791
+# ::snt Plancton fitoak jan egiten dituzten animali txikiak, planctonak jan, txikiek jan, eta horrela osatzen da elikadura zikloa.
+(z1 / and
+    :op1 (z2 / jan
+             :agent (z3 / animali
+                        :quantity +
+                        :quality (z4 / txiki)
+                        :theme_of (z5 / plancton
+                                      :quantity +
+                                      :theme (z6 / fito)))
+             :patient z6)
+    :op2 (z7 / jan
+             :agent z5
+             :patient z5)
+    :op3 (z9 / jan
+             :agent (z10 / animali
+                         :quantity +
+                         :quality (z11 / txiki))
+             :patient z10)
+    :result (z12 / osatu
+                 :theme (z13 / elikadura_ziklo)))
+
+# ::id 132843
+# ::snt Entzun duzu Mozart efektuaren ideia?
+(z1 / entzun
+    :aspect perfect
+    :polarity ?
+    :experiencer (z2 / duzu)
+    :source (z3 / ideia
+                :context (z4 / Mozart_efektua)))
+
+# ::id 92586
+# ::snt Hau da 2009ko 'Nature' aldizkarian argitaratu zen artikulu baten azala, fozforoaren krisiaren inguruan eztabaidatzera eraman ziguna.
+(z1 / izan
+    :theme (z2 / hau)
+    :identity (z3 / azala
+                  :part_of (z4 / artikulu
+                               :theme_of (z5 / argitaratu
+                                             :tense past
+                                             :location (z6 / aldizkari
+                                                           :quality (z7 / Nature)
+                                                           :time (z8 / 2009)))
+                               :agent_of (z9 / eraman
+                                             :tense past
+                                             :manner (z10 / eztabaidatzera)
+                                             :theme (z11 / krisi
+                                                         :context (z12 / fozforo))))))
+
+# ::id 270165
+# ::snt Hau da duela urte batzuk eskuratu genuen Marte biratzen ari den Odyssey izeneko sateliteko datua.
+(z1 / izan
+    :theme (z2 / hau)
+    :identity (z3 / datu
+                  :theme_of (z4 / eskuratu
+                                :tense past
+                                :agent (z5 / gu)
+                                :time (z6 / duela
+                                          :op1 (z7 / urte
+                                                   :quantity (z8 / batzuk)))
+                                :source (z9 / satelite
+                                            :agent_of (z10 / biratu
+                                                           :aspect imperfect
+                                                           :theme (z11 / Marte))
+                                            :name (z12 / Odyssey)))))
+
+# ::id 2545
+# ::snt Urriaren azkenetan FAOk hain zuzen jardunaldi bat egin zuen gai honi buruz.
+(z1 / egin
+    :tense past
+    :agent (z2 / FAO)
+    :quality (z3 / jardunaldi
+                 :possession_of z2
+                 :quality (z4 / zuzen)
+                 :theme (z5 / gai
+                            :quality (z6 / honi)))
+    :time (z7 / urria
+              :quality (z8 / azkenetan)))
+
+# ::id 77205
+# ::snt Hori dela eta, A ultrazuzenak erabiltzen ditugu, ez baita D bitamina sortzen.
+(z1 / dela_hori
+    :op2 (z2 / erabiltzen
+             :tense past
+             :agent (z3 / gu)
+             :patient (z4 / A_ultrazuzenak
+                          :agent_of (z5 / sortzen
+                                        :polarity -
+                                        :product (z6 / D_bitamina)))))
+
+# ::id 20446
+# ::snt Bihotz mina ematen zituzten gizonak, hala ere, hainbat neurri hartu ziren, haurrak salbatzeko; A bitaminak ematen zizkieten, hain zuzen, hainbat gaixotasun prebenitzeko, eta malariaren kontra, moskito saretak ere banatu zituzten.
+(z1 / and
+    :op2 (z2 / neurri
+             :quantity (z3 / hainbat)
+             :purpose (z4 / salbatu
+                          :patient (z5 / haurra
+                                       :quantity +))
+             :agent (z6 / gizon
+                        :quantity +
+                        :coref z7)
+             :manner (z8 / ematen_zituzten
+                         :agent z6
+                         :theme (z9 / bitamina
+                                    :quantity +)
+                         :manner (z10 / prebeni
+                                      :theme (z11 / gaixotasun
+                                                  :quantity +))
+                         :manner (z12 / kontra
+                                      :theme (z13 / malaria))
+                         :manner (z14 / banatu
+                                      :theme (z15 / moskito
+                                                  :quantity +)
+                                      :manner (z16 / sarea)))))
+
+# ::id 172506
+# ::snt Eta Disneyren dendetan Joan eta Black Widow-en arropa bat bilatzen baduzue, Captain Americaren eta Ingele Hulk-en arropa bilatuko dituzue.
+(z1 / and
+    :op2 (z2 / joan
+             :agent (z3 / zuek)
+             :target (z4 / denda
+                         :quality (z5 / Disney))
+             :purpose (z6 / bilatu
+                          :agent z3
+                          :theme (z7 / arropa
+                                     :context (z8 / Black_Widow)))
+             :condition_of (z9 / bilatu
+                               :agent z3
+                               :theme (z10 / arropa
+                                           :context (z11 / Ingele_Hulk
+                                                         :context_of z7))
+                               :theme_of (z12 / Captain_America
+                                              :context_of z7))))
+
+# ::id 152764
+# ::snt Hala ere, Leonardo ez zen Vitruvioren inguruan pentsatzen.
+(z1 / hala_ere
+    :op2 (z2 / pentsatu
+             :tense past
+             :aspect imperfect
+             :polarity -
+             :agent (z3 / Leonardo)
+             :theme (z4 / Vitruvio)
+             :location (z5 / inguruan)))
+
+# ::id 158139
+# ::snt Zuek, Einstein gazteak erantzun zuen enigmena idatzi zuen?
+(z1 / idatzi
+    :tense past
+    :polarity ?
+    :agent (z2 / zuek)
+    :result (z3 / enigmena
+                :theme_of (z4 / erantzun
+                              :tense past
+                              :agent (z5 / Einstein
+                                         :quality (z6 / gaztea)))))
+
+# ::id 234498
+# ::snt Nire gurasoek beharrezkoa ikusi zuten beren arima lasaiagoa lortzeko.
+(z1 / ikusi
+    :tense past
+    :agent (z2 / guraso
+               :quantity +
+               :related (z3 / nire))
+    :theme (z4 / beharrezko)
+    :result (z5 / lortu
+                :theme (z6 / arima
+                           :quality (z7 / lasaiagoa))
+                :agent z2))
+
+# ::id 149798
+# ::snt Pentsatu eguzki-sistemako Planetan, bai.
+(z1 / pentsatu
+    :tense future
+    :agent (z2 / tu)
+    :theme (z3 / eguzki-sistema
+               :part (z4 / Planeta))
+    :manner (z5 / bai))
+
+# ::id 111807
+# ::snt Karramarroiak arantza gutxiago dituztelako, lur azpiko zuloetan arazoak dituzte.
+(z1 / izan
+    :tense past
+    :aspect perfect
+    :agent (z2 / karramarroi
+               :quantity +)
+    :attribute (z3 / arantza
+                   :quantity +
+                   :quality (z4 / gutxiago)
+                   :possession_of z2)
+    :theme (z5 / arazo
+               :quantity +)
+    :location (z6 / zulo
+                  :quantity +
+                  :quality (z7 / lur_azpiko)))
+
+# ::id 169178
+# ::snt Eta nire buruan jarraitzen nuen, zentzu oker hartu nuen?
+(z1 / jarraitu
+    :tense past
+    :aspect imperfect
+    :agent (z2 / nire)
+    :theme (z3 / hartu
+               :tense past
+               :aspect perfect
+               :agent z2
+               :theme (z4 / zentzu
+                          :polarity -
+                          :theme (z5 / burua))))
+
+# ::id 273599
+# ::snt Australia iritsi arte, Australia iritsi arte, 14 edo 16 mila kilometroak erremo egingo ditut.
+(z1 / erremo
+    :tense future
+    :agent (z2 / ni)
+    :extend (z3 / kilometro
+                :quantity (z4 / or
+                              :op1 (z5 / 14000)
+                              :op2 (z6 / 16000)))
+    :time (z7 / iritsi
+              :theme z2
+              :target (z8 / Australia))
+    :time (z9 / iritsi
+              :theme z2
+              :target z8)
+    :condition (z10 / or
+                    :op1 (z11 / iritsi
+                              :theme z2
+                              :target z8)
+                    :op2 (z12 / iritsi
+                              :theme z2
+                              :target z8)))
+
+# ::id 203633
+# ::snt Zein da zure tamaina? Erraza da. Erronka gustatzen zaizkit.
+(z1 / multi-sentence
+    :snt1 (z2 / tamaina
+              :polarity ?
+              :theme (z3 / zure))
+    :snt2 (z4 / izan
+              :aspect perfect
+              :theme (z5 / ezer)
+              :attribute (z6 / erraza))
+    :snt3 (z7 / gustatzen
+              :experiencer (z8 / ni)
+              :theme (z9 / erronka
+                         :quantity +
+                         :theme_of (z10 / izan
+                                        :aspect future
+                                        :attribute (z11 / zaiot)))))
+
+# ::id 50782
+# ::snt Gogoratu nahi izan duzunean, ez da hizkun-punta batean eduki, ezta ezkutatuta ere bazoko zulo ilun batean.
+(z1 / gogoratu
+    :tense past
+    :aspect perfect
+    :agent (z2 / zu)
+    :theme (z3 / ezer)
+    :regardless (z4 / izan
+                    :mode desire
+                    :agent z2
+                    :theme (z5 / ezer))
+    :op1_of (z6 / eduki
+                :polarity -
+                :theme z2
+                :content z3
+                :part (z7 / hizkun-punta))
+    :op2_of (z8 / ezkutatu
+                :polarity -
+                :theme z2
+                :content z3
+                :location (z9 / zulo
+                              :quality (z10 / bazoko)
+                              :part_of (z11 / zulo
+                                            :quality (z12 / ilun)
+                                            :part_of z2))))
+
+# ::id 176733
+# ::snt Zaila izan da, baina ideia orok ulertu duzue.
+(z1 / izan
+    :tense past
+    :quality (z2 / zaila)
+    :concession (z3 / ulertu
+                    :agent (z4 / zuek)
+                    :theme (z5 / ideia
+                               :quantity +
+                               :quality (z6 / orok))))
+
+# ::id 243127
+# ::snt Ezinbestekoa da, jakin nahi dutenez, beste batek ordainduz gero.
+(z1 / multi-sentence
+    :snt1 (z2 / izan
+              :mode possibility
+              :quality (z3 / ezinbestekoa)
+              :cause (z4 / jakin
+                         :agent (z5 / zuek)
+                         :theme (z6 / nahi
+                                    :agent (z7 / ni)
+                                    :context (z8 / z2))
+                         :manner (z9 / ordainduz
+                                     :time (z10 / gero)))))
+
+# ::id 75341
+# ::snt XX. mendean, Auschwitzko kontzentrazio esparruko irudiak, gure kontzientzian sartu ziren eta gure buruari berriro ikasi egin digu nor garen, non dagoen eta zein den gure aroa.
+(z1 / and
+    :op1 (z2 / sartu
+             :tense past
+             :theme (z3 / irudi
+                        :quantity +
+                        :context (z4 / kontzentrazio_esparru
+                                     :location (z5 / Auschwitz)))
+             :location (z6 / kontzientzia
+                           :possession_of (z7 / gu)))
+    :time (z8 / XX_mende))
+
+# ::id 135116
+# ::snt Berria da NASAk plano de kontingentzia baten atzean dagoela, Orionen ezagutza gordetzeko.
+(z1 / izan
+    :tense past
+    :theme (z2 / berria)
+    :identity (z3 / atzean
+                  :location (z4 / plano
+                                :context (z5 / kontingentzia))
+                  :possession (z6 / NASA))
+    :condition (z7 / gordetzeko
+                   :theme (z8 / ezagutza
+                              :context (z9 / Orion))))
+
+# ::id 163044
+# ::snt Eta nire hogei urteak amaitu zirenean, Barcelonako Orkestra Sinfonikoan izan nintzen, Espainian.
+(z1 / and
+    :op2 (z2 / amaitu
+             :tense past
+             :aspect perfect
+             :theme (z3 / nire
+                        :possession (z4 / urte
+                                        :quantity (z5 / hogei)))
+             :time (z6 / Barcelonako_Orkestra_Sinfoniko
+                       :location (z7 / Espainia))
+             :result (z8 / izan
+                         :tense past
+                         :aspect perfect
+                         :polarity -
+                         :agent (z9 / i
+                                    :coref z3)
+                         :theme (z10 / parte
+                                     :location z6))))
+
+# ::id 117898
+# ::snt Zer sentitzen duzue zuek, zuek, Messi izan daitezen, futbol jokalari gisa, zuek, Federer izan daitezen, tenis jokalari gisa, Wimbledonen?
+(z1 / sentitu
+    :agent (z2 / zuek)
+    :theme (z3 / zuek)
+    :identity (z4 / Messi
+                  :possession_of (z5 / izan
+                                     :tense future
+                                     :aspect perfect
+                                     :agent z3
+                                     :identity (z6 / jokalari
+                                                   :context (z7 / futbol))
+                                     :context (z8 / jokalari
+                                                  :context (z9 / tenis))
+                                     :context (z10 / Wimbledon))))
+

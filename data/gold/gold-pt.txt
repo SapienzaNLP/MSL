@@ -1,0 +1,1580 @@
+# ::id 223323
+# ::snt Há micróbios, sabem, que estão a fazer cerveja.
+(z1 / saber
+    :experiencer (z2 / vocês)
+    :theme (z3 / haver
+               :theme (z4 / micróbio
+                          :quantity +
+                          :agent_of (z5 / fazer
+                                        :tense future
+                                        :aspect continuous
+                                        :product (z6 / cerveja)))))
+
+# ::id 248638
+# ::snt Vamos voltar no tempo, uns dois anos.
+(z1 / voltar_no_tempo
+    :mode imperative
+    :agent (z2 / nós)
+    :extent (z3 / ano
+                :quantity (z4 / dois)))
+
+# ::id 284943
+# ::snt Mas voltando ao Sudão.
+(z1 / mas
+    :op2 (z2 / voltar
+             :mode imperative
+             :agent (z3 / algo)
+             :target (z4 / Sudão)))
+
+# ::id 276444
+# ::snt Eu amo a palavra 'desencantar'
+(z1 / amor
+    :experiencer (z2 / eu)
+    :stimulus (z3 / palavra
+                  :identity (z4 / desencantar)))
+
+# ::id 138561
+# ::snt Os estudantes eram 270 jovens, que se espera que sejam os futuros líderes da mais isolada e brutal ditadura atual.
+(z1 / ser
+    :tense past
+    :theme (z2 / estudante
+               :quantity +)
+    :identity (z3 / jovem
+                  :quantity (z4 / 270))
+    :theme_of (z5 / esperar
+                  :co_theme (z6 / ser
+                                :tense future
+                                :theme z2
+                                :identity (z7 / líder
+                                              :quantity +
+                                              :quality (z8 / futuro)
+                                              :membership (z9 / ditadura
+                                                              :quality (z10 / and
+                                                                            :op1 (z11 / isolada)
+                                                                            :op2 (z12 / brutal)
+                                                                            :degree (z13 / mais))
+                                                              :time (z14 / atual))))))
+
+# ::id 68081
+# ::snt E nela, ela diz que, clássicamente, trabalho é associado a homens.
+(z1 / e
+    :op2 (z2 / dizer
+             :agent (z3 / ela)
+             :theme (z4 / associar
+                        :theme (z5 / trabalho)
+                        :co-theme (z6 / homem
+                                      :quantity +)
+                        :manner (z7 / clássicamente))
+             :location (z8 / algo)))
+
+# ::id 39410
+# ::snt Íamos almoçar com o prefeito e jantar com a nata da sociedade de Málaga.
+(z1 / and
+    :op1 (z2 / ir
+             :tense past
+             :aspect imperfect
+             :agent (z3 / nós)
+             :purpose (z4 / almoçar
+                          :agent z3
+                          :accompanier (z5 / prefeito)))
+    :op2 (z6 / jantar
+             :tense past
+             :aspect imperfect
+             :agent z3
+             :accompanier (z7 / nata
+                              :context (z8 / sociedade
+                                           :location (z9 / Málaga)))))
+
+# ::id 39404
+# ::snt Uma vez, eu fui a Málaga com uma equipe, porque a coisa estava assinada e carimbada com selos oficiais da cidade, e eles queriam que eu construísse um edifício no porto.
+(z1 / ir
+    :tense past
+    :agent (z2 / eu)
+    :accompanier (z3 / equipe)
+    :location (z4 / Malaga)
+    :time (z5 / uma_vez)
+    :cause (z6 / and
+               :op1 (z7 / assinar
+                        :tense past
+                        :aspect imperfect
+                        :theme (z8 / coisa))
+               :op2 (z9 / carimbar
+                        :tense past
+                        :aspect imperfect
+                        :theme z8
+                        :instrument (z10 / selo
+                                         :quantity +
+                                         :quality (z11 / oficial)
+                                         :context (z12 / cidade
+                                                       :coref z4)))
+               :op3 (z13 / querer
+                         :tense past
+                         :aspect imperfect
+                         :agent (z14 / ele
+                                     :coref z8)
+                         :theme (z15 / construir
+                                     :mode subjunctive
+                                     :agent z2
+                                     :theme (z16 / edificio)
+                                     :location (z17 / porto)))))
+
+# ::id 250177
+# ::snt Eu disse: 'Há uma forma de alucinação visual que pode ocorrer com a perda da visão ou a cegueira.'
+(z1 / dizer
+    :tense past
+    :agent (z2 / eu)
+    :theme (z3 / haver
+               :theme (z4 / forma
+                          :context (z5 / alucinação_visual)
+                          :agent_of (z6 / ocorrer
+                                        :mode possibility
+                                        :accompanier (z7 / or
+                                                         :op1 (z8 / perda
+                                                                  :context (z9 / visão))
+                                                         :op2 (z10 / cegueira))))))
+
+# ::id 57214
+# ::snt Um, dois, três, quatro, cinco, seis e sete.
+(z1 / and
+    :op1 (z2 / um)
+    :op2 (z3 / dois)
+    :op3 (z4 / três)
+    :op4 (z5 / quatro)
+    :op5 (z6 / cinco)
+    :op6 (z7 / seis)
+    :op7 (z8 / sete))
+
+# ::id 113575
+# ::snt Maquinista: Merda.
+(z1 / dizer
+    :agent (z2 / maquinista)
+    :theme (z3 / merda))
+
+# ::id 113575_b
+# ::snt Maquinista: Boa sorte.
+(z1 / dizer
+    :agent (z2 / maquinista)
+    :theme (z3 / boa_sorte))
+
+# ::id 169020
+# ::snt No entanto, 40% dos pais de hoje estão a retirar os seus filhos das escolas públicas e a colocá-los em escolas privadas, pagando do seu bolso.
+(z1 / no_entanto
+    :op2 (z2 / retirar
+             :aspect continuous
+             :agent (z3 / pai
+                        :quantity (z4 / 40%))
+             :context (z5 / hoje)
+             :theme (z6 / filho
+                        :quantity +
+                        :related z3)
+             :source (z7 / escola_publica
+                         :quantity +)
+             :result (z8 / colocar
+                         :aspect continuous
+                         :agent z3
+                         :theme z6
+                         :target (z9 / escola_privada
+                                     :quantity +)
+                         :manner (z10 / pagar
+                                      :agent z3
+                                      :manner (z11 / do
+                                                   :possession_of z3
+                                                   :theme (z12 / bolso))))))
+
+# ::id 213712
+# ::snt Eu ouço muitas vezes nos Estados Unidos: 'Claro que devemos tratar dos problemas óbvios, mas se não vês o que tens à frente, ou és estúpido ou ignorante'.
+(z1 / ouvir
+    :experiencer (z2 / eu)
+    :frequency (z3 / vez
+                   :quantity (z4 / muitas))
+    :location (z5 / Estados_Unidos)
+    :content (z6 / tratar
+                 :mode recomend
+                 :agent (z7 / nós)
+                 :target (z8 / problema
+                             :quantity +
+                             :quality (z9 / óbvio))
+                 :quality (z10 / claro)
+                 :concession (z11 / ver
+                                  :polarity -
+                                  :experiencer (z12 / tu)
+                                  :theme (z13 / algo
+                                              :possession_of (z14 / ter
+                                                                  :theme z12
+                                                                  :location (z15 / à_frente)))
+                                  :condition_of (z16 / ser
+                                                     :theme z12
+                                                     :attribute (z17 / or
+                                                                     :op1 (z18 / estúpido)
+                                                                     :op2 (z19 / ignorante))))))
+
+# ::id 28948
+# ::snt Então, o 'modelo do Leste Asiático' tem esse viés de seleção em massa, que é conhecido como viés de seleção da variável dependente, algo que sempre pedimos para nossos estudantes evitarem.
+(z1 / então
+    :op2 (z2 / ter
+             :theme (z3 / modelo
+                        :context (z4 / Leste_Asiático))
+             :attribute (z5 / viés
+                            :quality (z6 / esse)
+                            :context (z7 / seleção
+                                         :quality (z8 / em_massa)
+                                         :theme_of (z9 / conhecer
+                                                       :content (z10 / viés
+                                                                     :context (z11 / seleção
+                                                                                   :context (z12 / variável_dependente)))))
+                            :identity (z13 / algo
+                                           :theme_of (z14 / evitar
+                                                          :theme_of (z15 / pedir
+                                                                         :agent (z16 / nós
+                                                                                     :context (z17 / estudante
+                                                                                                   :quantity +))
+                                                                         :time (z18 / sempre))
+                                                          :agent z16)))))
+
+# ::id 31996
+# ::snt E nos estudos que temos feito no meu laboratório, mostramos que as crianças de quatro anos são melhores do que os adultos a descobrir uma hipótese improvável na mesma tarefa.
+(z1 / and
+    :op2 (z2 / mostrar
+             :aspect perfect
+             :agent (z3 / nós)
+             :theme (z4 / ser
+                        :theme (z5 / criança
+                                   :quantity +
+                                   :context (z6 / ano
+                                                :quantity (z7 / quatro)))
+                        :attribute (z8 / melhor
+                                       :compared (z9 / adulto
+                                                     :quantity +)
+                                       :context (z10 / descobrir
+                                                     :theme (z11 / hipótese
+                                                                 :quality (z12 / improvável))
+                                                     :context (z13 / tarefa
+                                                                   :quality (z14 / mesmo)))))
+             :location (z15 / estudo
+                            :quantity +
+                            :theme_of (z16 / fazer
+                                           :aspect perfect_continuous
+                                           :agent z3
+                                           :location (z17 / laboratório
+                                                          :related (z18 / eu))))))
+
+# ::id 257951
+# ::snt O sapateiro ia para a cama, acordava de manhã e todos os sapatos estavam feitos pelos duendes.
+(z1 / and
+    :op1 (z2 / ir_para_a_cama
+             :tense past
+             :aspect imperfect
+             :agent (z3 / sapateiro))
+    :op2 (z4 / acordar
+             :tense past
+             :aspect imperfect
+             :experiencer z3
+             :time (z5 / manhã))
+    :op3 (z6 / fazer
+             :tense past
+             :product (z7 / sapato
+                          :quantity (z8 / todos))
+             :agent (z9 / duende
+                        :quantity +)))
+
+# ::id 89005
+# ::snt Minha cor favorita agora é azul, mas eu ainda sou gay. Isso mostra tanto a influência da minha mãe como seus limites.
+(z1 / multi-sentence
+    :snt1 (z2 / ser
+              :theme (z3 / cor
+                         :quality (z4 / favorita
+                                      :related (z5 / eu)))
+              :identity (z6 / azul)
+              :time (z7 / agora)
+              :concession (z8 / ser
+                              :theme z5
+                              :attribute (z9 / gay)
+                              :quality (z10 / ainda)))
+    :snt2 (z11 / mostrar
+               :agent z2
+               :theme (z12 / and
+                           :op1 (z13 / influência
+                                     :related (z14 / mãe
+                                                   :related z5))
+                           :op2 (z15 / limite
+                                     :related z14
+                                     :quantity +))))
+
+# ::id 294047
+# ::snt Em 2002, quando tudo estava indo bem, houve um branqueamento dos corais em Ilhas Phoenix.
+(z1 / haver
+    :tense past
+    :theme (z2 / branqueamento_dos_corais)
+    :location (z3 / Ilhas_Phoenix)
+    :time (z4 / 2002
+              :time (z5 / ir
+                        :tense past
+                        :aspect imperfect
+                        :theme (z6 / tudo)
+                        :manner (z7 / indo_bem))))
+
+# ::id 97764
+# ::snt Vire-se e, veja, se eu te der algo que é meu, é só algo que eu tenho, uma ficha de pôquer.
+(z1 / multi-sentence
+    :snt1 (z2 / and
+              :op1 (z3 / virar
+                       :mode imperative
+                       :agent (z4 / você))
+              :op2 (z5 / ver
+                       :mode imperative
+                       :experiencer (z6 / você)))
+    :snt2 (z7 / dar
+              :agent (z8 / eu)
+              :theme (z9 / algo
+                         :possession_of (z10 / ser
+                                             :theme z8
+                                             :identity (z11 / algo
+                                                            :possession_of (z12 / ter
+                                                                                :theme z8))
+                                             :identity (z13 / ficha_de_pôquer)))
+              :target z4))
+
+# ::id 99153
+# ::snt Não entendo porque isto continua a acontecer.
+(z1 / entender
+    :polarity -
+    :experiencer (z2 / eu)
+    :theme (z3 / continuar
+               :theme (z4 / isto)
+               :theme (z5 / acontecer)
+               :cause (z6 / ?)))
+
+# ::id 99133
+# ::snt A história dele é a história deles.
+(z1 / ser
+    :theme (z2 / historia
+               :possession_of (z3 / ele))
+    :identity (z4 / historia
+                  :possession_of (z5 / eles)))
+
+# ::id 98945
+# ::snt Eles estão errados porque é o oposto.
+(z1 / estar_errado
+    :theme (z2 / eles)
+    :cause (z3 / ser
+               :theme (z4 / algo)
+               :identity (z5 / oposto)))
+
+# ::id 21327
+# ::snt Isso é verdade, não importa sobre o que estejam falando.
+(z1 / ser
+    :theme (z2 / isso)
+    :attribute (z3 / verdade)
+    :regardless (z4 / falar
+                    :aspect continuous
+                    :agent (z5 / eles)
+                    :content (z6 / sobre
+                                 :theme (z7 / que))))
+
+# ::id 126209
+# ::snt Virei a página e o que veio a seguir foi isto.
+(z1 / and
+    :op1 (z2 / virar
+             :tense past
+             :patient (z3 / eu)
+             :patient (z4 / página))
+    :op2 (z5 / ser
+             :tense past
+             :theme (z6 / algo
+                        :theme_of (z7 / vir
+                                      :tense past
+                                      :time (z8 / seguir
+                                                :agent z2)))
+             :identity (z9 / isto)))
+
+# ::id 27807
+# ::snt Mas obviamente há a ideia de que se deixarem sair os prisioneiros, eles vão raptar um motociclista e comer o fígado dele.
+(z1 / mas
+    :op2 (z2 / haver
+             :theme (z3 / ideia
+                        :context (z4 / deixar_sair
+                                     :agent (z5 / eles)
+                                     :patient (z6 / prisioneiro
+                                                  :quantity +)
+                                     :condition_of (z7 / and
+                                                       :op1 (z8 / raptar
+                                                                :tense future
+                                                                :agent z6
+                                                                :patient (z9 / motociclista)
+                                                                :op2_of (z10 / and
+                                                                             :op1 (z11 / comer)
+                                                                             :op2 (z12 / fígado
+                                                                                       :part_of z9)))))))
+    :quality (z13 / obviamente))
+
+# ::id 181621
+# ::snt As vozes das mulheres e meninas, e as vozes dos nossos aliados são limitadas de uma forma que é prejudicial a nível pessoal, económico, profissional e político.
+(z1 / limitar
+    :patient (z2 / and
+                 :op1 (z3 / voz
+                          :quantity +
+                          :context (z4 / and
+                                       :op1 (z5 / mulher
+                                                :quantity +)
+                                       :op2 (z6 / menina
+                                                :quantity +)))
+                 :op2 (z7 / voz
+                          :quantity +
+                          :context (z8 / aliado
+                                       :quantity +
+                                       :related (z9 / nos))))
+    :manner (z10 / ser
+                 :theme z2
+                 :attribute (z11 / prejudicial
+                                 :quantity +
+                                 :context (z12 / nível
+                                               :quality (z13 / and
+                                                             :op1 (z14 / pessoal)
+                                                             :op2 (z15 / económico)
+                                                             :op3 (z16 / profissional)
+                                                             :op4 (z17 / político))))))
+
+# ::id 173170
+# ::snt Uma vez eu pensei que tinha visto o Pé Grande, mas era um pastor alemão.
+(z1 / pensar
+    :tense past
+    :agent (z2 / eu)
+    :theme (z3 / ver
+               :tense past
+               :aspect perfect
+               :experiencer z2
+               :stimulus (z4 / Pé_Grande))
+    :time (z5 / uma_vez)
+    :concession (z6 / ser
+                    :tense past
+                    :aspect imperfect
+                    :theme (z7 / isto)
+                    :identity (z8 / pastor_alemão)))
+
+# ::id 52318
+# ::snt Estamos falando de um livro de 900 páginas, tão estranho quanto irresistível, com uma cena crucial em que uma horda de pessoas pequenas sai da boca de uma garota dormindo e faz um pastor alemão explodir.
+(z1 / falar
+    :tense past
+    :aspect imperfect
+    :agent (z2 / nós)
+    :context (z3 / livro
+                 :composition (z4 / página
+                                  :quantity (z5 / 900))
+                 :quality (z6 / tão
+                              :op1 (z7 / estranho)
+                              :op2 (z8 / irresistível))
+                 :content (z9 / cena
+                              :quality (z10 / crucial)
+                              :identity (z11 / and
+                                             :op1 (z12 / sair
+                                                       :theme (z13 / horda
+                                                                   :composition (z14 / pessoa
+                                                                                     :quantity +
+                                                                                     :quality (z15 / pequeno)))
+                                                       :source (z16 / boca
+                                                                    :part_of (z17 / garota
+                                                                                  :quality (z18 / dormindo))))
+                                             :op2 (z19 / fazer
+                                                       :agent z12
+                                                       :theme (z20 / explodir
+                                                                   :agent z12
+                                                                   :patient (z21 / pastor_alemão)))))))
+
+# ::id 172429
+# ::snt Por que é que todas as personagens de quem a minha filha se veste, seja o Groot, o Incrível Hulk, o Obi-Wan Kenobi ou o Darth Maul, são rapazes?
+(z1 / ser
+    :theme (z2 / personagem
+               :quality (z3 / todo)
+               :theme_of (z4 / vestir
+                             :agent (z5 / filha
+                                        :related (z6 / eu)))
+               :theme_of (z7 / ser
+                             :mode subjunctive
+                             :example (z8 / or
+                                          :op1 (z9 / Groot)
+                                          :op2 (z10 / o_Incrível_Hulk)
+                                          :op3 (z11 / Obi-Wan_Kenobi)
+                                          :op4 (z12 / Darth_Maul)))
+               :attribute (z13 / rapaz))
+    :cause (z14 / ?))
+
+# ::id 170681
+# ::snt A segunda forma de obter energia é do vento solar.
+(z1 / ser
+    :theme (z2 / forma
+               :ord (z3 / segunda)
+               :manner_of (z4 / obter
+                              :theme (z5 / energia)))
+    :source (z6 / vento_solar))
+
+# ::id 174325
+# ::snt O que me leva de volta ao começo.
+(z1 / levar_de_volta
+    :agent (z2 / algo)
+    :theme (z3 / eu)
+    :target (z4 / começo))
+
+# ::id 172541
+# ::snt E não é culpa do Mike. É nossa culpa.
+(z1 / multi-sentence
+    :snt1 (z2 / and
+              :op2 (z3 / ser
+                       :polarity -
+                       :theme (z4 / isto)
+                       :identity (z5 / culpa
+                                     :related (z6 / Mike))))
+    :snt2 (z7 / ser
+              :theme z4
+              :identiy (z8 / culpa
+                           :related (z9 / nós))))
+
+# ::id 115980
+# ::snt Como cidadãos, peço que não deixem nenhuma criança para trás.
+(z1 / pedir
+    :agent (z2 / eu)
+    :target (z3 / eles)
+    :theme (z4 / deixar_para_trás
+               :polarity -
+               :agent z3
+               :theme (z5 / criança
+                          :quality (z6 / nenhuma)))
+    :condition (z7 / cidadão
+                   :quantity +
+                   :identity_of z3))
+
+# ::id 149416
+# ::snt Quase como se vê na doença de Parkinson.
+(z1 / como
+    :degree (z2 / quase)
+    :op2 (z3 / ver
+             :mode (z4 / doença_de_Parkinson)))
+
+# ::id 22750
+# ::snt Meu coração batia rápido, eu estava tonta, tentando entender o que estava na minha frente.
+(z1 / and
+    :op1 (z2 / bater
+             :tense past
+             :aspect imperfect
+             :patient (z3 / coração
+                          :part_of (z4 / eu))
+             :manner (z5 / rápido))
+    :op2 (z6 / estar
+             :tense past
+             :aspect imperfect
+             :theme z4
+             :attribute (z7 / tonta))
+    :op3 (z8 / tentar
+             :tense past
+             :aspect imperfect
+             :agent z4
+             :theme (z9 / entender
+                        :experiencer z4
+                        :theme (z10 / algo
+                                    :theme_of (z11 / estar
+                                                   :tense past
+                                                   :aspect imperfect
+                                                   :location (z12 / na_frente
+                                                                  :op1 z4))))))
+
+# ::id 162510
+# ::snt Em ambos os casos, as restrições orientam as decisões para garantir que atingimos cada objetivo.
+(z1 / orientar
+    :agent (z2 / restrição
+               :quantity +)
+    :theme (z3 / decisão
+               :quantity +)
+    :purpose (z4 / garantir
+                 :theme (z5 / atingir
+                            :theme (z6 / nós)
+                            :target (z7 / objetivo
+                                        :quality (z8 / cada))))
+    :context (z9 / caso
+                 :quality (z10 / ambos)))
+
+# ::id 266251
+# ::snt Então, é muito conhecida por engenheiros, mas não por biólogos.
+(z1 / então
+    :op2 (z2 / ser
+             :theme (z3 / algo)
+             :attribute (z4 / conhecido
+                            :degree (z5 / muito))
+             :experiencer (z6 / engenheiro
+                              :quantity +)
+             :concession (z7 / ser
+                             :theme z3
+                             :attribute (z8 / por
+                                            :polarity -
+                                            :experiencer (z9 / biólogo
+                                                             :quantity +)))))
+
+# ::id 98911
+# ::snt É aquele colega que você não pode mandar embora. A voz que você não pode ignorar.
+(z1 / multi-sentence
+    :snt1 (z2 / ser
+              :theme (z3 / algo)
+              :identity (z4 / colega
+                            :quality (z5 / aquele)
+                            :patient_of (z6 / mandar_embora
+                                            :mode no_probability
+                                            :agent (z7 / você))))
+    :snt2 (z8 / ser
+              :theme z3
+              :identity (z9 / voz
+                            :stimulus_of (z10 / ignorar
+                                              :mode no_probability
+                                              :experiencer z7))))
+
+# ::id 70804
+# ::snt Se você errasse, você falhava. Como você deveria ser tratado?
+(z1 / multi-sentence
+    :snt1 (z2 / falhar
+              :tense past
+              :aspect imperfect
+              :agent (z3 / você)
+              :condition (z4 / errar
+                             :tense past
+                             :aspect imperfect
+                             :agent z3))
+    :snt2 (z5 / ser
+              :mood conditional
+              :mode recomend
+              :theme z3
+              :attribute (z6 / tratado)
+              :manner (z7 / ?)))
+
+# ::id 250380
+# ::snt Acho que antes de fazer os Monólogos da Vagina, eu não acreditava na felicidade.
+(z1 / achar
+    :agent (z2 / eu)
+    :theme (z3 / acreditar
+               :tense past
+               :aspect imperfect
+               :polarity -
+               :agent z2
+               :theme (z4 / felicidade)
+               :time (z5 / antes
+                         :op1 (z6 / fazer
+                                  :agent z2
+                                  :product (z7 / Monólogos_da_Vagina)))))
+
+# ::id 3787
+# ::snt Eu fiz trabalho policial como policial.
+(z1 / fazer
+    :tense past
+    :agent (z2 / eu)
+    :theme (z3 / trabalho
+               :quality (z4 / policial))
+    :manner (z5 / policial))
+
+# ::id 115994
+# ::snt Significa 'trabalho forçado'.
+(z1 / significar
+    :theme (z2 / isto)
+    :content (z3 / trabalho_forçado))
+
+# ::id 120276
+# ::snt O que queremos dizer com 'bom'?
+(z1 / querer_dizer
+    :agent (z2 / nós)
+    :theme (z3 / bom)
+    :content (z4 / ?))
+
+# ::id 115195
+# ::snt A maior parte de suas vidas, eles vivem no meio da correnteza da experiência humana, onde tudo é normal, mas o fracasso os joga bruscamente na escuridão cegante da decepção. O sucesso os joga com a mesma brusquidão, mas para longe dali, na luz igualmente cegante da fama, do reconhecimento e dos elogios.
+(z1 / multi-sentence
+    :snt1 (z2 / viver
+              :agent (z3 / eles)
+              :theme (z4 / vida
+                         :quantity +
+                         :related z3)
+              :location (z5 / meio
+                            :context (z6 / correnteza
+                                         :part_of (z7 / experiência_humana))
+                            :location_of (z8 / ser
+                                             :theme (z9 / tudo)
+                                             :attribute (z10 / normal)))
+              :time (z11 / parte
+                         :quality (z12 / maior)
+                         :part_of z4)
+              :concession (z13 / jogar
+                               :agent (z14 / fracasso)
+                               :patient z3
+                               :manner (z15 / bruscamente)
+                               :target (z16 / dentro
+                                            :context (z17 / escuridão
+                                                          :quality (z18 / cegante)
+                                                          :context (z19 / decepção)))))
+    :snt2 (z20 / jogar
+               :agent (z21 / sucesso)
+               :patient z3
+               :manner (z22 / brusquidade
+                            :degree (z23 / mesma
+                                         :compared z14))
+               :target (z24 / longe
+                            :context (z25 / dali
+                                          :coref z16))
+               :target (z26 / luz
+                            :quality (z27 / cegante
+                                          :degree (z28 / igualmente
+                                                       :compared z17))
+                            :quality_of (z29 / and
+                                             :op1 (z30 / fama)
+                                             :op2 (z31 / reconhecimento)
+                                             :op3 (z32 / elogio)))))
+
+# ::id 187847
+# ::snt Passeios de barco, sonares militares, construção submarina e pesquisas sísmicas de petróleo são feitos com frequência e podem interferir na comunicação das baleias.
+(z1 / and
+    :op1 (z2 / fazer
+             :theme (z3 / and
+                        :op1 (z4 / passeio
+                                 :context (z5 / barco))
+                        :op2 (z6 / sonar
+                                 :quality (z7 / militar))
+                        :op3 (z8 / construção)
+                        :op4 (z9 / pesquisa
+                                 :quality (z10 / sísmica)
+                                 :context (z11 / petróleo))))
+    :frequency (z12 / com_frequência))
+
+# ::id 86863
+# ::snt Acabou. Eu estava com raiva de ter gasto meu dinheiro naquela coisa.
+(z1 / multi-sentence
+    :snt1 (z2 / acabar
+              :theme (z3 / algo))
+    :snt2 (z4 / estar
+              :tense past
+              :aspect imperfect
+              :theme (z5 / eu)
+              :attribute (z6 / raiva)
+              :cause (z7 / gastar
+                         :aspect perfect
+                         :agent z5
+                         :patient (z8 / dinheiro
+                                      :possession_of z5)
+                         :target (z9 / coisa
+                                     :quality (z10 / aquele)))))
+
+# ::id 207712
+# ::snt What?' significa 'O quê?'
+(z1 / significar
+    :theme (z2 / what)
+    :content (z3 / o_quê))
+
+# ::id 144972
+# ::snt Apaixonar-se é a parte fácil.
+(z1 / ser
+    :theme (z2 / apaixonar_se)
+    :identity (z3 / parte
+                  :quality (z4 / facil)))
+
+# ::id 36272
+# ::snt A mente humana inventou não um, mas 7.000 universos cognitivos. Existem 7.000 línguas faladas no mundo.
+(z1 / multi-sentence
+    :snt1 (z2 / inventar
+              :tense past
+              :agent (z3 / mente
+                         :part_of (z4 / humano))
+              :product (z5 / universo
+                           :quality (z6 / cognitivo)
+                           :quantity (z7 / 1
+                                         :polarity -
+                                         :contrast (z8 / 7000))))
+    :snt2 (z9 / existir
+              :theme (z10 / língua
+                          :quantity (z11 / 7000)
+                          :quality (z12 / falado))
+              :location (z13 / mundo)))
+
+# ::id 36273
+# ::snt E podemos criar muitos mais, a língua é algo vivo, que podemos polir e mudar para se adaptar às nossas necessidades.
+(z1 / and
+    :op1 (z2 / criar
+             :mode possibility
+             :agent (z3 / nós)
+             :product (z4 / mais
+                          :degree (z5 / muito)))
+    :op2 (z6 / ser
+             :theme (z7 / língua)
+             :attribute (z8 / algo
+                            :quality (z9 / vivo)
+                            :patient_of (z10 / and
+                                             :op1 (z11 / polir
+                                                       :agent z3)
+                                             :op2 (z12 / mudar
+                                                       :agent z3)
+                                             :purpose (z13 / adaptar
+                                                           :agent z3
+                                                           :patient z7
+                                                           :target (z14 / necessidade
+                                                                        :related z3))))))
+
+# ::id 36273_b
+# ::snt A mente humana inventou não um, mas 7.000 universos cognitivos. Existem 7.000 línguas faladas no mundo, e podemos inventar muito mais. A língua é um organismo vivo, que podemos ir aperfeiçoando e mudando para atender às nossas necessidades.
+(z1 / multi-sentence
+    :snt1 (z2 / inventar
+              :tense past
+              :agent (z3 / mente
+                         :part_of (z4 / humano))
+              :product (z5 / universo
+                           :quality (z6 / cognitivo)
+                           :quantity (z7 / 1
+                                         :polarity -
+                                         :contrast (z8 / 7000))))
+    :snt2 (z9 / and
+              :op1 (z10 / existir
+                        :theme (z11 / língua
+                                    :quantity (z12 / 7000)
+                                    :quality (z13 / falado))
+                        :location (z14 / mundo))
+              :op2 (z15 / inventar
+                        :mode possibility
+                        :agent (z16 / nós)
+                        :product (z17 / mucho
+                                      :quantity +
+                                      :quantity (z18 / mais)
+                                      :coref z11)))
+    :snt3 (z19 / ser
+               :theme (z20 / língua)
+               :attribute (z21 / organismo
+                               :quality (z22 / vivo)
+                               :patient_of (z23 / and
+                                                :op1 (z24 / aperfeiçoar
+                                                          :agent z16)
+                                                :op2 (z25 / mudar
+                                                          :agent z16)
+                                                :purpose (z26 / atender
+                                                              :agent z16
+                                                              :patient z21
+                                                              :target (z27 / necessidade
+                                                                           :related z16))))))
+
+# ::id 273954
+# ::snt A tecnologia está disponível, a infraestrutura está disponível, e no entanto, não acontece.
+(z1 / and
+    :op1 (z2 / estar
+             :theme (z3 / tecnologia)
+             :quality (z4 / disponível))
+    :op2 (z5 / estar
+             :theme (z6 / infraestrutura)
+             :quality (z7 / disponível))
+    :concession (z8 / acontecer
+                    :polarity -
+                    :theme (z9 / algo)))
+
+# ::id 32369
+# ::snt E, segundo a revista Fortune, ele tem uma fortuna de 700 milhões de dólares.
+(z1 / e
+    :op2 (z2 / segundo
+             :source (z3 / revista
+                         :name (z4 / Fortune))
+             :content (z5 / ter
+                          :theme (z6 / ele)
+                          :possession (z7 / fortuna
+                                          :quantity (z8 / 700_milhões
+                                                        :unit (z9 / dolar))))))
+
+# ::id 148514
+# ::snt Como é que mostramos o quanto nos importamos com a ansiedade dos caranguejos?
+(z1 / mostrar
+    :agent (z2 / nós)
+    :theme (z3 / quanto
+               :degree_of (z4 / importar
+                              :experiencer z2
+                              :stimulus (z5 / ansiedade
+                                            :possession_of (z6 / caranguejo
+                                                               :quantity +))))
+    :manner (z7 / ?))
+
+# ::id 196070
+# ::snt Este menino ficou parado ali por cinco minutos.
+(z1 / ficar_parado
+    :tense past
+    :theme (z2 / menino
+               :quality (z3 / este))
+    :location (z4 / ali)
+    :extent (z5 / minuto
+                :quantity (z6 / cinco)))
+
+# ::id 34542
+# ::snt Ele diz que somos seres sociais e por isso partilhamos as emoções uns dos outros.
+(z1 / dizer
+    :agent (z2 / ele)
+    :content (z3 / ser
+                 :theme (z4 / nós)
+                 :identity (z5 / ser
+                               :quantity +
+                               :quality (z6 / social))
+                 :result (z7 / partilhar
+                             :agent z4
+                             :theme (z8 / emoção
+                                        :quantity +
+                                        :possession_of (z9 / outro
+                                                           :quantity +)))))
+
+# ::id 149043
+# ::snt Dizemos 'Chove a cântaros', 'Esperava a espada de Dâmocles'.
+(z1 / dizer
+    :agent (z2 / nós)
+    :content (z3 / and
+                 :op1 (z4 / chover_a_cantaros)
+                 :op2 (z5 / esperar
+                          :tense past
+                          :aspect imperfect
+                          :agent (z6 / eu)
+                          :theme (z7 / espada_de_Damocles))))
+
+# ::id 149052
+# ::snt Quando ouvimos a expressão 'chove a cântaros', não pensamos em gotas do tamanho de cântaros, mas quando o fazemos, percebemos que o cântaro é pequeno, uma bilha, um jarro, e não um balde com asas laterais.
+(z1 / pensar
+    :polarity -
+    :agent (z2 / nós)
+    :theme (z3 / gota
+               :quantity +
+               :quality (z4 / tamanho
+                            :context (z5 / cântaro)))
+    :time (z6 / ouvir
+              :experiencer z2
+              :content (z7 / chover_a_cântaros))
+    :concession (z8 / perceber
+                    :experiencer z2
+                    :time (z9 / fazer
+                              :agent z2
+                              :theme z1)
+                    :theme (z10 / ser
+                                :theme z5
+                                :attribute (z11 / pequeno)
+                                :example (z12 / or
+                                              :op1 (z13 / bilha)
+                                              :op2 (z14 / jarro)
+                                              :concession (z15 / balde
+                                                               :part (z16 / asa
+                                                                          :quantity +
+                                                                          :quality (z17 / lateral)))))))
+
+# ::id 229253
+# ::snt Naquela época, tive a oportunidade de chamar inovadores de fora da comunidade tradicional da medicina protética para trazerem seu talento à ciência e à arte de fazer pernas.
+(z1 / ter
+    :tense past
+    :theme (z2 / eu)
+    :possession (z3 / oportunidade
+                    :context (z4 / chamar
+                                 :agent z2
+                                 :theme (z5 / inovador
+                                            :quantity +
+                                            :context (z6 / fora
+                                                         :context (z7 / comunidade
+                                                                      :quality (z8 / tradicional)
+                                                                      :context (z9 / medicina
+                                                                                   :quality (z10 / protética)))))
+                                 :purpose (z11 / trazer
+                                               :agent z5
+                                               :theme (z12 / talento
+                                                           :possession_of z5)
+                                               :target (z13 / and
+                                                            :op1 (z14 / ciência)
+                                                            :op2 (z15 / arte)
+                                                            :quality (z16 / fazer
+                                                                          :product (z17 / perna
+                                                                                        :quantity +))))))
+    :time (z18 / naquela_época))
+
+# ::id 191591
+# ::snt É um processo aeróbico, que requer oxigênio e muita umidade.
+(z1 / ser
+    :theme (z2 / isto)
+    :attribute (z3 / processo
+                   :quality (z4 / aeróbico))
+    :result (z5 / requerir
+                :agent z3
+                :theme (z6 / and
+                           :op1 (z7 / oxigênio)
+                           :op2 (z8 / umidade
+                                    :quantity (z9 / muita)))))
+
+# ::id 194671
+# ::snt Mas em agosto de 1982, o México faltou com o pagamento de sua dívida, e muitos outros países fizeram o mesmo.
+(z1 / mas
+    :op2 (z2 / and
+             :op1 (z3 / faltar
+                      :tense past
+                      :agent (z4 / México)
+                      :theme (z5 / pagamento
+                                 :possession_of z4)
+                      :quality (z6 / mesmo))
+             :op2 (z7 / fazer
+                      :tense past
+                      :agent (z8 / país
+                                 :quality (z9 / outro)
+                                 :quantity (z10 / muitos))
+                      :theme z4)
+             :time (z11 / 1982
+                        :month (z12 / agosto))))
+
+# ::id 70026
+# ::snt Vocês podem ver que mais de 200 pessoas deram a ele uma média de 4,99 de 5.
+(z1 / ver
+    :mode possibility
+    :experiencer (z2 / vocęs)
+    :stimulus (z3 / dar
+                  :tense past
+                  :agent (z4 / pessoa
+                             :quantity (z5 / mais
+                                           :op1 (z6 / 200)))
+                  :target (z7 / ele)
+                  :theme (z8 / média
+                             :value (z9 / 4.99)
+                             :scale (z10 / 5))))
+
+# ::id 46998
+# ::snt Um em dez economiza o suficiente.
+(z1 / economizar
+    :agent (z2 / pessoa
+               :quantity (z3 / um)
+               :part_of (z4 / pessoa
+                            :quantity (z5 / dez)))
+    :degree (z6 / suficiente))
+
+# ::id 204462
+# ::snt Pelo menos ele vai receber tratamento enquanto tentamos resolver a situação do dinheiro.
+(z1 / receber
+    :tense future
+    :agent (z2 / ele)
+    :theme (z3 / tratamento)
+    :quality (z4 / pelo_menos)
+    :time (z5 / tentar
+              :agent (z6 / nos)
+              :theme (z7 / resolver
+                         :theme (z8 / situação
+                                    :context (z9 / dinheiro)))))
+
+# ::id 267981
+# ::snt Eu me sentia como se estivesse fisicamente presente nos destroços do Titanic.
+(z1 / sentir
+    :tense past
+    :aspect imperfect
+    :experiencer (z2 / eu)
+    :theme (z3 / estar
+               :tense past
+               :mood subjunctive
+               :theme z2
+               :manner (z4 / presente
+                           :quality (z5 / fisicamente))
+               :location (z6 / destroços
+                             :context (z7 / Titanic))))
+
+# ::id 126992
+# ::snt Aqui dentro temos uma amostra real onde acabamos de detectar cancro do pâncreas.
+(z1 / ter
+    :location (z2 / dentro
+                  :quality (z3 / aqui))
+    :theme (z4 / amostra
+               :quality (z5 / real)
+               :location_of (z6 / acabar
+                                :agent (z7 / nós)
+                                :theme (z8 / detectar
+                                           :agent z7
+                                           :theme (z9 / cancro_do_pâncreas)))))
+
+# ::id 95962
+# ::snt Então eu disse, 'Você se importaria de vir ao tribunal?'
+(z1 / então
+    :op2 (z2 / dizer
+             :tense past
+             :agent (z3 / eu)
+             :theme (z4 / importar
+                        :mood subjunctive
+                        :polarity ?
+                        :experiencer (z5 / você)
+                        :stimulus (z6 / vir
+                                      :agent z5
+                                      :target (z7 / tribunal)))))
+
+# ::id 150027
+# ::snt Os japoneses estão interessados em construir ilhas flutuantes.
+(z1 / estar
+    :theme (z2 / japonês
+               :quantity +)
+    :attribute (z3 / interessado
+                   :context (z4 / construir
+                                :agent z2
+                                :theme (z5 / ilha
+                                           :quantity +
+                                           :quality (z6 / flutuante)))))
+
+# ::id 126712
+# ::snt Este é um mal-entendido fundamental das advertências que Orwell fez em '1984'.
+(z1 / ser
+    :theme (z2 / este)
+    :attribute (z3 / mal-entendido
+                   :quality (z4 / fundamental)
+                   :context (z5 / advertência
+                                :quantity +
+                                :theme_of (z6 / fazer
+                                              :tense past
+                                              :agent (z7 / Orwell)
+                                              :location (z8 / 1984)))))
+
+# ::id 101079
+# ::snt Podemos ganhar muito e beneficiar-nos da análise massiva destes dados pessoais, ou 'big data', mas há um preço a pagar em termos de privacidade.
+(z1 / and
+    :mode possibility
+    :op1 (z2 / ganhar
+             :theme (z3 / nós)
+             :degree (z4 / muito))
+    :op2 (z5 / beneficiar
+             :agent z3
+             :theme (z6 / análise
+                        :quality (z7 / massiva)
+                        :context (z8 / dado
+                                     :quantity (z9 / este)
+                                     :quality (z10 / pessoal))
+                        :identity (z11 / big_data)))
+    :concession (z12 / haver
+                     :theme (z13 / preço
+                                 :theme_of (z14 / pagar
+                                                :agent z3
+                                                :context (z15 / privacidade)))
+                     :manner (z16 / em_termos)))
+
+# ::id 126710
+# ::snt A obra mais emblemática da literatura sobre vigilância e privacidade é o livro de George Orwell, '1984', que aprendemos na escola e que se tornou quase um clichê.
+(z1 / ser
+    :theme (z2 / obra
+               :quality (z3 / emblemática
+                            :degree (z4 / mais))
+               :part_of (z5 / literatura
+                            :context (z6 / and
+                                         :op1 (z7 / vigilância)
+                                         :op2 (z8 / privacidade))))
+    :attribute (z9 / livro
+                   :context (z10 / George_Orwell)
+                   :name (z11 / 1984))
+    :theme_of (z12 / aprender
+                   :agent (z13 / nós)
+                   :location (z14 / escola))
+    :theme_of (z15 / tornar
+                   :tense past
+                   :quality (z16 / quase)
+                   :result (z17 / clichê)))
+
+# ::id 84164
+# ::snt Eu contei a ele sobre as Guerras dos Pequot, na Baía de Massachusetts, em 1607...
+(z1 / contar
+    :tense past
+    :agent (z2 / eu)
+    :theme (z3 / Guerras_dos_Pequot
+               :location (z4 / Baía_Massachusetts)
+               :time (z5 / 1607))
+    :target (z6 / ele))
+
+# ::id 64490
+# ::snt Assim, esta plataforma social, o Weibo, mesmo com a censura, oferece uma oportunidade real para que 300 milhões de chineses conversem todos os dias.
+(z1 / oferecer
+    :agent (z2 / plataforma_social
+               :name (z3 / Weibo))
+    :regardless (z4 / censura)
+    :theme (z5 / oportunidade
+               :quality (z6 / real)
+               :purpose (z7 / conversar
+                            :agent (z8 / chinês
+                                       :quantity (z9 / 300000000))
+                            :frequency (z10 / todos_os_dias))))
+
+# ::id 42239
+# ::snt Você precisa de um certificado se tiver um site https com serviços SSL, como o Gmail.
+(z1 / precisar
+    :agent (z2 / você)
+    :theme (z3 / certificado)
+    :condition (z4 / ter
+                   :tense future
+                   :theme z2
+                   :possession (z5 / site
+                                   :quality (z6 / https)
+                                   :instrument (z7 / serviço
+                                                   :quantity +
+                                                   :quality (z8 / SSL))
+                                   :example (z9 / Gmail))))
+
+# ::id 219253
+# ::snt Seu bisavô era Eli Whitney, o inventor da máquina de descaroçar algodão.
+(z1 / bisavô
+    :related (z2 / el)
+    :identity (z3 / Eli_Whitney
+                  :identity (z4 / inventor
+                                :context (z5 / máquina_de_descaroçar_algodão))))
+
+# ::id 39791
+# ::snt Pequenos animais chamados zooplâncton comem o fitoplâncton, peixes pequenos comem o zooplâncton, peixes grandes comem os peixes pequenos e assim por diante.
+(z1 / and
+    :op1 (z2 / comer
+             :agent (z3 / animal
+                        :quantity +
+                        :quality (z4 / pequeno)
+                        :theme_of (z5 / chamado
+                                      :name (z6 / zooplâncton)))
+             :patient (z7 / fitoplâncton))
+    :op2 (z8 / comer
+             :agent (z9 / peixe
+                        :quantity +
+                        :quality (z10 / pequeno))
+             :patient z6)
+    :op3 (z11 / comer
+              :agent (z12 / peixe
+                          :quantity +
+                          :quality (z13 / grande))
+              :patient z9)
+    :op4 (z14 / assim_por_diante))
+
+# ::id 132843
+# ::snt Vocês já ouviram falar da teoria do Efeito Mozart?
+(z1 / ouvir
+    :aspect perfect
+    :polarity ?
+    :experiencer (z2 / vocês)
+    :source (z3 / falar
+                :tense past
+                :theme (z4 / teoria
+                           :context (z5 / Efeito_Mozart))))
+
+# ::id 92586
+# ::snt Esta é a capa de um artigo extraordinário que foi publicado na revista Nature em 2009, que realmente lançou a discussão sobre a crise do fósforo.
+(z1 / ser
+    :theme (z2 / esta)
+    :identity (z3 / capa
+                  :part_of (z4 / artigo
+                               :quality (z5 / extraordinário)
+                               :theme_of (z6 / publicar
+                                             :tense past
+                                             :location (z7 / revista
+                                                           :name (z8 / Nature))
+                                             :time (z9 / 2009))
+                               :agent_of (z10 / lançar
+                                              :tense past
+                                              :quality (z11 / realmente)
+                                              :theme (z12 / discussão
+                                                          :context (z13 / crise
+                                                                        :context (z14 / fósforo)))))))
+
+# ::id 270165
+# ::snt Esta é uma medida que obtivemos há alguns anos, de um satélite que orbita Marte, chamado Odyssey.
+(z1 / ser
+    :theme (z2 / esta)
+    :identity (z3 / medida
+                  :theme_of (z4 / obter
+                                :tense past
+                                :agent (z5 / nós)
+                                :time (z6 / há
+                                          :op1 (z7 / ano
+                                                   :quantity (z8 / alguns)))
+                                :source (z9 / satélite
+                                            :agent_of (z10 / orbitar
+                                                           :theme (z11 / Marte))
+                                            :theme_of (z12 / chamar
+                                                           :name (z13 / Odyssey))))))
+
+# ::id 2545
+# ::snt Em outubro do ano passado, houve uma conferência da FAO inteiramente dedicada a este tema.
+(z1 / haver
+    :tense past
+    :theme (z2 / conferência
+               :possession_of (z3 / FAO)
+               :theme_of (z4 / dedicar
+                             :quality (z5 / inteiramente)
+                             :target (z6 / tema
+                                         :quality (z7 / este))))
+    :time (z8 / outubro
+              :part_of (z9 / ano_passado)))
+
+# ::id 77205
+# ::snt Então usamos a luz ultravioleta A, que não produz vitamina D.
+(z1 / então
+    :op2 (z2 / usar
+             :tense past
+             :agent (z3 / nós)
+             :patient (z4 / luz_ultravioleta_A
+                          :agent_of (z5 / produz
+                                        :polarity -
+                                        :product (z6 / vitamina_D)))))
+
+# ::id 20446
+# ::snt Também foram feitas outras coisas para salvar as crianças durante algumas destas campanhas, como dar vitamina A, ou a vacina contra o sarampo, ou redes mosquiteiras para prevenir a malária.
+(z1 / Também
+    :op2 (z2 / fazer
+             :aspect perfect
+             :theme (z3 / coisa
+                        :quantity +
+                        :quality (z4 / outra))
+             :purpose (z5 / salvar
+                          :patient (z6 / criança
+                                       :quantity +))
+             :time (z7 / durante
+                       :op1 (z8 / campanha
+                                :quantity +
+                                :quality (z9 / esta)
+                                :context (z10 / alguma))))
+    :example (z11 / or
+                  :op1 (z12 / dar
+                            :target z6
+                            :theme (z13 / vitamina_A))
+                  :op2 (z14 / dar
+                            :target z6
+                            :theme (z15 / vacina
+                                        :context (z16 / contra
+                                                      :theme (z17 / sarampo))))
+                  :op3 (z18 / dar
+                            :target z6
+                            :theme (z19 / rede_mosquiteira)
+                            :purpose (z20 / prevenir
+                                          :theme (z21 / malária)))))
+
+# ::id 172506
+# ::snt E se você for à loja da Disney procurar uma fantasia da Viúva Negra, você vai encontrar do Capitão América e do Incrível Hulk.
+(z1 / and
+    :op2 (z2 / ir
+             :agent (z3 / você)
+             :target (z4 / loja
+                         :quality (z5 / Disney))
+             :purpose (z6 / procurar
+                          :agent z3
+                          :theme (z7 / fantasia
+                                     :context (z8 / Viúva_Negra)))
+             :condition_of (z9 / encontrar
+                               :tense future
+                               :agent z3
+                               :theme (z10 / and
+                                           :op1 (z11 / Capitão_América
+                                                     :context_of z7)
+                                           :op2 (z12 / Incrível_Hulk
+                                                     :context_of z7)))))
+
+# ::id 152764
+# ::snt No entanto, Leonardo não estava pensando em Vitrúvio.
+(z1 / no_entanto
+    :op2 (z2 / pensar
+             :tense past
+             :aspect imperfect
+             :polarity -
+             :agent (z3 / Leonardo)
+             :theme (z4 / Vitrúvio)))
+
+# ::id 158139
+# ::snt O jovem Einstein realmente escreveu este quebra-cabeça?
+(z1 / escrever
+    :tense past
+    :polarity ?
+    :agent (z2 / Einstein
+               :quality (z3 / jovem))
+    :result (z4 / quebra-cabeça
+                :quality (z5 / este))
+    :quality (z6 / realmente))
+
+# ::id 234498
+# ::snt Meus pais acharam que era necessário para a paz de espírito deles.
+(z1 / achar
+    :tense past
+    :agent (z2 / pai
+               :quantity +
+               :related (z3 / eu))
+    :theme (z4 / algo)
+    :identity (z5 / ser
+                  :tense past
+                  :theme z4
+                  :attribute (z6 / necessário))
+    :purpose (z7 / paz_de_espírito
+                 :related z2))
+
+# ::id 149798
+# ::snt Pense em Vênus, no sistema solar.
+(z1 / pensar
+    :agent (z2 / você)
+    :theme (z3 / Vênus)
+    :location (z4 / sistema_solar))
+
+# ::id 111807
+# ::snt Os caranguejos não têm espinhos, por isso têm dificuldade em terrenos acidentados.
+(z1 / ter
+    :tense past
+    :agent (z2 / caranguejo
+               :quantity +)
+    :theme (z3 / espinho
+               :quantity +)
+    :cause_of (z4 / ter
+                  :theme z2
+                  :attribute (z5 / dificuldade)
+                  :location (z6 / terreno
+                                :quantity +
+                                :quality (z7 / acidentado))))
+
+# ::id 169178
+# ::snt Eu continuei pensando, 'Será que peguei o caminho errado?'
+(z1 / continuar
+    :tense past
+    :agent (z2 / eu)
+    :theme (z3 / pensar
+               :agent z2
+               :target z2
+               :content (z4 / pegar
+                            :tense past
+                            :polarity ?
+                            :agent z2
+                            :theme (z5 / caminho_errado))))
+
+# ::id 273599
+# ::snt Quando eu chegar à Austrália, se eu chegar à Austrália, terei remado 14 ou 16 mil quilômetros.
+(z1 / remar
+    :tense future
+    :aspect perfect
+    :agent (z2 / eu)
+    :extend (z3 / km
+                :quantity (z4 / or
+                              :op1 (z5 / 14000)
+                              :op2 (z66 / 16000)))
+    :time (z6 / chegar
+              :theme z2
+              :target (z7 / Austrália))
+    :condition (z8 / chegar
+                   :theme z2
+                   :target z7))
+
+# ::id 203633
+# ::snt Que tamanho? É moleza. Eu gosto de desafios.
+(z1 / multi-sentence
+    :snt1 (z2 / tamanho
+              :polarity ?)
+    :snt2 (z3 / ser
+              :theme (z4 / algo)
+              :attribute (z5 / moleza))
+    :snt3 (z6 / gostar
+              :experiencer (z7 / eu)
+              :theme (z8 / desafio
+                         :quantity +)))
+
+# ::id 50782
+# ::snt Não importa o quanto você tente se lembrar, não está na ponta da língua, nem mesmo escondido em algum lugar obscuro do baço.
+(z1 / importar
+    :polarity -
+    :theme (z2 / tentar
+               :agent (z3 / você)
+               :theme (z4 / lembrar
+                          :agent z3)
+               :degree (z5 / quanto))
+    :regardless (z6 / estar_na_ponta_da_língua
+                    :polarity -
+                    :theme z3
+                    :content z4
+                    :op1_of (z7 / nem_mesmo
+                                :op2 (z8 / escondido
+                                         :theme z4
+                                         :location (z9 / lugar
+                                                       :quality (z10 / obscuro)
+                                                       :part_of (z11 / baço
+                                                                     :part_of z3))))))
+
+# ::id 176733
+# ::snt Eu divaguei um pouco, mas vocês entendem a ideia.
+(z1 / divagar
+    :tense past
+    :agent (z2 / eu)
+    :quality (z3 / pouco)
+    :concession (z4 / entender
+                    :agent (z5 / vocês)
+                    :theme (z6 / ideia)))
+
+# ::id 243127
+# ::snt Isso é viciante, vocês sabem o que quero dizer, quando é outra pessoa que está pagando o pato.
+(z1 / multi-sentence
+    :snt1 (z2 / ser
+              :theme (z3 / isso)
+              :attribute (z4 / viciante))
+    :snt2 (z5 / saber
+              :agent (z6 / vocês)
+              :theme (z7 / querer_dizer
+                         :agent (z8 / eu)
+                         :theme z2))
+    :snt3 (z9 / ser
+              :time_of z2
+              :theme (z10 / pessoa
+                          :agent_of (z11 / pagar_o_pato))))
+
+# ::id 75341
+# ::snt Imagens como esta, do campo de concentração de Auschwitz, foram gravadas na nossa consciência durante o século XX e nos deram uma nova compreensão de quem somos, de onde viemos e da época em que vivemos.
+(z1 / and
+    :op1 (z2 / gravar
+             :tense past
+             :aspect perfect
+             :theme (z3 / imagem
+                        :quantity +
+                        :example (z4 / esta)
+                        :context (z5 / campo_de_concentração
+                                     :location (z6 / Auschwitz)))
+             :location (z7 / consciência
+                           :possession_of (z8 / nós)))
+    :time (z9 / século_XX))
+
+# ::id 135116
+# ::snt A boa notícia é que a NASA tem uma pequena e secreta divisão de planejamento de contingência que está a olhar para isto e a tentar preservar o conhecimento do Orion, caso tal adversidade aconteça.
+(z1 / ser
+    :theme (z2 / notícia
+               :quality (z3 / boa))
+    :identity (z4 / ter
+                  :theme (z5 / NASA)
+                  :possession (z6 / divisão
+                                  :context (z7 / planejamento_de_contingência
+                                               :quantity +
+                                               :quality (z8 / and
+                                                            :op1 (z9 / pequena)
+                                                            :op2 (z10 / secreta)))
+                                  :agent_of (z11 / and
+                                                 :aspect continuous
+                                                 :op1 (z12 / olhar
+                                                           :context (z13 / isto))
+                                                 :op2 (z14 / tentar
+                                                           :aspect continuous
+                                                           :theme (z15 / preservar
+                                                                       :agent z6
+                                                                       :theme (z16 / conhecimento
+                                                                                   :context (z17 / Orion))
+                                                                       :condition (z18 / acontecer
+                                                                                       :theme (z19 / adversidade
+                                                                                                   :quality (z20 / tal)))))))))
+
+# ::id 163044
+# ::snt E no final dos meus 20 anos, eu era membro da Orquestra Sinfônica de Barcelona, na Espanha.
+(z1 / and
+    :op2 (z2 / ser
+             :tense past
+             :aspect imperfect
+             :theme (z3 / eu)
+             :identity (z4 / membro
+                           :membership (z5 / Orquestra_Sinfônica_de_Barcelona
+                                           :location (z6 / Espanha)))
+             :time (z7 / final
+                       :context (z8 / 20
+                                    :age_of z3))))
+
+# ::id 117898
+# ::snt Como será a experiência de um fã quando ele puder ser o Messi correndo pelo campo, chutando a bola para o gol, ou o Federer sacando em Wimbledon?
+(z1 / ser
+    :tense future
+    :theme (z2 / experiencia
+               :quality (z3 / futuro)
+               :context (z4 / fã))
+    :condition (z5 / poder
+                   :tense future
+                   :agent (z6 / el)
+                   :purpose (z7 / ser
+                                :theme z6
+                                :identity (z8 / or
+                                              :op1 (z9 / Messi
+                                                       :agent_of (z10 / correr
+                                                                      :location (z11 / campo))
+                                                       :agent_of (z12 / chutar
+                                                                      :theme (z13 / bola)
+                                                                      :target (z14 / gol
+                                                                                   :location_of (z15 / chutar))))
+                                              :op2 (z16 / Federer
+                                                        :agent_of (z17 / sacar
+                                                                       :theme (z18 / bola)
+                                                                       :location (z19 / Wimbledon)))))))
+

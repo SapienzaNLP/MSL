@@ -1,38 +1,44 @@
-# CLAP: Compact Linearization with an Adaptable Parser
+# MSL
 
-Welcome to the official repository for [*CLAP*](https://aclanthology.org/2024.lrec-main.495/), an innovative architecture for AMR (Abstract Meaning Representation) parsing, presented at LREC-COLING 2024.
+Welcome to the official repository for [*MSL*](https://aclanthology.org/2024.findings-acl.836/), the innovative Multilingual Semantic Layer, its Dataset and the parsing models, presented at ACL 2024.
 
 ## Features
 
-1. **AMR Parsing and Generation**: CLAP introduces a flexible and efficient AMR parsing architecture. It supports seamless transitions between different language models and facilitates multilingual adaptability.
+1. **MSL dataset**: The MSL dataset provides a high-quality multilingual silver corpus in 11 languages, including Arabic, Catalan, Chinese, English, French, Galician, German, Italian, Korean, Portuguese, and Spanish. In addition, the dataset includes a manually annotated gold standard specifically designed for benchmarking and evaluation purposes.
 
-2. **Crosslingual AMR Alignment**: Integration of the [*Crosslingual AMR Aligner*](https://aclanthology.org/2023.findings-acl.109/) enables extraction of span-to-node alignments from sentences to graphs, leveraging the model's cross-attention capabilities.
+2. **MSL parsing**: This repository extends [CLAP](https://github.com/SapienzaNLP/CLAP) by adding additional features and modifications for parsing.
 
-3. **Perplexity Extraction**: Incorporating the [*AMRs Assemble*](https://aclanthology.org/2023.findings-acl.109/), CLAP can compute perplexity scores and supports training in assembly tasks.
-
-## Citing This Work
-
-If you use CLAP in your research, please cite our paper:
+If you use MSL in your research, please cite our paper:
 
 ```bibtex
-@inproceedings{martinez-lorenzo-navigli-2024-efficient-amr,
-    title = "Efficient {AMR} Parsing with {CLAP}: Compact Linearization with an Adaptable Parser",
-    author = "Martinez Lorenzo, Abelardo Carlos and Navigli, Roberto",
-    editor = "Calzolari, Nicoletta and Kan, Min-Yen and Hoste, Veronique and Lenci, Alessandro and Sakti, Sakriani and Xue, Nianwen",
-    booktitle = "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)",
-    month = may,
+@inproceedings{martinez-lorenzo-etal-2024-mitigating,
+    title = "Mitigating Data Scarcity in Semantic Parsing across Languages with the Multilingual Semantic Layer and its Dataset",
+    author = "Martinez Lorenzo, Abelardo Carlos  and
+      Huguet Cabot, Pere-Llu{\'\i}s  and
+      Ghonim, Karim  and
+      Xu, Lu  and
+      Choi, Hee-Soo  and
+      Fern{\'a}ndez-Castro, Alberte  and
+      Navigli, Roberto",
+    editor = "Ku, Lun-Wei  and
+      Martins, Andre  and
+      Srikumar, Vivek",
+    booktitle = "Findings of the Association for Computational Linguistics ACL 2024",
+    month = aug,
     year = "2024",
-    address = "Torino, Italia",
-    publisher = "ELRA and ICCL",
-    url = "https://aclanthology.org/2024.lrec-main.495",
-    pages = "5578--5584",
+    address = "Bangkok, Thailand and virtual meeting",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-acl.836",
+    doi = "10.18653/v1/2024.findings-acl.836",
+    pages = "14056--14080",
 }
+
 ```
 
 ## Repository Structure
 
 - `conf/`: Configuration files for data paths, model specifications, and training parameters.
-- `data/`: Datasets for benchmarking AMR evaluation.
+- `data/`: Datasets for benchmarking MSL evaluation.
 - `experiments/`: Stores checkpoints post-training.
 - `models/`: Trained Hugging Face models.
 - `src/`: Source code for the project.
@@ -56,7 +62,6 @@ conda activate clap-env
 # Install dependencies
 pip install -r requirements.txt
 ```
-
 
 
 ## Training 

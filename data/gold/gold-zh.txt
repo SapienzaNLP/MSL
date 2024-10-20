@@ -1,0 +1,1468 @@
+# ::id 223323
+# ::snt 你知道，有微生物——回到酵母。
+(z1 / 知道
+    :experiencer (z2 / 你)
+    :theme (z3 / 有
+               :theme (z4 / 回到
+                          :agent (z5 / 微生物
+                                     :quantity +)
+                          :target (z6 / 酵母))))
+
+# ::id 248638
+# ::snt 前面有好几年我们都及时地回去了
+(z1 / 及时地回去
+    :time (z2 / 前面)
+    :agent (z3 / 我们)
+    :extent (z4 / 年
+                :quantity (z5 / 好几)))
+
+# ::id 284943
+# ::snt 那么让我们回到苏丹吧。
+(z1 / 那么
+    :op2 (z2 / 回到
+             :manner (z3 / 让)
+             :agent (z4 / 我们)
+             :target (z5 / 苏丹)))
+
+# ::id 276444
+# ::snt 我喜欢“解脱”这个词。
+(z1 / 喜欢
+    :experiencer (z2 / 我)
+    :stimulus (z3 / 词
+                  :identity (z4 / 解脱)
+                  :quality (z5 / 这个)))
+
+# ::id 138561
+# ::snt 学生们曾是270名年轻男子，他们曾被预期将成为现存最孤立和残酷独裁的政权的未来领导者。
+(z1 / 是
+    :time (z2 / 曾)
+    :theme (z3 / 学生
+               :quantity +)
+    :identity (z4 / 年轻男子
+                  :quantity (z5 / 270名))
+    :theme_of (z6 / 预期
+                  :time (z7 /  曾)
+                  :co_theme (z8 / 成为
+                                :time (z9 / 将)
+                                :theme z2
+                                :identity (z10 / 领导者
+                                              :quantity +
+                                              :time (z11 / 未来)
+                                              :membership (z12 / 独裁政权
+                                                              :quality (z13 / 和
+                                                                            :op1 (z14 / 孤立)
+                                                                            :op2 (z15 / 残酷)
+                                                                            :degree (z16 / 最))
+                                                              :time (z17 / 现存))))))
+
+# ::id 68081
+# ::snt 她在文中表示，传统上，工作与男性相关。
+(z1 / 在
+    :op2 (z2 / 表示
+             :agent (z3 / 她)
+             :theme (z4 / 相关
+                        :theme (z5 / 工作)
+                        :co-theme (z6 / 男性
+                                      :quantity +)
+                        :manner (z7 / 传统上))
+             :location (z8 / 文中)))
+
+# ::id 39410
+# ::snt 我们原本将要和市长一起吃午餐而且我们还将和Malaga最重要的人一起吃晚餐。
+(z1 / 和
+    :op1 (z2 / 吃
+             :time (z3 / 原本)
+             :manner (z4 / 将要))
+    :agent (z5 / 我们)
+    :purpose (z6 / 午餐
+                 :agent z3
+                 :accompanier (z7 / 市长)))
+
+# ::id 39404
+# ::snt 在一个案例中，我和一个团队一路飞到马拉加，因为这件事是用印章和来自该市的各种非常官方的印章签署的，他们希望我来他们的港口建造一座建筑。
+(z1 / 飞到
+    :theme (z2 / 我)
+    :accompanier (z3 / 一个团队)
+    :manner (z4 / 一路)
+    :target (z5 / 马拉加)
+    :time (z6 / 在一个案例中)
+    :cause (z7 / 因为
+               :op1 (z8 / 签署
+                        :theme (z9 / 这件事)
+                        :instrument (z10 / 和
+                                         :op1 (z11 / 印章
+                                                   :quality (z12 / 来自该市))
+                                         :op2 (z13 / 印章
+                                                   :quality (z14 / 官方
+                                                                 :degree (z15 / 非常))
+                                                   :quantity (z16 / 各种))))
+               :op2 (z17 / 希望
+                         :agent (z18 / 他们)
+                         :theme (z19 / 来
+                                     :agent z2
+                                     :target (z20 / 港口
+                                                  :possession_of z18)
+                                     :purpose (z21 / 建造
+                                                   :quantity (z22 / 一座
+                                                                  :theme (z23 / 建筑
+                                                                              :location z20)))))))
+
+# ::id 250177
+# ::snt 我说：“有一种特殊形式的幻视，可能会导致视力下降或失明。
+(z1 / 说
+    :agent (z2 / 我)
+    :theme (z3 / 有一种
+               :theme (z4 / 形式
+                          :quality (z5 / 特殊)
+                          :part_of (z6 / 幻视))
+               :agent (z7 / 导致
+                          :possibility (z8 / 可能会)
+                          :target (z9 / 视力
+                                      :accompanier (z10 / 或
+                                                        :op1 (z11 / 下降)
+                                                        :op2 (z12 / 失明))))))
+
+# ::id 57214
+# ::snt 一、二、三、四、五、六、七。
+(and :op1 (z1 / 一)
+     :op2 (z2 / 二)
+     :op2 (z3 / 三)
+     :op2 (z4 / 四)
+     :op5 (z5 / 五)
+     :op6 (z6 / 六)
+     :op7 (z7 / 七))
+
+# ::id 113575
+# ::snt 舞台工作人员说：打断一条腿。
+(z1 / 说
+    :agent (z2 / 舞台工作人员)
+    :theme (z3 / 打断一条腿))
+
+# ::id 113575_b
+# ::snt 舞台工作人员说：祝你好运。
+(z1 / 说
+    :agent (z2 / 舞台工作人员)
+    :theme (z3 / 祝你好运))
+
+# ::id 169020
+# ::snt 然而，如今 40% 的家长选择让孩子退出公立学校，并自掏腰包将他们送入私立学校。
+(z1 / 然而
+       :time (z2 / 如今) 
+       :op2 (z3 / 选择
+             :agent (z4 / 家长)
+             :quantity (z5 / 40%)
+             :op2 (z6 / 让
+                      :agent z4
+                      :theme (z7 / 孩子                    
+                                :op2 (z8 / 退出
+                                         :agent z7                                 
+                                         :theme (z9 / 公立学校))))
+             :theme (z10 / 并且
+                        :op2 (z11 / 掏
+                                :agent z4
+                                :theme (z12 / 腰包
+                                         :op2 (z13 /将
+                                                 :agent z7   
+                                                 :op2 (z14 / 送入
+                                                         :theme (z15 / 私立学校))))))))
+
+# ::id 213712
+# ::snt 我在美国多次听到这样的话：“我们当然应该处理明显的问题，但如果你看不到眼前的问题，那么你要么是愚蠢的，要么是无知的。”
+(z1 / 听到
+    :experiencer (z2 / 我)
+    :frequency (z3 / 多次)
+    :location (z4 / 美国)
+    :content (z5 / 处理
+                 :agent (z6 / 我们)
+                 :target (z7 / 问题
+                             :quantity +
+                             :quality (z8 / 明显))
+                 :quality (z9 / 当然)
+                 :concession (z10 / 看不到
+                                  :experiencer (z11 / 你)
+                                  :theme (z12 / 问题
+                                              :location (z13 / 眼前))
+                                  :condition_of (z14 / 是
+                                                     :theme z11
+                                                     :attribute (z15 / 要么
+                                                                     :op1 (z16 / 愚蠢)
+                                                                     :op2 (z17 / 无知))))))
+
+# ::id 28948
+# ::snt 因此，东亚模型存在巨大的选择偏差——这就是所谓的因变量选择，这是我们总是告诉学生要避免的。
+(z1 / 因此
+    :op2 (z2 / 存在
+             :theme (z3 / 模型
+                        :context (z4 / 东亚))
+             :attribute (z5 / 选择偏差
+                            :quality (z6 / 巨大)
+                            :theme_of (z7 / 所谓
+                                          :content (z8 / 因变量选择))
+                            :identity (z9 / 这是
+                                          :theme_of (z10 / 避免
+                                                         :theme_of (z11 / 告诉
+                                                                        :agent (z12 / 我们)
+                                                                        :target (z13 / 学生
+                                                                                     :quantity +
+                                                                                     :related z12)
+                                                                        :time (z14 / 总是))
+                                                         :agent z13)))))
+
+# ::id 31996
+# ::snt 在我们刚刚在实验室进行的研究中，我们发现，当我们给四岁的孩子布置完全相同的任务时，他们实际上比成年人更擅长找出不可能的假设。
+(z1 / 发现
+    :agent (z2 / 我们)
+    :op2 (z3 / 比
+             :agent (z4 / 他们)
+             :compared (z5 / 成年人)
+             :attribute (z6 / 更擅长
+                            :quality (z7 / 实际上))
+             :theme (z8 / 找出
+                        :target (z9 / 假设
+                                    :quality (z10 / 不可能)))
+             :time (z11 / 给
+                        :agent z2
+                        :target (z12 / 孩子
+                                     :age (z13 / 四岁))
+                        :theme (z14 / 布置
+                                    :target (z15 / 任务
+                                                 :quality (z16 / 完全相同))))
+             :location (z17 / 研究
+                            :agent z2
+                            :theme_of (z18 / 进行
+                                           :location (z19 / 实验室))
+                            :quality (z20 / 刚刚))))
+
+# ::id 257951
+# ::snt 制鞋人睡下了，早上醒来，所有的鞋子就都神奇地替他们制作好了。
+(z1 / and
+    :op1 (z2 / 睡下
+             :agent (z3 / 制鞋人))
+    :op2 (z4 / 醒来
+             :experiencer z3
+             :time (z5 / 早上))
+    :op3 (z6 / 替
+             :target (z7 / 他们)
+             :theme (z8 / 制作
+                        :product (z9 / 鞋子
+                                     :quantity (z10 / 所有)))
+             :manner (z11 / 神奇)
+             :result (z12 / 好了)))
+
+# ::id 89005
+# ::snt 我现在最喜欢的颜色是蓝色，但我仍然是同性恋。 这既显示了我母亲的影响力，也显示了其局限性。
+(z1 / multi-sentence
+    :snt1 (z2 / 是
+              :theme (z3 / 颜色
+                         :manner (z4 / 喜欢
+                                     :quality (z5 / 最))
+                         :related (z6 / 我))
+              :identity (z7 / 蓝色)
+              :concession (z8 / 是
+                              :theme (z9 / 我)
+                              :attribute (z10 / 同性恋)
+                              :quality (z11 / 仍然)))
+    :snt2 (z12 / 显示
+               :agent z2
+               :theme (z13 / 也
+                           :op1 (z14 / 影响力
+                                     :related (z15 / 母亲
+                                                   :related z6))
+                           :op2 (z16 / 局限性
+                                     :related z15))))
+
+# ::id 294047
+# ::snt 然后，到了2002年，正当一切如火如荼的时候，菲尼克斯群岛发生了珊瑚白化事件。
+(z1 / 然后
+    :op2 (z2 / 发生
+             :theme (z3 / 珊瑚白化事件)
+             :location (z4 / 菲尼克斯群岛)
+             :time (z5 / 2002
+                       :time (z6 / 正当
+                                 :manner (z7 / 如火如荼
+                                             :quantity (z8 / 一切))))))
+
+# ::id 97764
+# ::snt 转过身，你看。如果我给你某样属于我的，只为我所拥有的东西，一张扑克筹码。
+(z1 / multi-sentence
+    :snt1 (z2 / and
+              :op1 (z4 / 转过身)
+              :op2 (z5 / 看
+                       :experiencer (z6 / 你)))
+    :snt2 (z7 / 给
+              :agent (z8 / 我)
+              :theme (z9 / 某样
+                         :possession_of (z10 / 属于
+                                             :theme z8))
+              :target z6
+              :condition_of (z11 / 为
+                                 :agent z8
+                                 :theme (z12 / 所拥有
+                                             :coref z10)
+                                 :quality (z13 /只)
+                                 :identity (z14 / 东西
+                                              :coref z9))
+                                 :identity (z15 / 扑克筹码
+                                                :quantity (z16 / 一张))))
+
+# ::id 99153
+# ::snt 我不明白为什么这种情况不断发生。
+(z1 / 明白
+    :polarity -
+    :experiencer (z2 / 我)
+    :content (z3 / 不断
+                 :agent (z4 / 这种情况)
+                 :quality (z5 / 发生))
+    :cause (z6 / 为什么))
+
+# ::id 99133
+# ::snt 他的故事就是他们的故事。
+(z1 / 就是
+    :theme (z2 / 故事
+               :possession_of (z3 / 他))
+    :identity (z4 / 故事
+                  :possession_of (z5 / 他们)))
+
+# ::id 98945
+# ::snt 你错了，因为事实恰恰相反。
+(z1 / 错了
+    :theme (z2 / 你)
+    :cause (z3 / 因为
+               :theme (z4 / 事实)
+               :identiy (z5 / 相反)
+               :quality (z6 / 恰恰)))
+
+# ::id 21327
+# ::snt 无论你在谈论什么，这都是事实。
+(z1 / and
+    :theme (z2 / 这)
+    :attribute (z3 / 事实)
+    :regardless (z4 / 谈论
+                    :agent (z5 / 你)
+                    :content (z6 / 什么)))
+
+# ::id 126209
+# ::snt 我翻过这一页，接下来发生的是这个。
+(z1 / and
+    :op1 (z2 / 翻过
+             :agent (z3 / 我)
+             :patient (z4 / 这一页))
+    :op2 (z5 / 发生
+             :theme (z6 / 这个
+                        :time (z7 / 接下来))))
+
+# ::id 27807
+# ::snt 你知道，但显然有一种观念认为，如果你把这件事的囚犯放出来，他们就会从街上抓走一名驾车者并吃掉他的肝脏。
+(z1 / 知道
+    :experiencer (z2 / 你)
+    :concession (z3 / 有
+                    :theme (z4 / 观念
+                               :quantity (z5 / 一种)
+                               :context (z6 / 放出
+                                            :agent z2
+                                            :patient (z7 / 囚犯)
+                                            :source (z8 / 这件事)
+                                            :condition_of (z9 / 并且
+                                                              :op1 (z10 / 抓走
+                                                                        :agent z7
+                                                                        :theme (z11 / 驾车者
+                                                                                    :quantity (z12 / 一名))
+                                                                        :source (z13 / 街上))
+                                                              :op2 (z14 / 吃掉
+                                                                        :agent z7
+                                                                        :patient (z15 / 肝脏
+                                                                                      :part_of z11)))))
+                    :quality (z16 / 显然)))
+
+# ::id 181621
+# ::snt 女孩和妇女以及我们盟友的声音受到限制，这对个人、经济、职业和政治造成损害。
+(z1 / 受到限制
+    :patient (z2 / 声音
+                 :context (z3 / and
+                              :op1 (z4 / 女孩)
+                              :op2 (z5 / 妇女)
+                              :op3 (z6 / 盟友
+                                       :related (z7 / 我们)))))
+
+# ::id 173170
+# ::snt 曾经我以为我看到了大脚怪，但那是一只德国牧羊犬。
+(z1 / 以为
+    :agent (z2 / 我)
+    :theme (z3 / 看到了
+               :experiencer z2
+               :stimulus (z4 / 大脚怪))
+    :time (z5 / 曾经)
+    :concession (z6 / 是
+                    :theme (z7 / 那)
+                    :identity (z8 / 德国牧羊犬
+                                  :quantity (z9 / 一只))))
+
+# ::id 52318
+# ::snt 我们谈论的是一本 900 页的书，它既怪异又引人入胜，其高潮场景是一群小人从熟睡的女孩嘴里钻出来，导致一只德国牧羊犬爆炸。
+(z1 / 谈论
+    :agent (z2 / 我们)
+    :context (z3 / 书
+                 :composition (z4 / 页
+                                  :quantity (z5 / 900))
+                 :theme_of (z6 / 是
+                               :attribute (z7 / and
+                                              :op1 (z8 / 怪异)
+                                              :op2 (z9 / 引人入胜))
+                               :attribute (z10 / 场景
+                                               :quality (z11 / 高潮)
+                                               :identity (z12 / 钻出
+                                                              :theme (z13 / 小人
+                                                                          :quantity (z14 / 一群))
+                                                              :source (z15 / 嘴里
+                                                                           :part_of (z16 / 女孩)
+                                                                           :quality (z17 / 熟睡))))
+                               :result (z18 / 爆炸
+                                            :patient (z19 / 德国牧羊犬)))))
+
+# ::id 172429
+# ::snt 为什么当我女儿打扮时，无论是格鲁特还是绿巨人，无论是欧比旺·克诺比还是达斯·摩尔，为什么每个她打扮的角色都是男孩？
+(z1 / 为什么
+    :theme (z3 / 是
+               :theme (z4 / 角色
+                          :quality (z5 / 每个)
+                          :theme_of (z6 / 打扮
+                                        :agent (z7 / 女儿
+                                                   :related (z8 / 我)))
+                          :theme_of (z9 / 无论
+                                        :example (z10 / or
+                                                      :op1 (z11 / 格鲁特)
+                                                      :op2 (z12 / 绿巨人)
+                                                      :op3 (z13 / 欧比旺·克诺比)
+                                                      :op4 (z14 / 达斯·摩尔))))
+               :attribute (z15 / 男孩)
+               :time (z16 / 打扮
+                          :agent z7)))
+
+# ::id 170681
+# ::snt 他们获取能量的第二种方式是从太阳风中获取。
+(z1 / 是
+    :theme (z2 / 方式
+               :ord (z3 / 第二种)
+               :manner_of (z4 / 获取
+                              :agent (z5 / 他们)
+                              :theme (z6 / 能量)))
+    :source (z7 / 太阳风))
+
+# ::id 174325
+# ::snt 这让我回到了开始的地方。
+(z1 / 让
+    :agent (z2 / 这)
+    :patient (z3 / 我)
+    :theme(z4 / 回到)
+    :target (z5 / 地方
+                :condition_of (z6 / 开始)
+                :agent z3))
+
+# ::id 172541
+# ::snt 这不是迈克的错。 那是我们的错。
+(z1 / multi-sentence
+    :snt1 (z2 / 是
+              :polarity -
+              :theme (z3 / 这)
+              :identity (z4 / 错
+                            :related (z5 / 迈克)))
+    :snt2 (z6 / 是
+              :theme z3
+              :identiy (z7 / 错
+                           :related (z8 / 我们))))
+
+# ::id 115980
+# ::snt 作为公民，我请求你们不要把任何孩子落在后面。
+(z1 / 请求
+    :agent (z2 / 我)
+    :patient (z3 / 你们)
+    :theme (z4 / 要把
+               :polarity -
+               :agent z3
+               :theme (z5 / 孩子
+                          :quality (z6 / 任何))
+               :theme (z7 / 落在后面))
+    :condition (z8 / 作为公民
+                   :identity_of z2))
+
+# ::id 149416
+# ::snt 几乎就像你在帕金森病中看到的那样。
+(z1 / 就像
+    :degree (z2 / 几乎)
+    :op2 (z3 / 那样
+             :stimulus_of (z4 / 看到
+                              :experiencer (z5 / 你)
+                              :location (z6 / 帕金森病))))
+
+# ::id 22750
+# ::snt 我的心跳加快，头晕目眩，试图理解站在我面前的是什么。
+(z1 / and
+    :op1 (z2 / 加快
+             :patient (z3 / 心跳
+                          :part_of (z4 / 我)))
+    :op2 (z5 / 头晕目眩)
+    :op3 (z6 / 试图
+             :agent z4
+             :theme (z7 / 理解
+                        :experiencer z4
+                        :theme (z8 / 是
+                                   :identity (z9 / 什么
+                                                 :theme_of (z10 / 站在
+                                                                :location (z11 / 面前
+                                                                               :op1 z4)))))))
+
+# ::id 162510
+# ::snt 在这两种情况下，约束都会指导决策以确保我们实现每个目标。
+(z1 / 指导
+    :agent (z2 / 约束
+               :quality (z3 / 都会))
+    :theme (z4 / 决策)
+    :purpose (z5 / 确保
+                 :theme (z6 / 实现
+                            :theme (z7 / 我们)
+                            :target (z8 / 目标
+                                        :quality (z9 / 每个))))
+    :context (z10 / 情况下
+                  :quality (z11 / 在这两种)))
+
+# ::id 266251
+# ::snt 因此，工程师对它非常了解，但生物学家却不那么了解。
+(z1 / 因此
+    :op1 (z2 / 了解
+             :theme (z3 / 它)
+             :experiencer (z4 / 工程师)
+             :attribute (z5 / 非常))
+    :op2 (z6 / 了解
+             :theme z3
+             :experiencer (z7 / 生物学家)
+             :attribute (z8 / 那么
+                            :degree (z9 / 不)
+                            :compared z4)))
+
+# ::id 98911
+# ::snt 这是你不能赶走的室友。 是你无法忽视的声音。
+(z1 / multi-sentence
+    :snt1 (z2 / 是
+              :theme (z3 / 这)
+              :identity (z4 / 室友
+                            :patient_of (z5 / 赶走
+                                            :mode no_probability
+                                            :agent (z6 / 你))))
+    :snt2 (z7 / 是
+              :theme z3
+              :identity (z8 / 声音
+                            :stimulus_of (z9 / 忽视
+                                             :mode no_probability
+                                             :experiencer z6))))
+
+# ::id 70804
+# ::snt 如果你做错了什么，你就失败了。 应该如何对待你？
+(z1 / multi-sentence
+    :snt1 (z2 / 失败
+              :agent (z3 / 你)
+              :condition (z4 / 做
+                             :agent z3
+                             :theme (z5 / 什么)
+                             :quality (z6 / 错)))
+    :snt2 (z7 / 对待
+              :patient (z8 / 你)
+              :manner (z9 / 如何)
+              :description (z10 / 应该)))
+
+# ::id 250380
+# ::snt 我想在拍《阴道独白》之前，我并不真正相信幸福。
+(z1 / 想
+    :agent (z2 / 我)
+    :theme (z3 / 相信
+               :polarity -
+               :agent z2
+               :theme (z4 / 幸福
+                          :quality (z5 / 真正))
+               :time (z6 / 之前
+                         :op1 (z7 / 拍)
+                         :theme (z8 / 阴道独白))))
+
+# ::id 3787
+# ::snt 我现在去监狱担任警察。
+(z1 / 去
+    :agent (z2 / 我)
+    :target (z3 / 监狱)
+    :purpose (z4 / 担任
+                 :agent z2
+                 :theme (z5 / 警察))
+    :time (z6 / 现在))
+
+# ::id 115994
+# ::snt 它的意思是“强迫劳动”。
+(z1 / 意思
+    :theme (z2 / 它)
+    :content (z3 / 强迫劳动))
+
+# ::id 120276
+# ::snt 我们所说的好是什么意思？
+(z1 / 所说
+    :agent (z2 / 我们)
+    :theme (z3 / 好)
+    :content (z4 / 意思
+                 :theme z3)
+    :manner (z5 / 什么))
+
+# ::id 115195
+# ::snt 在你的一生中，你大部分时间都生活在人生的中段，一切都很正常、令人安心和规律，但失败会突然将你抛到令人眼花缭乱的失望黑暗中。成功也会突然将你抛到同样令人眼花缭乱的名誉、认可和赞美中。
+(z1 / multi-sentence
+    :snt1 (z2 / 生活在
+              :agent (z3 / 你)
+              :location (z4 / 中段
+                            :context (z5 / 人生)
+                            :location_of (z6 / 一切
+                                             :attribute (z7 / and
+                                                            :op1 (z8 / 正常)
+                                                            :op2 (z9 / 令人安心)
+                                                            :op2 (z10 / 规律))))
+              :time (z11 / 人生
+                         :related z3
+                         :degree (z12 / 大部分))
+              :concession (z13 / 抛
+                               :agent (z14 / 失败)
+                               :patient z3
+                               :manner (z15 / 突然)
+                               :target (z16 / 黑暗
+                                            :quality (z17 / 令人眼花缭乱)
+                                            :context (z18 / 失望))))
+    :snt2 (z19 / 抛
+               :agent (z20 / 成功)
+               :patient z3
+               :manner (z21 / 突然
+                            :degree (z22 / 就像
+                                         :compared z14))
+               :target (z23 / 人
+                            :quality (z24 / 眼花缭乱
+                                          :degree (z25 / 同样
+                                                       :compared z17))
+                            :quality_of (z26 / and
+                                             :op1 (z27 / 名誉)
+                                             :op2 (z28 / 认可)
+                                             :op3 (z29 / 赞美)))))
+
+# ::id 187847
+# ::snt 划船、军用声纳、水下施工和石油地震勘探越来越频繁，这可能会干扰鲸鱼的通讯。
+(z1 / and
+    :degree (z2 / 频繁)
+    :quality (z3 / 越来越)
+    :theme (z4 / and
+               :op1 (z5 / 划船)
+               :op2 (z6 / 声纳
+                        :quality (z7 / 军用))
+               :op3 (z8 / 施工
+                        :quality (z9 / 水下))
+               :op4 (z10 / 勘探
+                         :theme (z11 / and
+                                     :op1 (z12 / 石油)
+                                     :op2 (z13 / 地震))
+                         :op5 (z14 / 干扰
+                                   :mode possibility
+                                   :agent z2
+                                   :target (z15 / 通讯
+                                                :related (z16 / 鲸鱼))))))
+
+# ::id 86863
+# ::snt 我曾很反感我把钱花在这件事上。
+(z1 / 曾
+    :agent (z2 / 我)
+    :attribute (z3 / 反感
+                   :degree (z4 / 很))
+    :cause (z5 / 花
+               :agent z2
+               :patient (z6 / 钱)
+               :target (z7 / 这件事)))
+
+# ::id 207712
+# ::snt “Qué?” 的意思是“什么？”。
+(z1 / 意思
+    :theme (z2 / qué)
+    :result (z3 / 什么))
+
+# ::id 144972
+# ::snt 坠入爱河是容易的部分。
+(z1 / 是
+    :theme (z2 / 坠入爱河)
+    :identity (z3 / 部分
+                  :quality (z4 / 最容易)))
+
+# ::id 36272
+# ::snt 人类思维发明的不是一个认知宇宙，而是 7,000 个认知宇宙——全世界有 7,000 种语言。
+(z1 / multi-sentence
+    :snt1 (z2 / 发明
+              :agent (z3 / 思维
+                         :part_of (z4 / 人类))
+              :product (z5 / 宇宙
+                           :quality (z6 / 认知)
+                           :quantity (z7 / 1
+                                         :polarity -
+                                         :contrast (z8 / 7,000))))
+    :snt2 (z9 / 有
+              :theme (z10 / 语言
+                          :quantity (z11 / 7,000))
+              :location (z12 / 世界
+                             :quality (z13 / 全))))
+
+# ::id 36273
+# ::snt 而且我们还可以创造更多——当然，语言是有生命的东西，我们可以磨练和改变它以满足我们的需要。
+(z1 / multi-sentence
+    :snt1 (z2 / 而且
+              :op2 (z3 / 创造
+                       :agent (z4 / 我们)
+                       :mode (z5 / 可以)
+                       :product (z6 / 更多)))
+    :snt2 (z7 / 是
+              :theme (z8 / 语言)
+              :attribute (z9 / 东西
+                             :quality (z10 / 有生命)
+                             :patient_of (z11 / 可以
+                                              :agent z4
+                                              :op1 (z12 / 磨练)
+                                              :op2 (z13 / 改变)
+                                              :patient z9
+                                              :purpose (z14 / 满足
+                                                            :target (z15 / 需要
+                                                                         :related z4))))
+              :quality (z16 / 当然)))
+
+# ::id 36273_b
+# ::snt 人类思维发明的不是一个认知宇宙，而是 7,000 个认知宇宙——世界上有 7,000 种语言，我们还可以创造更多语言——当然，语言是有生命的东西，我们可以磨练和改变它以满足我们的需要。
+(z1 / multi-sentence
+    :snt1 (z2 / 发明
+              :agent (z3 / 思维
+                         :part_of (z4 / 人类))
+              :product (z5 / 宇宙
+                           :quality (z6 / 认知)
+                           :quantity (z7 / 1
+                                         :polarity -
+                                         :contrast (z8 / 7,000))))
+    :snt2 (z9 / and
+              :op1 (z10 / 有
+                        :theme (z11 / 语言
+                                    :quantity (z12 / 7000))
+                        :location (z13 / 全世界))
+              :op2 (z14 / 创造
+                        :mode possibility
+                        :agent (z15 / 我们)
+                        :product (z16 / 语言
+                                      :quantity (z17 / 更多))))
+    :snt3 (z18 / 是
+               :theme (z19 / 语言)
+               :attribute (z20 / 东西
+                               :quality (z21 / 有生命)
+                               :patient_of (z22 / and
+                                                :op1 (z23 / 磨练
+                                                          :agent z15)
+                                                :op2 (z24 / 改变
+                                                          :agent z15)
+                                                :purpose (z25 / 满足
+                                                              :agent z15
+                                                              :patient z20
+                                                              :target (z26 / 需要
+                                                                           :related z15))))
+               :quality (z27 / 当然)))
+
+# ::id 273954
+# ::snt 技术已经有了，基础设施也已经有了，但它还没有发生。
+(z1 / and
+    :op1 (z2 / 有了
+             :theme (z3 / 技术)
+             :tense (z4 / 已经))
+    :op2 (z5 / 有了
+             :theme (z6 / 基础设施)
+             :tense (z7 / 已经))
+    :concession (z8 / 发生
+                    :tense past
+                    :polarity -
+                    :theme (z9 / 它)))
+
+# ::id 32369
+# ::snt 据《财富》杂志报道，他的身价为 7 亿美元。
+(z1 / and
+    :op2 (z2 / 报道
+             :source (z3 / 杂志
+                         :name (z4 / 财富))
+             :content (z5 / 为
+                          :theme (z6 / 他)
+                          :attribute (z7 / 身价
+                                         :quantity (z8 / 7亿
+                                                       :unit (z9 / 美元))))))
+
+# ::id 148514
+# ::snt 我们如何表达我们对小龙虾焦虑的关心程度？
+(z1 / 表达
+    :agent (z2 / 我们)
+    :theme (z3 / 程度
+               :degree_of (z4 / 关心
+                              :experiencer z2
+                              :stimulus (z5 / 焦虑
+                                            :possession_of (z6 / 小龙虾))))
+    :manner (z7 / 如何))
+
+# ::id 196070
+# ::snt 这个小家伙，一动不动地站在那里五分钟。
+(z1 / 站
+    :theme (z2 / 家伙
+               :quality (z3 / 小)
+               :identity (z4 / 这个))
+    :location (z5 / 那里)
+    :extent (z6 / 分钟
+                :quantity (z7 / 五))
+    :manner (z8 / 一动不动))
+
+# ::id 34542
+# ::snt 他说我们是社会生物，所以我们分享他人的情感。
+(z1 / 说
+    :agent (z2 / 他)
+    :content (z3 / 是
+                 :theme (z4 / 我们)
+                 :identity (z5 / 社会生物)
+                 :result (z6 / 分享
+                             :agent z4
+                             :theme (z7 / 情感
+                                        :possession_of (z8 / 他人)))))
+
+# ::id 149043
+# ::snt 我们说，“天正在下着倾盆大雨”，“我在等待达摩克利斯之剑”
+(z1 / 说
+    :agent (z2 / 我们)
+    :content (z3 / multisentence
+                 :sent1 (z4 / 下着
+                            :location (z5 / 天)
+                            :time (z6 / 正在)
+                            :theme (z7 / 倾盆大雨))
+                 :sent2 (z8 / 等待
+                            :agent (z9 / 我)
+                            :theme (z10 / 达摩克利斯之剑))))
+
+# ::id 149052
+# ::snt 当我们听到“正在下猫猫狗狗”时，我们并没有真正停下来思考真正的猫或狗大小的雨滴，但一旦我这样做，我就意识到我很确定这只狗一定是 一只小型犬——可卡犬或腊肠犬——而不是金色拉布拉多犬或纽芬兰犬。
+(z2 / 停下来
+    :polarity -
+    :agent (z3 / 我)
+    :theme (z4 / 思考
+               :agent z3
+               :theme (z5 / 雨滴
+                          :quality (z6 / 大小
+                                       :context (z7 / or
+                                                    :op1 (z8 / 猫)
+                                                    :op2 (z9 / 狗)
+                                                    :quality (z10 / 真实))))
+               :time (z11 / 听到
+                          :experiencer z3
+                          :content (z12 / 正在下猫猫狗狗)))
+    :quality (z13 / 真正)
+    :concession (z14 / 意识到
+                     :experiencer (z15 / 我)
+                     :stimulus (z16 / 是
+                                    :theme z15
+                                    :attribute (z17 / 确定
+                                                    :degree (z18 / 很)
+                                                    :context (z19 / 一定
+                                                                  :theme (z20 / 狗
+                                                                              :coref z9)
+                                                                  :attribute (z21 / 小型)
+                                                                  :example (z22 / or
+                                                                                :op1 (z23 / 可卡犬)
+                                                                                :op2 (z24 / 腊肠犬)
+                                                                                :contrast (z25 / or
+                                                                                               :op1 (z26 / 金色拉布拉多犬)
+                                                                                               :op2 (z27 / 纽芬兰犬))))))
+                     :time (28 / 一旦
+                               :op1 (z29 / 做
+                                         :agent z15
+                                         :theme z4))))
+
+# ::id 229253
+# ::snt 因此，在当时，这是我号召传统医疗假肢界之外的创新者将他们的才华运用到科学和造腿艺术中的机会。
+(z1 / 因此
+    :op2 (z2 / 是
+             :agent  (z3 / 这)
+             :theme  (z4 / 机会
+                        :possession_of (z5 / 我)
+                        :content (z6 / 号召)
+                        :agent  (z7 / 我)
+                        :patient  (z8 / 创新者
+                                   :condition_of (z9 / 之外
+                                                 :context (z10 / 医疗假肢
+                                                               :quality (z11 / 传统))))
+                       :purpose (z12 / 运用
+                                   :agent z10
+                                   :theme (z13 / 才华
+                                                  :possession_of z10)
+                                   :target (z14 / 和
+                                                  :op1 (z15 / 科学)
+                                                  :op2 (z16 / 造腿
+                                                              :style (z17 / 艺术)))))
+             :time (z18 / 当时)))
+
+# ::id 191591
+# ::snt 这是一个有氧过程，因此需要氧气，也需要大量的水分。
+(z1 / 是
+    :theme (z2 / 这)
+    :attribute (z3 / 过程
+                   :quantity (z4 / 一个)
+                   :quality (z5 / 有氧))
+    :result (z6 / 需要
+                :agent z3
+                :theme (z7 / and
+                           :op1 (z8 / 氧气)
+                           :op2 (z9 / 水分
+                                   :quantity (z10 / 大量)))))
+
+# ::id 194671
+# ::snt 但 1982 年 8 月，墨西哥出现债务违约，其他一些国家也紧随其后。
+(z1 / 但
+    :op2 (z2 / and
+             :op1 (z3 / 违约
+                      :agent (z4 / 墨西哥)
+                      :theme (z5 / 债务))
+             :op2 (z6 / 紧随
+                      :agent (z7 / 国家
+                                 :quality (z8 / 其他)
+                                 :quantity (z9 / 一些))
+                      :theme z4)
+             :time (z10 / 1982
+                        :month (z11 / 8))))
+
+# ::id 70026
+# ::snt 您可以看到超过 200 人给了他超过 4.99 的平均评分（满分 5 分）。
+(z1 / 看到
+    :experiencer (z2 / 您)
+    :stimulus (z3 / 给
+                  :agent (z4 / 人
+                             :quantity (z5 / 超过
+                                           :op1 (z6 / 200)))
+                  :target (z7 / 他)
+                  :theme (z8 / 评分
+                             :quality (z9 / 平均)
+                             :value (z10 / 超过
+                                         :op1 (z11 / 4.99))
+                             :scale (z12 / 分
+                                         :max (z13 / 5)))))
+
+# ::id 46998
+# ::snt 十分之一的人有足够的储蓄。
+(z1 / 有
+    :theme (z2 / 储蓄
+               :degree (z3 / 足够))
+    :part_of (z4 / 人
+                 :quantity (z5 / 十分之一)))
+
+# ::id 204462
+# ::snt 至少在我们试图弄清楚资金状况时他会得到治疗。
+(z1 / 得到
+    :patient (z2 / 他)
+    :theme (z3 / 治疗)
+    :quality (z4 / 至少)
+    :time (z5 / 试图
+              :agent (z6 / 我们)
+              :theme (z7 / 弄清楚
+                         :theme (z8 / 状况
+                                    :context (z9 / 资金)))))
+
+# ::id 267981
+# ::snt 我感觉自己就在泰坦尼克号的沉船残骸中。
+(z1 / 感觉
+    :experiencer (z2 / 我)
+    :theme (z3 / 在
+               :coref z2)
+    :location (z4 / 沉船残骸
+                  :location (z5 / 泰坦尼克号)))
+
+# ::id 126992
+# ::snt 这里面是我们刚刚检测到胰腺癌的真实样本。
+(z1 / 是
+    :location (z2 / 里面
+               :part_of (z3 / 这))
+    :theme (z4 / 样本
+               :quality (z5 / 真实)
+               :source (z6 / 检测
+                                :time (z7 / 刚刚)
+                                :agent (z8 / 我们)
+                                :theme (z9 / 胰腺癌))))
+
+# ::id 95962
+# ::snt 于是我说：“你介意来法庭吗？”
+(z1 / 于是
+    :op2 (z2 / 说
+             :agent (z3 / 我)
+             :content (z4 / 介意
+                          :polarity ?
+                          :agent (z5 / 你)
+                          :theme (z6 / 来
+                                     :agent z5
+                                     :target (z7 / 法庭)))))
+
+# ::id 150027
+# ::snt 日本人对建造浮岛很感兴趣。
+(z1 / 感兴趣
+    :experiencer (z2 / 日本人)
+    :theme (z3 / 建造
+               :theme (z4 / 浮岛))
+    :intensity (z6 / 很))
+
+# ::id 126712
+# ::snt 这实际上是对奥威尔在《1984》中发出的警告的根本误解。
+(z1 / 是
+    :quality (z5 / 实际上)
+    :theme (z2 / 这)
+    :attribute (z3 / 误解
+                   :quality (z4 / 根本)
+                   :context (z6 / 警告
+                                :theme_of (z7 / 发出
+                                              :agent (z8 / 奥威尔)
+                                              :location (z9 / 1984)))))
+
+# ::id 101079
+# ::snt 现在，我们可以从对个人信息或大数据的大规模分析中获得很多好处，但泄露我们的隐私也会带来复杂的权衡。
+(z1 / 获得
+    :agent (z2 / 我们)
+    :theme (z3 / 好处
+               :degree (z4 / 很多))
+    :source (z5 / 分析
+                :quality (z6 / 大规模)
+                :context (z7 / 信息
+                             :quality (z8 / 个人)
+                             :or (z9 / 大数据)))
+    :time (z10 / 现在)
+    :concession (z11 / 带来
+                     :theme (z12 / 权衡
+                                 :quality (z13 / 复杂))
+                     :cause (z14 / 泄露
+                                 :theme (z15 / 隐私
+                                             :related (z16 / 我们)))))
+
+# ::id 126710
+# ::snt 关于监视和隐私的最具标志性的文学作品是乔治·奥威尔的小说《1984》，我们都在学校里学过这本书，因此它几乎成为了陈词滥调。
+(z1 / 是
+    :theme (z2 / 作品
+               :quality (z3 / 文学
+                            :quality (z4 / 具
+                                         :degree (z5 / 标志性))
+                            :context (z6 / and
+                                         :op1 (z7 / 监视)
+                                         :op2 (z8 / 隐私))))
+    :attribute (z9 / 小说
+                   :context (z10 / 乔治·奥威尔)
+                   :name (z11 / 1984))
+    :theme_of (z12 / 学过
+                   :agent (z13 / 我们
+                               :quality (z14 / 都))
+                   :location (z15 / 学校)
+                   :result (z16 / 成为
+                                :patient z9
+                                :quality (z17 / 几乎)
+                                :result (z18 / 陈词滥调))))
+
+# ::id 84164
+# ::snt 我从 1607 年马萨诸塞湾殖民地佩克特印第安人战争开始。
+(z1 / 从_开始
+    :agent (z2 / 我)
+    :time (z3 / 1607)
+    :theme (z4 / 战争
+               :location (z5 / 马萨诸塞湾殖民地)
+               :context (z6 / and
+                            :op1 (z7 / 佩克特)
+                            :op2 (z8 / 印第安))))
+
+# ::id 64490
+# ::snt 所以这个微博社交媒体，即使在审查制度下，仍然给了中国人一个真正的机会，让三亿人每天在一起聊天、在一起说话。
+(z1 / 给
+    :agent (z2 / 社交媒体
+               :name (z3 / 微博))
+    :regardless (z4 / 审查制度)
+    :quality (z5 / 仍然)
+    :result (z6 / 机会
+                :quality (z7 / 真正)
+                :purpose (z8 / 聊天
+                             :agent (z9 / 人
+                                        :quantity (z10 / 三亿)
+                                        :location (z11 / 中国))
+                             :manner (z12 / 在一起)
+                             :frequency (z13 / 每天))
+                :purpose (z14 / 说话
+                              :agent z9
+                              :manner (z15 / 在一起)
+                              :frequency z14)))
+
+# ::id 42239
+# ::snt 那么，如果您的网站具有 https 和 SSL 加密服务（例如 Gmail），则您需要证书。
+(z1 / 那么
+    :op2 (z2 / 需要
+             :agent (z3 / 您)
+             :theme (z4 / 证书)
+             :condition (z5 / 具有
+                            :possession (z6 / 网站)
+                            :theme (z7 / 服务)
+                            :attribute (z8 / and
+                                           :op1 (z9 / https)
+                                           :op2 (z10 / 加密
+                                                     :name (z11 / SSL))
+                                           :example (z12 / Gmail)))))
+
+# ::id 219253
+# ::snt 他的曾祖父是轧棉机的发明者伊莱·惠特尼。
+(z1 / 曾祖父
+    :related (z2 / 他)
+    :theme_of (z3 / 是
+                  :identity (z4 / 伊莱·惠特尼
+                                :identity (z5 / 发明者
+                                              :context (z6 / 轧棉机)))))
+
+# ::id 39791
+# ::snt 小型动物称为浮游动物吃浮游植物，小鱼吃浮游动物，大鱼吃小鱼，这样一直上升到食物链中。
+(z1 / and
+    :op1 (z2 / 吃
+             :agent (z3 / 动物
+                        :quality (z4 / 小型)
+                        :theme_of (z5 / 称为
+                                      :name (z6 / 浮游动物)))
+             :patient (z7 / 浮游植物))
+    :op2 (z8 / 吃
+             :agent (z9 / 鱼
+                        :quality (z10 / 小))
+             :patient z6)
+    :op3 (z11 / 吃
+              :agent (z12 / 鱼
+                          :quality (z13 / 大))
+              :patient z9)
+    :result (z14 / 上升
+                 :manner (z15 / 一直)
+                 :theme (z16 / 食物链)))
+
+# ::id 132843
+# ::snt 您听说过莫扎特效应吗？
+(z1 / 听说
+    :polarity ?
+    :experiencer (z2 / 您)
+    :source (z3 / 效应
+                :name (z4 / 莫扎特)))
+
+# ::id 92586
+# ::snt 这是2009年发表在《自然》杂志上的一篇卓越的文章的封面，这篇文章真正引发了有关磷危机的讨论。
+(z1 / 是
+    :theme (z2 / 这)
+    :identity (z3 / 封面
+                  :part_of (z4 / 文章
+                               :quality (z5 / 卓越)
+                               :theme_of (z6 / 发表
+                                             :location (z7 / 杂志
+                                                           :name (z8 / 自然)))
+                               :time (z9 / 2009)
+                               :agent_of (z10 / 引发
+                                              :quality (z11 / 真正)
+                                              :theme (z12 / 讨论
+                                                          :context (z13 / 危机
+                                                                        :context (z14 / 磷)))))))
+
+# ::id 270165
+# ::snt 这是我们几年前从一颗名为“奥德赛”的火星轨道卫星获得的测量结果。
+(z1 / 是
+    :theme (z2 / 这)
+    :identity (z3 / 测量结果
+                  :theme_of (z4 / 获得
+                                :agent (z5 / 我们)
+                                :time (z6 / 几年前)
+                                :source (z7 / 卫星
+                                            :quantity (z8 / 一颗)
+                                            :theme_of (z9 / 火星轨道)
+                                            :name (z10 / 奥迪赛)))))
+
+# ::id 2545
+# ::snt 去年十月，粮农组织召开了一次专门讨论此问题的会议。
+(z1 / 召开
+    :agent (z2 / 粮农组织)
+    :theme (z3 / 会议
+               :quality (z4 / 一次)
+               :context (z5 / 讨论
+                            :quality (z6 / 专门)
+                            :theme (z7 / 问题
+                                       :quality (z8 / 此))))
+    :time (z9 / 去年十月))
+
+# ::id 77205
+# ::snt 所以我们使用了紫外线 A，它不会产生维生素 D。
+(z1 / 所以
+    :op2 (z2 / 使用
+             :agent (z3 / 我们)
+             :patient (z4 / 紫外线_A)
+             :result (z5 / 产生
+                         :polarity -
+                         :product (z6 / 维生素_D))))
+
+# ::id 20446
+# ::snt 它还试图通过做其他事情来拯救儿童——提供维生素 A 滴剂、注射麻疹疫苗、提供预防疟疾的蚊帐，甚至在其中一些活动期间也是如此。
+(z1 / 试图
+    :agent (z2 / 它)
+    :manner (z3 / 通过
+                :theme (z4 / 做
+                           :theme (z5 / 事情
+                                      :quality (z6 / 其他))))
+    :purpose (z7 / 拯救
+                 :patient (z8 / 儿童))
+    :example (z9 / 提供
+                 :target z8
+                 :theme (z10 / 滴剂
+                             :quality (z11 / 维生素_A)))
+    :example (z12 / 注射
+                  :target z8
+                  :theme (z13 / 疫苗
+                              :quality (z14 / 麻疹)))
+    :example (z15 / 提供
+                  :target z8
+                  :theme (z16 / 蚊帐
+                              :purpose (z17 / 预防
+                                            :theme (z18 / 疟疾))))
+    :time (z19 / 在
+               :op1 (z20 / 活动
+                         :quality (z21 / 其中)
+                         :time (z22 / 一些)
+                         :context (z23 / 甚至))))
+
+# ::id 172506
+# ::snt 如果您去迪士尼商店寻找黑寡妇服装，您会找到美国队长和无敌浩克。
+(z1 / and
+    :op2 (z2 / 找到
+             :agent (z3 / 您)
+             :quality (z4 / 会)
+             :theme (z5 / and
+                        :op1 (z6 / 美国队长)
+                        :op2 (z7 / 无敌浩克))
+             :condition (z8 / 去
+                            :agent z3
+                            :target (z9 / 商店
+                                        :name (z10 / 迪士尼))
+                            :purpose (z11 / 寻找
+                                          :theme (z12 / 服装
+                                                      :context (z14 / 黑寡妇))))))
+
+# ::id 152764
+# ::snt 尽管列奥纳多想到的不仅仅是维特鲁威。
+(z1 / 尽管
+    :op2 (z2 / 想到
+             :agent (z3 / 列奥纳多)
+             :theme (z4 / 维特鲁威)
+             :degree (z6 / 仅仅
+                         :polarity -)))
+
+# ::id 158139
+# ::snt 这个谜题真的是年轻的爱因斯坦写的吗？
+(z1 / 写
+    :theme (z2 / 谜题
+               :quality (z3 / 这))
+    :agent (z4 / 爱因斯坦
+               :quality (z5 / 年轻))
+    :quality (z6 / 真的)
+    :polarity ?)
+
+# ::id 234498
+# ::snt 我的父母认为这是为了内心平静所必需的。
+(z1 / 认为
+    :agent (z2 / 父母
+               :related (z3 / 我))
+    :theme (z4 / 这)
+    :attribute (z5 / 必需
+                   :theme z4
+                   :purpose (z6 / 内心平静)))
+
+# ::id 149798
+# ::snt 考虑一下我们太阳系中的金星。
+(z1 / 考虑
+    :agent (z2 / 你)
+    :degree (z3 / 一下)
+    :theme (z4 / 金星
+               :location (z5 / 太阳系
+                             :related (z6 / 我们))))
+
+# ::id 111807
+# ::snt 螃蟹没有刺，所以它们在这种崎岖的地形上会遇到问题。
+(z1 / 没有
+    :agent (z2 / 螃蟹)
+    :theme (z3 / 刺)
+    :result (z4 / 遇到
+                :agent z2
+                :theme (z5 / 问题)
+                :location (z6 / 地形
+                              :quality (z7 / 崎岖)
+                              :quality (z8 / 这种))))
+
+# ::id 169178
+# ::snt 我曾不断地问自己，我是不是走错了路？
+(z1 / 不断
+    :agent (z2 / 我)
+    :time (z3 / 曾)
+    :theme (z4 / 问
+               :agent z2
+               :target z2
+               :content (z5 / 走
+                            :polarity ?
+                            :agent z2
+                            :theme (z6 / 路
+                                       :attribute (z7 / 错)))))
+
+# ::id 273599
+# ::snt 当我到达澳大利亚时，如果我到达澳大利亚，我可能总共需要划九或一万英里的船。
+(z1 / 划船
+    :agent (z2 / 我)
+    :quantity (z3 / or
+                  :op1 (z4 / 九千)
+                  :op2 (z5 / 一万))
+    :quality (z6 / 总共)
+    :target (z7 / 澳大利亚)
+    :time (z8 / 当
+              :op1 (z9 / 到达
+                       :theme z2
+                       :target z7))
+    :condition (z10 / 到达
+                    :theme z2
+                    :target z7)
+    :quality (z11 / 可能需要))
+
+# ::id 203633
+# ::snt 什么尺寸？ 很简单。 我喜欢挑战。
+(z1 / multi-sentence
+    :snt1 (z2 / 尺寸
+              :polarity ?)
+    :snt2 (z3 / 简单
+              :degree (z4 / 很))
+    :snt3 (z5 / 喜欢
+              :experiencer (z6 / 我)
+              :theme (z7 / 挑战)))
+
+# ::id 50782
+# ::snt 无论你正在努力回忆什么，它都不会停留在你的舌尖上，甚至不会潜伏在你脾脏的某个不起眼的角落里。
+(z1 / and
+    :op1 (z2 / 回忆
+             :agent (z3 / 你)
+             :theme (z4 / 无论)
+             :degree (z5 / 努力)
+             :time (z6 / 正在))
+    :op2 (z7 / 停留
+             :polarity -
+             :theme z2
+             :location (z8 / 舌尖
+                           :possession_of z3)
+             :quality (z9 / 甚至
+                          :op1 (z10 / 潜伏
+                                    :polarity -
+                                    :location (z11 / 角落
+                                                   :quality (z12 / 不起眼)
+                                                   :part_of (z13 / 脾脏
+                                                                 :part_of z3))))))
+
+# ::id 176733
+# ::snt 你知道，我略去了一些细节，但你们明白大概的意思。
+(z1 / 知道
+    :experiencer (z2 / 你)
+    :content (z3 / 略去
+                 :agent (z4 / 我)
+                 :theme (z5 / 细节)
+                 :concession (z6 / 明白
+                                 :agent (z7 / 你们)
+                                 :theme (z8 / 意思
+                                            :quality (z9 / 大概)))))
+
+# ::id 243127
+# ::snt 这种业务，会上瘾，你明白我的意思吧，当有别人为此买单的时候
+(z1 / multi-sentence
+    :snt1 (z2 / 会
+              :theme (z3 / 业务
+                         :quality (z4 / 这种))
+              :attribute (z5 / 上瘾
+                             :theme z3))
+    :snt2 (z6 / 明白
+              :agent (z7 / 你)
+              :theme (z8 / 意思
+                         :agent (z9 / 我)
+                         :theme z2))
+    :snt3 (z10 / 买单
+               :agent (z11 / 人
+                           :quality (z12 / 别的))
+               :time_of z2))
+
+# ::id 75341
+# ::snt 像这样来自奥斯维辛集中营的图像在二十世纪已经深深地烙印在我们的意识中，并让我们对我们是谁、我们来自哪里以及我们生活的时代有了新的认识。
+(z1 / and
+    :op1 (z2 / 烙印
+             :manner (z3 / 深深)
+             :theme (z4 / 图像
+                        :example (z5 / 这样)
+                        :source (z6 / 集中营
+                                    :name (z7 / 奥斯维辛)))
+             :location (z8 / 意识
+                           :possession_of (z9 / 我们)))
+    :op2 (z10 / 让
+              :agent z4
+              :target z9
+              :theme (z11 / 认识
+                          :quality (z12 / 新)
+                          :context (z13 / and
+                                        :op1 (z14 / 是
+                                                  :theme z9
+                                                  :identity (z15 / 谁))
+                                        :op2 (z16 / 来自
+                                                  :agent z9
+                                                  :source (z17 / 哪里))
+                                        :op3 (z18 / 时代
+                                                  :time_of (z19 / 生活
+                                                                :agent z9))))))
+
+# ::id 135116
+# ::snt 好消息是，美国宇航局有一个小型的秘密应急计划部门正在研究这一问题，试图在发生这种不幸事件时保留猎户座的知识。
+(z1 / 是
+    :theme (z2 / 消息
+               :quality (z3 / 好))
+    :identity (z4 / 美国宇航局
+                  :possession (z5 / 部门
+                                  :quality (z6 / and
+                                               :op1 (z7 / 小型)
+                                               :op2 (z8 / 秘密))
+                                  :context (z9 / 应急计划)
+                                  :agent_of (z10 / 研究
+                                                 :theme (z11 / 问题
+                                                             :quality (z12 / 这)))
+                                  :agent_of (z13 / 试图
+                                                 :theme (z14 / 保留
+                                                             :theme (z15 / 知识
+                                                                         :context (z16 / 猎户座)))
+                                                 :condition (z17 / 发生
+                                                                 :theme (z18 / 事件
+                                                                             :quality (z19 / 不幸)
+                                                                             :quality (z20 / 这种)))))))
+
+# ::id 163044
+# ::snt 20 多岁的尾声时，我成为了西班牙巴塞罗那交响乐团的成员。
+(z1 / 成为
+    :theme (z2 / 我)
+    :result (z3 / 成员
+                :membership (z4 / 巴塞罗那交响乐团
+                                :location (z5 / 西班牙)))
+    :time (z6 / 尾声
+              :context (z7 / 20多岁
+                           :age_of z2)))
+
+# ::id 117898
+# ::snt 你认为梅西在球场上冲刺将球踢进网后,或者费德勒在温布尔登发球时,球迷的感受是怎样?
+(z1 / 认为
+    :agent (z2 / 你)
+    :content (z3 / 怎样)
+    :theme (z4 / 是
+               :theme (z5 / 感受
+                          :possession_of (z6 / 球迷))
+               :time (z7 / 当
+                         :identity (z8 / or
+                                       :op1 (z9 / 梅西
+                                                :agent_of (z10 / 冲刺
+                                                               :location (z11 / 球场上))
+                                                :agent_of (z12 / 踢进
+                                                               :patient (z13 / 球)
+                                                               :target (z14 / 后
+                                                                            :part_of (z15 / 网))))
+                                       :op2 (z16 / 费德勒
+                                                 :agent_of (z17 / 发球
+                                                                :location (z18 / 温布尔登)))))))
+

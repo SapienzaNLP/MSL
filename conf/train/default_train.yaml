@@ -2,7 +2,7 @@
 seed: 40
 
 # model name
-model_name: 'CLAP' 
+model_name: 'CLAP-MSL' 
 
 dropout: 0.35
 attention_dropout: 0.0
