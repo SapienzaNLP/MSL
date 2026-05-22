@@ -1,4 +1,4 @@
-# MSL
+# Multilingual Semantic Layer
 
 Welcome to the official repository for [*MSL*](https://aclanthology.org/2024.findings-acl.836/), the innovative Multilingual Semantic Layer, its Dataset and the parsing models, presented at ACL 2024.
 
