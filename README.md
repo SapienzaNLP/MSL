@@ -109,4 +109,4 @@ We welcome contributions to the Cross-lingual AMR Aligner project. If you have a
 
 ## Contact
 
-For any questions or inquiries, please contact Abelardo Carlos Martínez Lorenzo at martineslorenzo@diag.uniroma.it
+For any questions or inquiries, please contact Roberto Navigli at navigli@diag.uniroma.it
